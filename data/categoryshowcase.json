@@ -1,0 +1,46 @@
+[
+    {
+        "id": "iphone",
+        "name": "iPhone",
+        "description": "Từ dòng standard đến Pro Max. Tìm iPhone hoàn hảo cho bạn.",
+        "src": "/ip17_orange_logo.png",
+        "href": "/products?category=iphone",
+        "count": "14 models",
+        "gradient": "from-[#0d1a2d] to-[#050d1a]",
+        "accentColor": "#2997ff",
+        "features": ["Hiệu năng A18 Pro", "Camera điều khiển thông minh", "AI Apple Intelligence"]
+    },
+    {
+        "id": "ipad",
+        "name": "iPad",
+        "description": "Thiết kế siêu mỏng, chip M4 mạnh mẽ. Sáng tạo không giới hạn.",
+        "src": "/ipad_pro_2018_logo.png",
+        "href": "/products?category=ipad",
+        "count": "8 models",
+        "gradient": "from-[#1a0d2d] to-[#0d051a]",
+        "accentColor": "#bf5af2",
+        "features": ["Hiệu năng M4", "Ultra Retina XDR sắc nét", "Hỗ trợ Apple Pencil Pro"]
+    },
+    {
+        "id": "airpods",
+        "name": "AirPods",
+        "description": "Âm thanh không dây đỉnh cao, chống ồn chủ động thế hệ mới.",
+        "src": "/airpod_logo.png",
+        "href": "/products?category=airpods",
+        "count": "3 models",
+        "gradient": "from-[#0d2d1a] to-[#051a0d]",
+        "accentColor": "#30d158",
+        "features": ["Chống ồn thông minh", "Âm thanh thích ứng", "Hiệu năng chip H2"]
+    },
+    {
+        "id": "watch",
+        "name": "Apple Watch",
+        "description": "Sức khỏe, fitness, và kết nối thông minh trên cổ tay bạn.",
+        "src": "/apple_watch_11_logo.png",
+        "href": "/products?category=watch",
+        "count": "5 models",
+        "gradient": "from-[#2d1a0d] to-[#1a0d05]",
+        "accentColor": "#ff9f0a",
+        "features": ["Theo dõi sức khỏe thông minh", "watchOS 11", "Màn hình luôn hiển thị"]
+    }
+]

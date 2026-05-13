@@ -1,0 +1,57 @@
+[
+    {
+        "id": "review-nmt-iphone16pm",
+        "name": "Nguyễn Minh Tuấn",
+        "location": "Đà Nẵng",
+        "avatar": "NMT",
+        "rating": 5,
+        "product": "iPhone 16 Pro Max",
+        "review": "Mua online mà shop support rất có tâm. Hỏi khá nhiều nhưng vẫn tư vấn kỹ từng dòng iPhone phù hợp ngân sách. Máy nhận đúng mô tả, loa mic camera đều ổn. Dùng gần 2 năm rồi vẫn không có lỗi lầm gì.",
+        "date": "2 ngày trước",
+        "verified": true
+    },
+    {
+        "id": "review-tth-ipadprom4",
+        "name": "Trần Thu Hương",
+        "location": "Huế",
+        "avatar": "TTH",
+        "rating": 5,
+        "product": "iPad Pro 13\" M4",
+        "review": "iPad mỏng và nhẹ hơn tôi tưởng rất nhiều, màn OLED đẹp không chê được. Dùng kết hợp Apple Pencil Pro cho việc thiết kế cực kỳ mượt mà.",
+        "date": "1 tuần trước",
+        "verified": true
+    },
+    {
+        "id": "review-lhp-iphone15pm",
+        "name": "Lê Hữu Phúc",
+        "location": "Quảng Nam",
+        "avatar": "LHP",
+        "rating": 5,
+        "product": "iPhone 15 Pro Max",
+        "review": "Mua iPhone 15 Pro Max giá sale rất hời. Shop tư vấn nhiệt tình, máy chính hãng 100%, hộp nguyên seal. Cảm ơn shop nhiều!",
+        "date": "2 tuần trước",
+        "verified": true
+    },
+    {
+        "id": "review-pba-ipadairm2",
+        "name": "Phạm Bảo An",
+        "location": "Đà Nẵng",
+        "avatar": "PBA",
+        "rating": 5,
+        "product": "iPad Air 11\" M2",
+        "review": "iPad Air M2 hiệu năng mạnh mẽ hơn tôi nghĩ rất nhiều. Pin trâu, màn đẹp, dùng học tập và xem phim cực đỉnh. Giá hời nhất thị trường.",
+        "date": "3 tuần trước",
+        "verified": true
+    },
+    {
+        "id": "review-htl-airpodspro2",
+        "name": "Hoàng Thị Lan",
+        "location": "Đà Nẵng",
+        "avatar": "HTL",
+        "rating": 5,
+        "product": "AirPods Pro 2",
+        "review": "AirPods Pro 2 chống ồn cực tốt, đeo cả ngày không đau tai. Âm thanh trong trẻo, kết nối iPhone mượt mà. Giá tốt hơn nhiều so với Apple Store.",
+        "date": "1 tháng trước",
+        "verified": true
+    }
+]

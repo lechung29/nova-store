@@ -1,0 +1,263 @@
+[
+    {
+        "id": "apple-watch-se-2",
+        "name": "Apple Watch SE (Thế hệ thứ 2)",
+        "slug": "apple-watch-se-2",
+        "colors": [
+            { "id": "1", "name": "Đen Ám Đêm", "hex": "#1c1c1e" },
+            { "id": "2", "name": "Trắng Ánh Sao", "hex": "#faf6ee" },
+            { "id": "3", "name": "Bạc", "hex": "#e3e4e5" }
+        ],
+        "storage": ["40mm", "44mm"],
+        "variants": [
+            {
+                "color": "Đen Ám Đêm",
+                "storage": "40mm",
+                "price": 5990000,
+                "oldPrice": 7490000,
+                "image": { "id": "1", "url": "/images/aw-se2-40-midnight.png", "alt": "Apple Watch SE 2 40mm Đen" }
+            },
+            {
+                "color": "Đen Ám Đêm",
+                "storage": "44mm",
+                "price": 6690000,
+                "oldPrice": 8490000,
+                "image": { "id": "2", "url": "/images/aw-se2-44-midnight.png", "alt": "Apple Watch SE 2 44mm Đen" }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "40mm",
+                "price": 5990000,
+                "oldPrice": 7490000,
+                "image": { "id": "3", "url": "/images/aw-se2-40-starlight.png", "alt": "Apple Watch SE 2 40mm Ánh Sao" }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "44mm",
+                "price": 6690000,
+                "oldPrice": 8490000,
+                "image": { "id": "4", "url": "/images/aw-se2-44-starlight.png", "alt": "Apple Watch SE 2 44mm Ánh Sao" }
+            },
+            {
+                "color": "Bạc",
+                "storage": "40mm",
+                "price": 5990000,
+                "oldPrice": 7490000,
+                "image": { "id": "5", "url": "/images/aw-se2-40-silver.png", "alt": "Apple Watch SE 2 40mm Bạc" }
+            },
+            {
+                "color": "Bạc",
+                "storage": "44mm",
+                "price": 6690000,
+                "oldPrice": 8490000,
+                "image": { "id": "6", "url": "/images/aw-se2-44-silver.png", "alt": "Apple Watch SE 2 44mm Bạc" }
+            }
+        ],
+        "specs": {
+            "chip": "Apple S8 SiP",
+            "battery": "Thời lượng pin sử dụng lên đến 18 giờ",
+            "display": "Màn hình Retina LTPO OLED · Độ sáng lên đến 1000 nits",
+            "camera": "Không hỗ trợ",
+            "ram": "32GB bộ nhớ lưu trữ",
+            "weight": "32.9g (Bản 44mm không kèm dây đeo)",
+            "waterResistance": "Chống nước ở độ sâu 50m (WR50) · Thích hợp bơi lội",
+            "connectivity": "Wi-Fi · Bluetooth 5.3 · GPS · Phát hiện va chạm"
+        },
+        "description": "Apple Watch SE mang đến những tính năng cốt lõi của Apple Watch như theo dõi nhịp tim, phát hiện té ngã, phát hiện va chạm với một mức giá cực kỳ dễ tiếp cận.",
+        "shortDescription": "Tính năng cốt lõi. Chip S8 mạnh mẽ. Giá thành tiết kiệm.",
+        "rating": 4.6,
+        "reviewCount": 412,
+        "category": "watch",
+        "series": "Apple Watch SE",
+        "isNew": false,
+        "isTrending": true,
+        "isFeatured": false,
+        "discount": 20,
+        "badge": "Giá tốt nhất",
+        "releaseYear": 2022
+    },
+    {
+        "id": "apple-watch-series-9",
+        "name": "Apple Watch Series 9 (Nhôm)",
+        "slug": "apple-watch-series-9",
+        "colors": [
+            { "id": "1", "name": "Đen Ám Đêm", "hex": "#1c1c1e" },
+            { "id": "2", "name": "Trắng Ánh Sao", "hex": "#faf6ee" },
+            { "id": "3", "name": "Bạc", "hex": "#cccccc" },
+            { "id": "4", "name": "Hồng", "hex": "#fae0e4" },
+            { "id": "5", "name": "Đỏ (Product RED)", "hex": "#ba0c2f" }
+        ],
+        "storage": ["41mm", "45mm"],
+        "variants": [
+            { "color": "Đen Ám Đêm", "storage": "41mm", "price": 7990000, "oldPrice": 10490000, "image": { "id": "1", "url": "/images/aw-s9-41-midnight.png", "alt": "Apple Watch S9 41mm Đen" } },
+            { "color": "Đen Ám Đêm", "storage": "45mm", "price": 8690000, "oldPrice": 11290000, "image": { "id": "2", "url": "/images/aw-s9-45-midnight.png", "alt": "Apple Watch S9 45mm Đen" } },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "41mm",
+                "price": 7990000,
+                "oldPrice": 10490000,
+                "image": { "id": "3", "url": "/images/aw-s9-41-starlight.png", "alt": "Apple Watch S9 41mm Ánh Sao" }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "45mm",
+                "price": 8690000,
+                "oldPrice": 11290000,
+                "image": { "id": "4", "url": "/images/aw-s9-45-starlight.png", "alt": "Apple Watch S9 45mm Ánh Sao" }
+            },
+            { "color": "Bạc", "storage": "41mm", "price": 7990000, "oldPrice": 10490000, "image": { "id": "5", "url": "/images/aw-s9-41-silver.png", "alt": "Apple Watch S9 41mm Bạc" } },
+            { "color": "Bạc", "storage": "45mm", "price": 8690000, "oldPrice": 11290000, "image": { "id": "6", "url": "/images/aw-s9-45-silver.png", "alt": "Apple Watch S9 45mm Bạc" } },
+            { "color": "Hồng", "storage": "41mm", "price": 8190000, "oldPrice": 10690000, "image": { "id": "7", "url": "/images/aw-s9-41-pink.png", "alt": "Apple Watch S9 41mm Hồng" } },
+            { "color": "Hồng", "storage": "45mm", "price": 8890000, "oldPrice": 11490000, "image": { "id": "8", "url": "/images/aw-s9-45-pink.png", "alt": "Apple Watch S9 45mm Hồng" } },
+            { "color": "Đỏ (Product RED)", "storage": "41mm", "price": 7990000, "oldPrice": 10490000, "image": { "id": "9", "url": "/images/aw-s9-41-red.png", "alt": "Apple Watch S9 41mm Đỏ" } },
+            { "color": "Đỏ (Product RED)", "storage": "45mm", "price": 8690000, "oldPrice": 11290000, "image": { "id": "10", "url": "/images/aw-s9-45-red.png", "alt": "Apple Watch S9 45mm Đỏ" } }
+        ],
+        "specs": {
+            "chip": "Apple S9 SiP (4 lõi Neural Engine)",
+            "battery": "Sử dụng lên đến 18 giờ (Chế độ nguồn điện thấp lên đến 36 giờ)",
+            "display": "Retina LTPO OLED Luôn Hiển Thị · Độ sáng tối đa 2000 nits",
+            "camera": "Không hỗ trợ",
+            "ram": "64GB bộ nhớ lưu trữ",
+            "weight": "38.7g (Bản 45mm không kèm dây đeo)",
+            "waterResistance": "Chống nước ở độ sâu 50m (WR50) · Kháng bụi IP6X",
+            "connectivity": "Wi-Fi · Bluetooth 5.3 · Chip Ultra Wideband thế hệ 2 · Thao tác chạm hai lần (Double Tap)"
+        },
+        "description": "Apple Watch Series 9 thông minh hơn, sáng hơn và mạnh mẽ hơn nhờ kiến trúc chip S9 SiP, mang đến tính năng chạm hai lần (Double Tap) kỳ diệu mà không cần chạm vào màn hình.",
+        "shortDescription": "Chip S9 SiP thông minh. Thao tác Double Tap độc đáo. Màn hình sáng 2000 nits.",
+        "rating": 4.7,
+        "reviewCount": 314,
+        "category": "watch",
+        "series": "Apple Watch Series",
+        "isNew": false,
+        "isTrending": false,
+        "isFeatured": false,
+        "discount": 23,
+        "badge": "Hỗ trợ Double Tap",
+        "releaseYear": 2023
+    },
+    {
+        "id": "apple-watch-series-10",
+        "name": "Apple Watch Series 10 (Nhôm)",
+        "slug": "apple-watch-series-10",
+        "colors": [
+            { "id": "1", "name": "Đen Bóng", "hex": "#111111" },
+            { "id": "2", "name": "Vàng Hồng", "hex": "#e6c2b3" },
+            { "id": "3", "name": "Bạc", "hex": "#cccccc" }
+        ],
+        "storage": ["42mm", "46mm"],
+        "variants": [
+            {
+                "color": "Đen Bóng",
+                "storage": "42mm",
+                "price": 10990000,
+                "oldPrice": 10990000,
+                "image": { "id": "1", "url": "/images/aw-s10-42-black.png", "alt": "Apple Watch S10 42mm Đen Bóng" }
+            },
+            {
+                "color": "Đen Bóng",
+                "storage": "46mm",
+                "price": 11790000,
+                "oldPrice": 11790000,
+                "image": { "id": "2", "url": "/images/aw-s10-46-black.png", "alt": "Apple Watch S10 46mm Đen Bóng" }
+            },
+            {
+                "color": "Vàng Hồng",
+                "storage": "42mm",
+                "price": 10990000,
+                "oldPrice": 10990000,
+                "image": { "id": "3", "url": "/images/aw-s10-42-rose.png", "alt": "Apple Watch S10 42mm Vàng Hồng" }
+            },
+            {
+                "color": "Vàng Hồng",
+                "storage": "46mm",
+                "price": 11790000,
+                "oldPrice": 11790000,
+                "image": { "id": "4", "url": "/images/aw-s10-46-rose.png", "alt": "Apple Watch S10 46mm Vàng Hồng" }
+            },
+            {
+                "color": "Bạc",
+                "storage": "42mm",
+                "price": 10990000,
+                "oldPrice": 10990000,
+                "image": { "id": "5", "url": "/images/aw-s10-42-silver.png", "alt": "Apple Watch S10 42mm Bạc" }
+            },
+            {
+                "color": "Bạc",
+                "storage": "46mm",
+                "price": 11790000,
+                "oldPrice": 11790000,
+                "image": { "id": "6", "url": "/images/aw-s10-46-silver.png", "alt": "Apple Watch S10 46mm Bạc" }
+            }
+        ],
+        "specs": {
+            "chip": "Apple S10 SiP",
+            "battery": "Sử dụng bình thường lên đến 18 giờ (Sạc siêu nhanh 80% trong 30 phút)",
+            "display": "OLED Luôn Hiển Thị góc rộng · Tiết kiệm điện · Đạt độ sáng 2000 nits",
+            "camera": "Không hỗ trợ",
+            "ram": "64GB bộ nhớ lưu trữ",
+            "weight": "36.4g (Bản 46mm không kèm dây đeo)",
+            "waterResistance": "Chống nước ở độ sâu 50m (WR50) · Chứng nhận thiết bị lặn Snorkeling đến 6m",
+            "connectivity": "Wi-Fi · Bluetooth 5.3 · GPS · Loa tích hợp phát nhạc trực tiếp"
+        },
+        "description": "Apple Watch Series 10 sở hữu thiết kế mỏng nhẹ tinh chỉnh nhất từ trước đến nay (chỉ 9.7mm), trang bị màn hình OLED góc rộng hiển thị lớn hơn và bổ sung tính năng phát hiện chứng ngưng thở khi ngủ đột phá.",
+        "shortDescription": "Thiết kế siêu mỏng 9.7mm. Màn hình OLED góc rộng cực đại. Sạc nhanh vượt trội.",
+        "rating": 4.8,
+        "reviewCount": 182,
+        "category": "watch",
+        "series": "Apple Watch Series",
+        "isNew": false,
+        "isTrending": true,
+        "isFeatured": true,
+        "discount": 0,
+        "badge": "Mỏng nhẹ nhất",
+        "releaseYear": 2024
+    },
+    {
+        "id": "apple-watch-ultra-2",
+        "name": "Apple Watch Ultra 2 (Titan)",
+        "slug": "apple-watch-ultra-2",
+        "colors": [
+            { "id": "1", "name": "Titan Tự Nhiên", "hex": "#aba69f" },
+            { "id": "2", "name": "Titan Đen Satin", "hex": "#252526" }
+        ],
+        "storage": ["49mm"],
+        "variants": [
+            {
+                "color": "Titan Tự Nhiên",
+                "storage": "49mm",
+                "price": 20990000,
+                "oldPrice": 22990000,
+                "image": { "id": "1", "url": "/images/aw-ultra2-natural.png", "alt": "Apple Watch Ultra 2 Titan Tự Nhiên" }
+            },
+            {
+                "color": "Titan Đen Satin",
+                "storage": "49mm",
+                "price": 21490000,
+                "oldPrice": 22990000,
+                "image": { "id": "2", "url": "/images/aw-ultra2-black.png", "alt": "Apple Watch Ultra 2 Titan Đen Satin" }
+            }
+        ],
+        "specs": {
+            "chip": "Apple S9 SiP (Xử lý tác vụ AI siêu tốc)",
+            "battery": "Sử dụng bình thường lên đến 36 giờ (Chế độ tiết kiệm pin lên đến 72 giờ)",
+            "display": "OLED Always-On Retina · Độ sáng cực đại phá kỷ lục 3000 nits",
+            "camera": "Không hỗ trợ",
+            "ram": "64GB bộ nhớ lưu trữ",
+            "weight": "61.4g (Không kèm dây đeo)",
+            "waterResistance": "Chống nước ở độ sâu 100m (WR100) · Đạt tiêu chuẩn lặn chuyên nghiệp EN13319",
+            "connectivity": "Hỗ trợ eSIM di động LTE · GPS tần số kép định vị chuẩn quân đội · Bluetooth 5.3"
+        },
+        "description": "Chiếc đồng hồ thể thao chuyên nghiệp tối tân làm bằng chất liệu vỏ Titan siêu bền nhẹ siêu nén, tích hợp định vị GPS tần số kép chính xác hàng đầu thế giới và còi báo động khẩn cấp 86 decibel.",
+        "shortDescription": "Vỏ Titan siêu bền bỉ. Độ sáng màn hình 3000 nits. Pin hoạt động liên tục 36 giờ.",
+        "rating": 4.9,
+        "reviewCount": 354,
+        "category": "watch",
+        "series": "Apple Watch Ultra",
+        "isNew": false,
+        "isTrending": true,
+        "isFeatured": true,
+        "discount": 8,
+        "badge": "Titan siêu bền",
+        "releaseYear": 2024
+    }
+]
