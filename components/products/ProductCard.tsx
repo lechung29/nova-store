@@ -71,7 +71,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
             style={{ perspective: 1000 }}
         >
             <motion.div ref={cardRef} style={{ rotateX, rotateY, transformStyle: "preserve-3d" }} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
-                <Link href={`/products/${product.slug}`}>
+                <Link href={`/san-pham/${product.slug}`}>
                     <div
                         className={cn(
                             "relative group rounded-2xl bg-[#111] border border-white/8 overflow-hidden",
@@ -91,7 +91,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
                         </div>
 
                         <div className="relative aspect-square bg-linear-to-br from-[#1a1a1a] to-[#0d0d0d] flex items-center justify-center overflow-hidden">
-                            <img src={productImage?.url} alt={productImage?.alt} width={160} />
+                            <img src={productImage?.url} alt={productImage?.alt} className="object-contain w-[90%]" />
                             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-linear-to-t from-white/8 to-transparent pointer-events-none" />
                         </div>
 

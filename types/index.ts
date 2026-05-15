@@ -1,5 +1,7 @@
 /** @format */
 
+import { LucideIcon } from "lucide-react";
+
 export interface IProductColor {
     id: string;
     name: string;
@@ -87,4 +89,19 @@ export interface FAQItem {
     id: string;
     question: string;
     answer: string;
+}
+
+export interface Ip17Feature {
+    id: string;
+    icon: LucideIcon;
+    title: string;
+    description: string;
+    badge?: string;
+}
+
+export interface Ip17FeaturedCard {
+    icon: LucideIcon;
+    title: string;
+    description: string;
+    accentColor: string;
 }

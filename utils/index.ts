@@ -1,6 +1,23 @@
 /** @format */
 
-import type { IProductVariant, IVariantImage } from "@/types";
+import type { CartItem, IProductVariant, IVariantImage } from "@/types";
+import type { IProduct } from "@/types";
+import iphones from "@/data/iphones.json";
+import ipads from "@/data/ipads.json";
+import airpods from "@/data/airpods.json";
+import watches from "@/data/applewatch.json";
+
+export const all_products = [...(iphones as IProduct[]), ...(ipads as IProduct[]), ...(airpods as IProduct[]), ...(watches as IProduct[])];
+
+export function getRelatedProducts(product: IProduct): IProduct[] {
+    const sameSeries = all_products.filter((p) => p.category === product.category && p.series === product.series && p.id !== product.id).slice(0, 4);
+
+    if (sameSeries.length >= 4) return sameSeries;
+
+    const sameCategory = all_products.filter((p) => p.category === product.category && p.series !== product.series).slice(0, 4 - sameSeries.length);
+
+    return [...sameSeries, ...sameCategory];
+}
 
 export const formatVND = (price: number | string): string => {
     return new Intl.NumberFormat("vi-VN", {
@@ -37,3 +54,11 @@ export const getColorImageArray = (variants: { color: string; image: IVariantIma
 
     return Array.from(seen.entries()).map(([key, value]) => ({ key, value }));
 };
+
+export const getItemVariant = (item: CartItem) => findVariant(item.product.variants, item.selectedColor.name, item.selectedStorage);
+
+export const getItemPrice = (item: CartItem) => getItemVariant(item)?.price ?? 0;
+
+export const getItemImage = (item: CartItem) => getItemVariant(item)?.image;
+
+export const getCartItemKey = (item: CartItem) => `${item.product.id}-${item.selectedColor.name}-${item.selectedStorage}`;
