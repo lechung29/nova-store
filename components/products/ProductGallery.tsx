@@ -16,10 +16,11 @@ interface ProductGalleryProps {
 
 export function ProductGallery({ product, imageKey, currentVariant, onImageKeyChange }: ProductGalleryProps) {
     const productImageList = getColorImageArray(product.variants);
+    console.log(productImageList)
 
     return (
         <div className="space-y-4!">
-            <motion.div className="relative flex items-center justify-center overflow-hidden border border-white/8 rounded-3xl bg-linear-to-br from-slate-900 to-slate-950 aspect-square">
+            <motion.div className="relative flex items-center justify-center overflow-hidden border border-white/8 rounded-3xl bg-white/4 from-slate-900 to-slate-950 aspect-square">
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={imageKey}

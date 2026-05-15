@@ -143,7 +143,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
                                             setSelectedStorageIdx(i);
                                         }}
                                         className={cn(
-                                            "text-sm font-semibold px-2! py-1! rounded-lg border transition-all duration-200 cursor-pointer",
+                                            "text-xs font-medium px-2! py-1! rounded-lg border transition-all duration-200 cursor-pointer",
                                             selectedStorageIdx === i ? "bg-white text-black border-white" : "bg-white/6 text-white/50 border-white/10 hover:border-white/30 hover:text-white/80",
                                         )}
                                     >
