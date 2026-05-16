@@ -10,7 +10,6 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { CartItemRow, CartSummary, CheckoutDialog, EmptyCart } from "@/components/cart";
 import { getCartItemKey } from "@/utils";
 
-
 export default function CartComponent() {
     const [checkoutOpen, setCheckoutOpen] = useState(false);
     const { items, clearCart, getTotalPrice } = useCartStore();
@@ -31,14 +30,14 @@ export default function CartComponent() {
                 ) : (
                     <div className="flex flex-col items-start gap-8! lg:flex-row">
                         <div className="w-full flex-1 min-w-0">
-                            <div className="hidden grid-cols-[1fr_120px_140px_120px] gap-4! border-b border-white/8 pb-4! pr-5! text-sm font-display font-bold uppercase tracking-widest text-white/70 sm:grid">
-                                <span>Sản phẩm</span>
-                                <span className="text-center">Giá</span>
-                                <span className="text-center">Số lượng</span>
-                                <span className="text-right">Tạm tính</span>
-                            </div>
-                            <ScrollArea className="h-[60vh] w-full! pb-5! pr-5!">
+                            <ScrollArea className="max-h-[60vh] w-full! pb-5! pr-5!">
                                 <div className="min-w-145">
+                                    <div className="grid-cols-[1fr_120px_140px_120px] gap-4! border-b border-white/8 pb-4! pr-5! text-sm font-display font-bold uppercase tracking-widest text-white/70 grid">
+                                        <span>Sản phẩm</span>
+                                        <span className="text-center">Giá</span>
+                                        <span className="text-center">Số lượng</span>
+                                        <span className="text-right">Tạm tính</span>
+                                    </div>
                                     <AnimatePresence initial={false}>
                                         {items.map((item) => (
                                             <CartItemRow key={getCartItemKey(item)} item={item} />
@@ -47,7 +46,7 @@ export default function CartComponent() {
                                     <div className="flex justify-end pt-4!">
                                         <button onClick={clearCart} className="flex cursor-pointer items-center gap-1.5! text-sm text-white/70 transition-colors hover:text-red-400">
                                             <Trash2 size={14} /> Xóa tất cả
-                                        </button>
+                                        </button>x
                                     </div>
                                 </div>
                                 <ScrollBar orientation="horizontal" />

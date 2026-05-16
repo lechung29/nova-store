@@ -13,10 +13,9 @@ export function SeriesFilter({ series, selectedSeries, onToggle }: SeriesFilterP
     return (
         <div className="space-y-2.5!">
             {series.map((s) => (
-                <motion.label key={s} whileHover={{ x: 2 }} className="group flex cursor-pointer items-center gap-3">
+                <motion.label onClick={() => onToggle(s)} key={s} whileHover={{ x: 2 }} className="group flex cursor-pointer items-center gap-3">
                     <motion.div
                         whileTap={{ scale: 0.9 }}
-                        onClick={() => onToggle(s)}
                         className={cn(
                             "flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-2 transition-all",
                             selectedSeries.includes(s) ? "border-text-primary/30 bg-text-primary/50" : "border-gray-300 group-hover:border-gray-400 hover:bg-gray-50",

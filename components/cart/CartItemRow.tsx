@@ -17,7 +17,7 @@ export function CartItemRow({ item }: { item: CartItem }) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, x: -20, height: 0, marginBottom: 0 }}
             transition={{ duration: 0.25 }}
-            className="grid grid-cols-1 items-center gap-4! border-b border-white/8 py-6! sm:grid-cols-[1fr_120px_140px_120px]"
+            className="grid items-center justify-center  gap-4! border-b border-white/8 py-6! grid-cols-[1fr_120px_140px_120px]"
         >
             <div className="flex items-center gap-4!">
                 <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-white/8 bg-white/5">
@@ -37,7 +37,7 @@ export function CartItemRow({ item }: { item: CartItem }) {
                 </div>
             </div>
 
-            <div className="hidden justify-center sm:flex">
+            <div className="justify-center flex">
                 <span className="text-base text-white/70">{formatVND(price)}</span>
             </div>
 

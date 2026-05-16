@@ -16,7 +16,6 @@ interface ProductGalleryProps {
 
 export function ProductGallery({ product, imageKey, currentVariant, onImageKeyChange }: ProductGalleryProps) {
     const productImageList = getColorImageArray(product.variants);
-    console.log(productImageList)
 
     return (
         <div className="space-y-4!">
