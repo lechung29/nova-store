@@ -29,8 +29,8 @@ export const product_policies: ProductPolicy[] = [
 ];
 
 export const social_links = {
-    zalo: "https://zalo.me/YOUR_ZALO_NUMBER",
-    facebook: "https://m.me/YOUR_FB_PAGE",
+    zalo: "https://zalo.me/0385535606",
+    facebook: "https://m.me/dinhnhanh140220",
 } as const;
 
 export const category_filters = [
@@ -47,13 +47,13 @@ export const sort_map: Record<string, "price-asc" | "popular"> = {
 };
 
 export const checkout_channels = [
-    { href: "https://zalo.me/YOUR_ZALO_NUMBER", icon: SiZalo, label: "Mua qua Zalo", iconSize: 18 },
-    { href: "https://m.me/YOUR_FB_PAGE", icon: FaFacebookF, label: "Nhắn qua Facebook", iconSize: 18 },
+    { href: "https://zalo.me/0385535606", icon: SiZalo, label: "Mua qua Zalo", iconSize: 18 },
+    { href: "https://m.me/dinhnhanh140220", icon: FaFacebookF, label: "Nhắn qua Facebook", iconSize: 18 },
 ] as const;
 
 export const contact_buttons = [
     {
-        href: "https://zalo.me/0777577877",
+        href: "https://zalo.me/0385535606",
         icon: SiZalo,
         label: "Chat Zalo",
         iconSize: 18,
@@ -61,7 +61,7 @@ export const contact_buttons = [
         external: true,
     },
     {
-        href: "https://m.me/applehouse",
+        href: "https://m.me/dinhnhanh140220",
         icon: FaFacebookMessenger,
         label: "Messenger",
         iconSize: 16,
@@ -69,7 +69,7 @@ export const contact_buttons = [
         external: true,
     },
     {
-        href: "sms:0777577877",
+        href: "sms:0385535606",
         icon: MessageCircle,
         label: "Nhắn tin SMS",
         iconSize: 16,

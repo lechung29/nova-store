@@ -71,7 +71,7 @@ export function ProductGrid({ products, loading }: ProductGridProps) {
 
             <div className="flex gap-8">
                 <div className="hidden w-56 shrink-0 lg:block">
-                    <div className="sticky top-20">
+                    <div className="sticky top-4">
                         <ProductFilters onFocusWhenFilterChange={handleScrollToContent} category="all" allSeries={allSeries} allStorage={allStorage} allColors={allColors} />
                     </div>
                 </div>

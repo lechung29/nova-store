@@ -11,21 +11,21 @@ import { SiZalo } from "react-icons/si";
 const contacts = [
     {
         label: "Messenger",
-        href: "https://m.me/yourpage",
+        href: "https://m.me/dinhnhanh140220",
         icon: <FaFacebookF />,
         color: "#0084FF",
         bg: "from-[#0084FF] to-[#0099FF]",
     },
     {
         label: "Zalo",
-        href: "https://zalo.me/0123456789",
+        href: "https://zalo.me/0385535606",
         icon: <SiZalo />,
         color: "#0068FF",
         bg: "from-[#0068FF] to-[#0080FF]",
     },
     {
         label: "Gọi ngay",
-        href: "tel:0123456789",
+        href: "tel:0385535606",
         icon: <Phone size={16} />,
         color: "#34C759",
         bg: "from-[#34C759] to-[#28A745]",
