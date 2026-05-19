@@ -32,6 +32,26 @@ import type { LucideIcon } from "lucide-react";
 import { FaFacebookF, FaFacebookMessenger, FaTiktok } from "react-icons/fa";
 import { SiZalo } from "react-icons/si";
 
+export const STORE_NAME = "Nova Store";
+export const STORE_ADDRESS = "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP Đà Nẵng";
+export const STORE_ADDRESS_SHORT = "Đà Sơn, Hòa Khánh, TP Đà Nẵng";
+export const STORE_PHONE = "0385 535 606";
+export const STORE_PHONE_RAW = "0385535606";
+export const STORE_EMAIL = "nhanld140220@gmail.com";
+export const STORE_RATING = "4.9";
+export const STORE_MAP_SRC =
+    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3834.274276078581!2d108.1519996!3d16.0512508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142193761a67ff9%3A0x79c7eb1ed34717b4!2zNDkgxJDDoCBTxqFuLCBIw7JhIEtow6FuaCwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1779182309678!5m2!1svi!2s";
+const STORE_BUSINESS_LICENSE = "Số 32B8019880 do UBND Phường Hòa Khánh cấp ngày 18/06/2026";
+const STORE_BUSINESS_LICENSE_HIGHLIGHT = "32B8019880";
+
+const FB_PAGE_USERNAME = "dinhnhan140220";
+const MESSENGER_USERNAME = "dinhnhanh140220";
+
+export const MESSENGER_URL = `https://www.facebook.com/messages/t/${MESSENGER_USERNAME}`;
+export const FACEBOOK_PAGE_URL = `https://www.facebook.com/${FB_PAGE_USERNAME}`;
+export const ZALO_URL = `https://zalo.me/${STORE_PHONE_RAW}`;
+export const TIKTOK_URL = "https://www.tiktok.com/@applehousedanang";
+
 export const product_specs_map = [
     { label: "Chip", key: "chip" },
     { label: "Màn hình", key: "display" },
@@ -55,9 +75,11 @@ export const product_policies: ProductPolicy[] = [
 ];
 
 export const social_links = {
-    zalo: "https://zalo.me/0385535606",
-    facebook: "https://m.me/dinhnhanh140220",
+    zalo: ZALO_URL,
+    facebook: MESSENGER_URL,
 } as const;
+
+export const facebook_url = FACEBOOK_PAGE_URL;
 
 export const category_filters = [
     { key: "all", label: "Tất cả sản phẩm" },
@@ -73,13 +95,13 @@ export const sort_map: Record<string, "price-asc" | "popular"> = {
 };
 
 export const checkout_channels = [
-    { href: "https://zalo.me/0385535606", icon: SiZalo, label: "Mua qua Zalo", iconSize: 18 },
-    { href: "https://m.me/dinhnhanh140220", icon: FaFacebookF, label: "Nhắn qua Facebook", iconSize: 18 },
+    { href: ZALO_URL, icon: SiZalo, label: "Mua qua Zalo", iconSize: 18 },
+    { href: MESSENGER_URL, icon: FaFacebookF, label: "Nhắn qua Facebook", iconSize: 18 },
 ] as const;
 
 export const contact_buttons = [
     {
-        href: "https://zalo.me/0385535606",
+        href: ZALO_URL,
         icon: SiZalo,
         label: "Chat Zalo",
         iconSize: 18,
@@ -87,7 +109,7 @@ export const contact_buttons = [
         external: true,
     },
     {
-        href: "https://m.me/dinhnhanh140220",
+        href: MESSENGER_URL,
         icon: FaFacebookMessenger,
         label: "Messenger",
         iconSize: 16,
@@ -95,7 +117,7 @@ export const contact_buttons = [
         external: true,
     },
     {
-        href: "sms:0385535606",
+        href: `sms:${STORE_PHONE_RAW}`,
         icon: MessageCircle,
         label: "Nhắn tin SMS",
         iconSize: 16,
@@ -121,48 +143,32 @@ export const hero_section_images = [
 export const hero_section_stats = [
     { value: "20+", label: "Sản phẩm" },
     { value: "1K+", label: "Khách hàng" },
-    { value: "4.9★", label: "Đánh giá" },
+    { value: `${STORE_RATING}★`, label: "Đánh giá" },
 ] as const;
 
 export const animation_ease = [0.22, 1, 0.36, 1] as const;
 
 export const facebook_stats = [
     { value: "17K+", label: "Người theo dõi" },
-    { value: "4.9★", label: "Đánh giá" },
+    { value: `${STORE_RATING}★`, label: "Đánh giá" },
     { value: "24/7", label: "Hỗ trợ inbox" },
 ] as const;
 
 export const testimonials_stats = [
-    { value: "4.9/5", label: "Điểm đánh giá trung bình" },
+    { value: `${STORE_RATING}/5`, label: "Điểm đánh giá trung bình" },
     { value: "1.000+", label: "Khách hàng hài lòng" },
     { value: "99.9%", label: "Giao hàng đúng hẹn" },
     { value: "24/7", label: "Hỗ trợ khách hàng" },
 ] as const;
 
 export const nav_links = [
-    {
-        label: "iPhone",
-        href: "/san-pham?loai-san-pham=iphone",
-        src: "/ip17_orange_logo.png",
-    },
-    {
-        label: "iPad",
-        href: "/san-pham?loai-san-pham=ipad",
-        src: "/ipad_pro_2018_logo.png",
-    },
-    {
-        label: "AirPods",
-        href: "/san-pham?loai-san-pham=airpods",
-        src: "/airpod_logo.png",
-    },
-    {
-        label: "Apple Watch",
-        href: "/san-pham?loai-san-pham=watch",
-        src: "/apple_watch_11_logo.png",
-    },
-    { label: "Bảo hành", href: "/chinh-sach?loai-chinh-sach=bao-hanh"},
-    { label: "Vận chuyển", href: "/chinh-sach?loai-chinh-sach=van-chuyen"},
-    { label: "Liên hệ", href: "/chinh-sach?lien-he=true"},
+    { label: "iPhone", href: "/san-pham?loai-san-pham=iphone", src: "/ip17_orange_logo.png" },
+    { label: "iPad", href: "/san-pham?loai-san-pham=ipad", src: "/ipad_pro_2018_logo.png" },
+    { label: "AirPods", href: "/san-pham?loai-san-pham=airpods", src: "/airpod_logo.png" },
+    { label: "Apple Watch", href: "/san-pham?loai-san-pham=watch", src: "/apple_watch_11_logo.png" },
+    { label: "Bảo hành", href: "/chinh-sach?loai-chinh-sach=bao-hanh" },
+    { label: "Vận chuyển", href: "/chinh-sach?loai-chinh-sach=van-chuyen" },
+    { label: "Liên hệ", href: "/chinh-sach?lien-he=true" },
 ] as const;
 
 export const footer_links = {
@@ -189,22 +195,22 @@ export const footer_links = {
 export const marquee_items = ["iPhone 16 Pro Max", "iPad Pro M4", "Apple Intelligence", "AirPods Pro 2", "Apple Watch Ultra 2", "MacBook Pro M4", "Vision Pro"] as const;
 
 export const contact_info = [
-    { icon: MapPinHouse, label: "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP Đà Nẵng" },
-    { icon: Mail, label: "info@applehousedanang.vn" },
-    { icon: Phone, label: "0385 535 606" },
+    { icon: MapPinHouse, label: STORE_ADDRESS },
+    { icon: Mail, label: STORE_EMAIL },
+    { icon: Phone, label: STORE_PHONE },
 ];
 
 export const social_media = [
     {
         name: "Facebook",
         icon: FaFacebookF,
-        href: "https://facebook.com/applehousedanang",
+        href: FACEBOOK_PAGE_URL,
         color: "text-blue-500",
     },
     {
         name: "TikTok",
         icon: FaTiktok,
-        href: "https://www.tiktok.com/@applehousedanang",
+        href: TIKTOK_URL,
         color: "text-white",
     },
 ] as const;
@@ -215,16 +221,16 @@ export const footer_legal = [
 ] as const;
 
 export const price_presets = [
-    { label: "Dưới 10tr", min: 0, max: 10000000 },
-    { label: "10-20tr", min: 10000000, max: 20000000 },
-    { label: "20-30tr", min: 20000000, max: 30000000 },
-    { label: "Trên 30tr", min: 30000000, max: 50000000 },
+    { label: "Dưới 10tr", min: 0, max: 10_000_000 },
+    { label: "10-20tr", min: 10_000_000, max: 20_000_000 },
+    { label: "20-30tr", min: 20_000_000, max: 30_000_000 },
+    { label: "Trên 30tr", min: 30_000_000, max: 50_000_000 },
 ] as const;
 
 export const price_range = {
     MIN: 0,
-    MAX: 50000000,
-    STEP: 1000000,
+    MAX: 50_000_000,
+    STEP: 1_000_000,
 } as const;
 
 export const sort_options = {
@@ -247,8 +253,6 @@ export const gallery_config = {
         mobile: 1,
     },
 } as const;
-
-export const facebook_url = "https://facebook.com/applehousedanang";
 
 export const ip17FeaturedCard: Ip17FeaturedCard = {
     icon: Cpu,
@@ -293,13 +297,13 @@ export const ip17Features: Ip17Feature[] = [
 
 export const stores = [
     {
-        name: "Nova Store Đà Nẵng",
-        address: "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP Đà Nẵng",
-        phone: "0385 535 606",
+        name: STORE_NAME + " Đà Nẵng",
+        address: STORE_ADDRESS,
+        phone: STORE_PHONE,
         city: "Đà Nẵng",
         isNew: false,
-        shortAddr: "Đà Sơn, Hòa Khánh, TP Đà Nẵng",
-        mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3834.274276078581!2d108.1519996!3d16.0512508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142193761a67ff9%3A0x79c7eb1ed34717b4!2zNDkgxJDDoCBTxqFuLCBIw7JhIEtow6FuaCwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1779182309678!5m2!1svi!2s",
+        shortAddr: STORE_ADDRESS_SHORT,
+        mapSrc: STORE_MAP_SRC,
     },
 ];
 
@@ -308,25 +312,25 @@ export const introduce_stats = [
     { icon: Calendar, value: "2026", label: "Năm thành lập" },
     { icon: ShoppingBag, value: "3.000+", label: "Sản phẩm đã bán" },
     { icon: Users, value: "1.000+", label: "Khách hàng tin dùng" },
-    { icon: Star, value: "4.9 / 5", label: "Đánh giá trung bình" },
+    { icon: Star, value: `${STORE_RATING} / 5`, label: "Đánh giá trung bình" },
 ];
 
 export const introduce_shop_info = [
     {
         icon: Building2,
         label: "Tên thương hiệu",
-        value: "Nova Store",
+        value: STORE_NAME,
     },
     {
         icon: MapPin,
         label: "Địa chỉ",
-        value: "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP. Đà Nẵng",
+        value: STORE_ADDRESS,
     },
     {
         icon: FileText,
         label: "Giấy CNĐKKD",
-        value: "Số 32B8019880 do UBND Phường Hòa Khánh cấp ngày 18/06/2026",
-        highlight: "32B8019880",
+        value: STORE_BUSINESS_LICENSE,
+        highlight: STORE_BUSINESS_LICENSE_HIGHLIGHT,
     },
 ];
 

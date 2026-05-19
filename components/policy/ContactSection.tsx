@@ -2,7 +2,7 @@
 
 "use client";
 
-import { contact_buttons } from "@/utils/constants";
+import { contact_buttons, STORE_PHONE, STORE_PHONE_RAW } from "@/utils/constants";
 import { motion } from "framer-motion";
 import { Phone, ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -29,10 +29,10 @@ export function ContactSection() {
                     Cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ tại Nova Store. Nếu có bất kỳ thắc mắc nào, vui lòng liên hệ:
                 </p>
                 <a
-                    href="tel:0777577877"
+                    href={`tel:${STORE_PHONE_RAW}`}
                     className="mb-8! inline-flex items-center gap-3! rounded-2xl border border-blue-500/35 bg-blue-500/12 px-7! py-4! text-2xl font-display font-extrabold text-white shadow-[0_0_32px_rgba(41,151,255,0.15)] transition-all duration-200 hover:scale-105 active:scale-95"
                 >
-                    <Phone size={22} className="text-blue-500" />0 777 577 877
+                    <Phone size={22} className="text-blue-500" /> {STORE_PHONE}
                 </a>
                 <div className="flex flex-wrap justify-center gap-3!">
                     {contact_buttons.map(({ href, icon: Icon, label, iconSize, className, external }) => (

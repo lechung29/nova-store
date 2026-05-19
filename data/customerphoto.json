@@ -1,52 +1,72 @@
 [
     {
         "id": "1",
-        "image": "/galary-khach-hang-slider-1.webp",
+        "image": "/galary-khach-hang-slider-1.png",
         "alt": "Khách hàng 1"
     },
     {
         "id": "2",
-        "image": "/galary-khach-hang-slider-2.webp",
+        "image": "/galary-khach-hang-slider-2.png",
         "alt": "Khách hàng 2"
     },
     {
         "id": "3",
-        "image": "/galary-khach-hang-slider-3.webp",
+        "image": "/galary-khach-hang-slider-3.png",
         "alt": "Khách hàng 3"
     },
     {
         "id": "4",
-        "image": "/galary-khach-hang-slider-4.webp",
+        "image": "/galary-khach-hang-slider-4.png",
         "alt": "Khách hàng 4"
     },
     {
         "id": "5",
-        "image": "/galary-khach-hang-slider-5.webp",
+        "image": "/galary-khach-hang-slider-5.png",
         "alt": "Khách hàng 5"
     },
     {
         "id": "6",
-        "image": "/galary-khach-hang-slider-6.webp",
+        "image": "/galary-khach-hang-slider-6.png",
         "alt": "Khách hàng 6"
     },
     {
         "id": "7",
-        "image": "/galary-khach-hang-slider-7.webp",
+        "image": "/galary-khach-hang-slider-7.png",
         "alt": "Khách hàng 7"
     },
     {
         "id": "8",
-        "image": "/galary-khach-hang-slider-8.webp",
+        "image": "/galary-khach-hang-slider-8.png",
         "alt": "Khách hàng 8"
     },
     {
         "id": "9",
-        "image": "/galary-khach-hang-slider-9.webp",
+        "image": "/galary-khach-hang-slider-9.png",
         "alt": "Khách hàng 9"
     },
     {
         "id": "10",
-        "image": "/galary-khach-hang-slider-10.webp",
+        "image": "/galary-khach-hang-slider-10.png",
         "alt": "Khách hàng 10"
+    },
+    {
+        "id": "11",
+        "image": "/galary-khach-hang-slider-11.png",
+        "alt": "Khách hàng 11"
+    },
+    {
+        "id": "12",
+        "image": "/galary-khach-hang-slider-12.png",
+        "alt": "Khách hàng 12"
+    },
+    {
+        "id": "13",
+        "image": "/galary-khach-hang-slider-13.png",
+        "alt": "Khách hàng 13"
+    },
+    {
+        "id": "14",
+        "image": "/galary-khach-hang-slider-14.png",
+        "alt": "Khách hàng 14"
     }
 ]
