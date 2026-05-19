@@ -37,7 +37,8 @@ export const formatPriceToM = (price: number): string => {
     return `${price.toLocaleString("vi-VN")}đ`;
 };
 
-export const findVariant = (variants: IProductVariant[], color: string, storage: string): IProductVariant | undefined => {
+export const findVariant = (type: string, variants: IProductVariant[], color: string, storage: string): IProductVariant | undefined => {
+    if (type === "airpods") return variants.find((v) => v.color === color);
     return variants.find((v) => v.color === color && v.storage === storage);
 };
 
@@ -55,7 +56,7 @@ export const getColorImageArray = (variants: { color: string; image: IVariantIma
     return Array.from(seen.entries()).map(([key, value]) => ({ key, value }));
 };
 
-export const getItemVariant = (item: CartItem) => findVariant(item.product.variants, item.selectedColor.name, item.selectedStorage);
+export const getItemVariant = (item: CartItem) => findVariant(item.product.category, item.product.variants, item.selectedColor.name, item.selectedStorage);
 
 export const getItemPrice = (item: CartItem) => getItemVariant(item)?.price ?? 0;
 

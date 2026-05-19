@@ -1,7 +1,7 @@
 /** @format */
 
 import { Ip17Feature, Ip17FeaturedCard } from "@/types";
-import { Shield, Truck, RotateCcw, MessageCircle, Clock, Star, Cpu, Camera, Aperture, Battery, Zap, MapPinHouse, Mail, Phone } from "lucide-react";
+import { Shield, Truck, RotateCcw, MessageCircle, Clock, Star, Cpu, Camera, Aperture, Battery, Zap, MapPinHouse, Mail, Phone, Calendar, ShoppingBag, Users, Building2, MapPin, FileText, Smartphone, Wrench } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { FaFacebookF, FaFacebookMessenger, FaTiktok } from "react-icons/fa";
 import { SiZalo } from "react-icons/si";
@@ -108,7 +108,7 @@ export const facebook_stats = [
 
 export const testimonials_stats = [
     { value: "4.9/5", label: "Điểm đánh giá trung bình" },
-    { value: "3,000+", label: "Khách hàng hài lòng" },
+    { value: "1.000+", label: "Khách hàng hài lòng" },
     { value: "99.9%", label: "Giao hàng đúng hẹn" },
     { value: "24/7", label: "Hỗ trợ khách hàng" },
 ] as const;
@@ -152,18 +152,17 @@ export const footer_links = {
         { label: "Chính sách đổi trả", href: "/chinh-sach?loai-chinh-sach=doi-tra" },
     ],
     "Về chúng tôi": [
-        { label: "Giới thiệu", href: "#" },
-        { label: "Cửa hàng", href: "#" },
-        { label: "Tuyển dụng", href: "#" },
+        { label: "Giới thiệu", href: "/gioi-thieu" },
+        { label: "Cửa hàng", href: "/cua-hang" },
     ],
 } as const;
 
 export const marquee_items = ["iPhone 16 Pro Max", "iPad Pro M4", "Apple Intelligence", "AirPods Pro 2", "Apple Watch Ultra 2", "MacBook Pro M4", "Vision Pro"] as const;
 
 export const contact_info = [
-    { icon: MapPinHouse, label: "123 Đường ABC, Quận XYZ, Đà Nẵng" },
+    { icon: MapPinHouse, label: "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP Đà Nẵng" },
     { icon: Mail, label: "info@applehousedanang.vn" },
-    { icon: Phone, label: "0777 577 877" },
+    { icon: Phone, label: "0385 535 606" },
 ];
 
 export const social_media = [
@@ -260,5 +259,63 @@ export const ip17Features: Ip17Feature[] = [
         icon: Zap,
         title: "Sạc Nhanh & Sạc Không Dây",
         description: "MagSafe 30W sạc đầy 0–50% trong 25 phút. Qi2 không dây 15W, không cần tháo ốp.",
+    },
+];
+
+
+export const stores = [
+    {
+        name: "Nova Store Đà Nẵng",
+        address: "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP Đà Nẵng",
+        phone: "0385 535 606",
+        city: "Đà Nẵng",
+        isNew: false,
+        shortAddr: "Đà Sơn, Hòa Khánh, TP Đà Nẵng",
+        mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3834.274276078581!2d108.1519996!3d16.0512508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142193761a67ff9%3A0x79c7eb1ed34717b4!2zNDkgxJDDoCBTxqFuLCBIw7JhIEtow6FuaCwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1779182309678!5m2!1svi!2s",
+    },
+];
+
+// Introduce Page
+export const introduce_stats = [
+    { icon: Calendar, value: "2026", label: "Năm thành lập" },
+    { icon: ShoppingBag, value: "3.000+", label: "Sản phẩm đã bán" },
+    { icon: Users, value: "1.000+", label: "Khách hàng tin dùng" },
+    { icon: Star, value: "4.9 / 5", label: "Đánh giá trung bình" },
+];
+
+export const introduce_shop_info = [
+    {
+        icon: Building2,
+        label: "Tên thương hiệu",
+        value: "Nova Store",
+    },
+    {
+        icon: MapPin,
+        label: "Địa chỉ",
+        value: "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP. Đà Nẵng",
+    },
+    {
+        icon: FileText,
+        label: "Giấy CNĐKKD",
+        value: "Số 32B8019880 do UBND Phường Hòa Khánh cấp ngày 18/06/2026",
+        highlight: "32B8019880",
+    },
+];
+
+export const introduce_services = [
+    {
+        icon: Smartphone,
+        title: "Sản phẩm chính hãng",
+        desc: "Chuyên cung cấp các sản phẩm Apple chính hãng như: iPhone, iPad, Macbook, iMac,... và phụ kiện chính hãng đi kèm.",
+    },
+    {
+        icon: Wrench,
+        title: "Dịch vụ sửa chữa",
+        desc: "Cung cấp giải pháp dịch vụ sửa chữa ủy quyền chính hãng, phần mềm bản quyền chuyên nghiệp.",
+    },
+    {
+        icon: Users,
+        title: "Lợi ích khách hàng",
+        desc: "Luôn đi đầu về lợi ích khách hàng — tư vấn tận tâm, hậu mãi chu đáo và chính sách bảo hành minh bạch.",
     },
 ];

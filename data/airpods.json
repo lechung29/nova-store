@@ -1,250 +1,96 @@
 [
     {
-        "id": "airpods-2",
-        "name": "AirPods (Thế hệ thứ 2)",
-        "slug": "airpods-2",
-        "colors": [{ "id": "1", "name": "Trắng", "hex": "#ffffff" }],
-        "storage": ["Hộp Sạc Thường"],
-        "variants": [{ "color": "Trắng", "storage": "Hộp Sạc Thường", "price": 2490000, "oldPrice": 3990000, "image": { "id": "1", "url": "/images/airpods-2.png", "alt": "AirPods 2 Trắng" } }],
-        "specs": {
-            "chip": "Apple H1",
-            "battery": "Nghe nhạc lên đến 5 giờ (Hộp sạc lên đến 24 giờ)",
-            "display": "Không hỗ trợ",
-            "camera": "Không hỗ trợ",
-            "ram": "Không có",
-            "weight": "38.2g (Cả hộp sạc)",
-            "waterResistance": "Không hỗ trợ kháng nước",
-            "connectivity": "Bluetooth 5.0 · Cổng sạc Lightning"
-        },
-        "description": "Mẫu tai nghe quốc dân với thiết kế Earbuds huyền thoại, kết nối nhanh chóng thông qua chip H1 và thời lượng pin bền bỉ.",
-        "shortDescription": "Chip H1 ổn định. Thiết kế Earbuds. Giá sinh viên.",
-        "rating": 4.6,
-        "reviewCount": 1250,
-        "category": "airpods",
-        "series": "AirPods Base",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 37,
-        "badge": "Giá rẻ nhất",
-        "releaseYear": 2019
-    },
-    {
-        "id": "airpods-3",
-        "name": "AirPods (Thế hệ thứ 3)",
-        "slug": "airpods-3",
-        "colors": [{ "id": "1", "name": "Trắng", "hex": "#ffffff" }],
-        "storage": ["Hộp Sạc Lightning", "Hộp Sạc MagSafe"],
-        "variants": [
-            { "color": "Trắng", "storage": "Hộp Sạc Lightning", "price": 3690000, "oldPrice": 4990000, "image": { "id": "1", "url": "/images/airpods-3.png", "alt": "AirPods 3 Hộp Sạc Lightning" } },
-            { "color": "Trắng", "storage": "Hộp Sạc MagSafe", "price": 3990000, "oldPrice": 5490000, "image": { "id": "2", "url": "/images/airpods-3.png", "alt": "AirPods 3 Hộp Sạc MagSafe" } }
-        ],
-        "specs": {
-            "chip": "Apple H1",
-            "battery": "Nghe nhạc lên đến 6 giờ (Hộp sạc lên đến 30 giờ)",
-            "display": "Không hỗ trợ",
-            "camera": "Không hỗ trợ",
-            "ram": "Không có",
-            "weight": "46.4g (Cả hộp sạc)",
-            "waterResistance": "IPX4 · Kháng nước và mồ hôi nhẹ",
-            "connectivity": "Bluetooth 5.0 · Âm thanh không gian Spatial Audio"
-        },
-        "description": "AirPods 3 lột xác với thân tai nghe ngắn hơn, hỗ trợ công nghệ âm thanh vòm Spatial Audio sống động và tối ưu thời lượng pin vượt trội.",
-        "shortDescription": "Âm thanh không gian Spatial Audio. Kháng nước IPX4. Hộp sạc MagSafe.",
-        "rating": 4.6,
-        "reviewCount": 854,
-        "category": "airpods",
-        "series": "AirPods Base",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 26,
-        "badge": "Âm vòm Spatial",
-        "releaseYear": 2021
-    },
-    {
-        "id": "airpods-4",
-        "name": "AirPods 4",
-        "slug": "airpods-4",
-        "colors": [{ "id": "1", "name": "Trắng", "hex": "#ffffff" }],
-        "storage": ["Bản Tiêu Chuẩn", "Bản Chống Ồn ANC"],
-        "variants": [
-            {
-                "color": "Trắng",
-                "storage": "Bản Tiêu Chuẩn",
-                "price": 3490000,
-                "oldPrice": 3490000,
-                "image": { "id": "1", "url": "/images/airpods-4-standard.png", "alt": "AirPods 4 Bản Tiêu Chuẩn" }
-            },
-            { "color": "Trắng", "storage": "Bản Chống Ồn ANC", "price": 4790000, "oldPrice": 4790000, "image": { "id": "2", "url": "/images/airpods-4-anc.png", "alt": "AirPods 4 Bản Chống Ồn ANC" } }
-        ],
-        "specs": {
-            "chip": "Apple H2",
-            "battery": "Nghe nhạc lên đến 5 giờ (Hộp sạc lên đến 30 giờ)",
-            "display": "Không hỗ trợ",
-            "camera": "Không hỗ trợ",
-            "ram": "Không có",
-            "weight": "34.5g (Cả hộp sạc)",
-            "waterResistance": "IP54 · Kháng bụi, mồ hôi và nước bắn",
-            "connectivity": "Bluetooth 5.3 · Hộp sạc USB-C tích hợp loa tìm kiếm (Bản ANC)"
-        },
-        "description": "AirPods 4 sở hữu kiến trúc âm thanh hoàn toàn mới nhờ chip H2 tối tân, mang đến tùy chọn Khử Tiếng Ồn Chủ Động (ANC) vượt trội trên một thiết kế tai nghe dạng mở thoải mái.",
-        "shortDescription": "Siêu chip Apple H2. Khử tiếng ồn ANC (Tùy chọn). Cổng sạc USB-C.",
-        "rating": 4.8,
-        "reviewCount": 421,
-        "category": "airpods",
-        "series": "AirPods Base",
-        "isNew": false,
-        "isTrending": true,
-        "isFeatured": true,
-        "discount": 0,
-        "badge": "Mới & Bán chạy",
-        "releaseYear": 2024
-    },
-    {
-        "id": "airpods-pro-2",
-        "name": "AirPods Pro (Thế hệ thứ 2)",
-        "slug": "airpods-pro-2",
-        "colors": [{ "id": "1", "name": "Trắng", "hex": "#ffffff" }],
-        "storage": ["Cổng MagSafe Lightning", "Cổng MagSafe USB‑C"],
-        "variants": [
-            {
-                "color": "Trắng",
-                "storage": "Cổng MagSafe Lightning",
-                "price": 4990000,
-                "oldPrice": 5990000,
-                "image": { "id": "1", "url": "/images/airpods-pro-2-lightning.png", "alt": "AirPods Pro 2 Lightning" }
-            },
-            { "color": "Trắng", "storage": "Cổng MagSafe USB‑C", "price": 5590000, "oldPrice": 6190000, "image": { "id": "2", "url": "/images/airpods-pro-2-usbc.png", "alt": "AirPods Pro 2 USB-C" } }
-        ],
-        "specs": {
-            "chip": "Apple H2",
-            "battery": "Nghe nhạc lên đến 6 giờ (Hộp sạc lên đến 30 giờ)",
-            "display": "Không hỗ trợ",
-            "camera": "Không hỗ trợ",
-            "ram": "Không có",
-            "weight": "50.8g (Cả hộp sạc)",
-            "waterResistance": "IP54 · Kháng bụi và nước cho cả tai nghe lẫn hộp sạc",
-            "connectivity": "Bluetooth 5.3 · Âm Thanh Thích Ứng · Hộp sạc có loa và chip U1 tìm kiếm"
-        },
-        "description": "Tai nghe AirPods Pro 2 sở hữu thiết kế nhét tai (In-ear) với khả năng chủ động khử tiếng ồn mạnh gấp hai lần thế hệ trước, chế độ Thích Ứng âm thanh thông minh và cổng sạc USB-C hiện đại.",
-        "shortDescription": "Khử tiếng ồn gấp 2 lần. Âm Thanh Thích Ứng. Hộp sạc Type-C tìm chính xác.",
-        "rating": 4.9,
-        "reviewCount": 1120,
-        "category": "airpods",
-        "series": "AirPods Pro",
-        "isNew": false,
-        "isTrending": true,
-        "isFeatured": true,
-        "discount": 10,
-        "badge": "Chống ồn đỉnh cao",
-        "releaseYear": 2023
-    },
-    {
-        "id": "airpods-max",
-        "name": "AirPods Max",
-        "slug": "airpods-max",
+        "id": "airpods-4-standard",
+        "name": "Apple AirPods 4 (Bản Tiêu Chuẩn)",
+        "slug": "airpods-4-standard",
         "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" },
-            { "id": "3", "name": "Xanh Dương", "hex": "#2e4853" },
-            { "id": "4", "name": "Hồng", "hex": "#e9687e" },
-            { "id": "5", "name": "Xanh Lục", "hex": "#ade0ce" }
+            {
+                "id": "1",
+                "name": "Trắng (White)",
+                "hex": "#ffffff"
+            }
         ],
-        "storage": ["Cổng Sạc Lightning", "Cổng Sạc USB-C"],
+        "storage": [],
         "variants": [
             {
-                "color": "Xám Không Gian",
-                "storage": "Cổng Sạc Lightning",
-                "price": 10500000,
-                "oldPrice": 13990000,
-                "image": { "id": "1", "url": "/images/airpods-max-lightning-gray.png", "alt": "AirPods Max Lightning Xám" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "Cổng Sạc USB-C",
-                "price": 12490000,
-                "oldPrice": 13990000,
-                "image": { "id": "2", "url": "/images/airpods-max-usbc-gray.png", "alt": "AirPods Max USB-C Xám" }
-            },
-            {
-                "color": "Bạc",
-                "storage": "Cổng Sạc Lightning",
-                "price": 10500000,
-                "oldPrice": 13990000,
-                "image": { "id": "3", "url": "/images/airpods-max-lightning-silver.png", "alt": "AirPods Max Lightning Bạc" }
-            },
-            {
-                "color": "Bạc",
-                "storage": "Cổng Sạc USB-C",
-                "price": 12490000,
-                "oldPrice": 13990000,
-                "image": { "id": "4", "url": "/images/airpods-max-usbc-silver.png", "alt": "AirPods Max USB-C Bạc" }
-            },
-            {
-                "color": "Xanh Dương",
-                "storage": "Cổng Sạc Lightning",
-                "price": 10500000,
-                "oldPrice": 13990000,
-                "image": { "id": "5", "url": "/images/airpods-max-lightning-blue.png", "alt": "AirPods Max Lightning Xanh Dương" }
-            },
-            {
-                "color": "Xanh Dương",
-                "storage": "Cổng Sạc USB-C",
-                "price": 12490000,
-                "oldPrice": 13990000,
-                "image": { "id": "6", "url": "/images/airpods-max-usbc-blue.png", "alt": "AirPods Max USB-C Xanh Dương" }
-            },
-            {
-                "color": "Hồng",
-                "storage": "Cổng Sạc Lightning",
-                "price": 10500000,
-                "oldPrice": 13990000,
-                "image": { "id": "7", "url": "/images/airpods-max-lightning-pink.png", "alt": "AirPods Max Lightning Hồng" }
-            },
-            {
-                "color": "Hồng",
-                "storage": "Cổng Sạc USB-C",
-                "price": 12490000,
-                "oldPrice": 13990000,
-                "image": { "id": "8", "url": "/images/airpods-max-usbc-pink.png", "alt": "AirPods Max USB-C Hồng" }
-            },
-            {
-                "color": "Xanh Lục",
-                "storage": "Cổng Sạc Lightning",
-                "price": 10500000,
-                "oldPrice": 13990000,
-                "image": { "id": "9", "url": "/images/airpods-max-lightning-green.png", "alt": "AirPods Max Lightning Xanh Lục" }
-            },
-            {
-                "color": "Xanh Lục",
-                "storage": "Cổng Sạc USB-C",
-                "price": 12490000,
-                "oldPrice": 13990000,
-                "image": { "id": "10", "url": "/images/airpods-max-usbc-green.png", "alt": "AirPods Max USB-C Xanh Lục" }
+                "color": "Trắng (White)",
+                "storage": "Tiêu chuẩn",
+                "price": 4400000,
+                "image": {
+                    "id": "1",
+                    "url": "/airpods-4.png",
+                    "alt": "AirPods 4 Tiêu chuẩn"
+                }
             }
         ],
         "specs": {
-            "chip": "2 chip Apple H1 (Mỗi bên tai nghe 1 chip)",
-            "battery": "Nghe nhạc lên đến 20 giờ khi bật ANC chuyên sâu",
-            "display": "Không hỗ trợ",
-            "camera": "Không hỗ trợ",
-            "ram": "Không có",
-            "weight": "384.8g",
-            "waterResistance": "Không hỗ trợ kháng nước chuyên dụng",
-            "connectivity": "Bluetooth 5.0 · Chống ồn chủ động ANC · Chế độ Xuyên âm"
+            "chip": "Apple H2 chip siêu xử lý âm thanh",
+            "battery": "Lên đến 5 giờ nghe nhạc cho 1 lần sạc (Lên đến 30 giờ khi kèm hộp sạc)",
+            "display": "Không tích hợp màn hình",
+            "camera": "Không tích hợp camera",
+            "ram": "Không áp dụng",
+            "weight": "4.3g (Mỗi tai nghe) · 32.3g (Hộp sạc)",
+            "waterResistance": "Kháng bụi, mồ hôi và nước chuẩn IP54 (Cả tai nghe và hộp sạc)",
+            "connectivity": "Bluetooth 5.3 · Cổng sạc USB-C · Tương tác Siri qua cử động đầu (Gật/Lắc đầu)"
         },
-        "description": "Dòng tai nghe chụp tai Over-ear cao cấp nhất của Apple, kết hợp giữa âm thanh độ trung thực cao Hi-Fi vượt trội và khả năng cách âm chủ động tối ưu thiết kế đệm lưới thoáng khí.",
-        "shortDescription": "Tai nghe chụp Over-ear Hi-Fi. Khung thép không gỉ cao cấp. Cách âm chủ động ANC.",
-        "rating": 4.7,
-        "reviewCount": 214,
+        "description": "AirPods 4 sở hữu thiết kế open-ear đột phá dựa trên dữ liệu trắc học của hơn 50 triệu khoang tai, mang lại trải nghiệm đeo thoải mái cả ngày và chất âm sống động vượt bậc nhờ chip H2.",
+        "shortDescription": "Chip xử lý Apple H2. Thiết kế vừa vặn tối ưu. Kháng nước IP54.",
+        "rating": 4.5,
+        "reviewCount": 86,
         "category": "airpods",
-        "series": "AirPods Max",
+        "series": "AirPods Thường",
         "isNew": false,
-        "isTrending": false,
+        "isTrending": true,
         "isFeatured": false,
-        "discount": 25,
-        "badge": "Tai nghe Over-ear",
-        "releaseYear": 2020
+        "discount": 0,
+        "badge": "Full zin siêu lướt",
+        "releaseYear": 2024
+    },
+    {
+        "id": "airpods-pro-3-premium",
+        "name": "Apple AirPods Pro 3 (Bản Cao Cấp)",
+        "slug": "airpods-pro-3-premium",
+        "colors": [
+            {
+                "id": "1",
+                "name": "Trắng (White)",
+                "hex": "#ffffff"
+            }
+        ],
+        "storage": [],
+        "variants": [
+            {
+                "color": "Trắng (White)",
+                "storage": "Cao cấp",
+                "price": 6400000,
+                "image": {
+                    "id": "1",
+                    "url": "/airpods-pro-3.png",
+                    "alt": "AirPods Pro 3 Cao cấp"
+                }
+            }
+        ],
+        "specs": {
+            "chip": "Apple H2 chip thế hệ mới tối ưu chống ồn",
+            "battery": "Lên đến 8 giờ nghe nhạc khi bật ANC (Lên đến 24 giờ khi kèm hộp sạc)",
+            "display": "Không tích hợp màn hình",
+            "camera": "Không tích hợp camera",
+            "ram": "Không áp dụng",
+            "weight": "5.55g (Mỗi tai nghe) · 43.99g (Hộp sạc)",
+            "waterResistance": "Kháng bụi, mồ hôi và nước chuẩn cao cấp IP57",
+            "connectivity": "Bluetooth 5.3 · Hộp sạc MagSafe USB-C (Tích hợp loa Find My) · Cảm biến nhịp tim"
+        },
+        "description": "AirPods Pro 3 là dòng tai nghe in-ear cao cấp đỉnh cao, nâng cấp khả năng khử tiếng ồn chủ động (ANC) mạnh mẽ gấp 2 lần, tích hợp cảm biến nhịp tim phục vụ luyện tập và tính năng dịch trực tiếp Live Translation.",
+        "shortDescription": "Chống ồn ANC đỉnh cao. Cảm biến đo nhịp tim. Kháng nước IP57.",
+        "rating": 4.9,
+        "reviewCount": 112,
+        "category": "airpods",
+        "series": "AirPods Pro",
+        "isNew": true,
+        "isTrending": true,
+        "isFeatured": true,
+        "discount": 0,
+        "badge": "Full zin siêu lướt",
+        "releaseYear": 2025
     }
 ]

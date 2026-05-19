@@ -9,6 +9,7 @@ import { useCartStore } from "@/store/cartStore";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { CartItemRow, CartSummary, CheckoutDialog, EmptyCart } from "@/components/cart";
 import { getCartItemKey } from "@/utils";
+import { BackgroundDecor } from "@/components/policy";
 
 export default function CartComponent() {
     const [checkoutOpen, setCheckoutOpen] = useState(false);
@@ -57,6 +58,7 @@ export default function CartComponent() {
                     </div>
                 )}
             </div>
+            <BackgroundDecor />
         </div>
     );
 }

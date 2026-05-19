@@ -95,7 +95,7 @@ function PriceBox({ price, oldPrice, discount }: { price: number; oldPrice?: num
                 <p className="text-3xl font-extrabold text-white font-display">{formatVND(price)}</p>
                 {oldPrice && oldPrice > price && <p className="mb-0.5! text-base line-through text-text-primary">{formatVND(oldPrice)}</p>}
             </div>
-            {!!discount && (
+            {!!discount && !!oldPrice && (
                 <p className="text-sm font-semibold text-red-400">
                     Tiết kiệm {formatVND((oldPrice ?? 0) - price)} ({discount}%)
                 </p>

@@ -20,7 +20,7 @@ export function CartItemRow({ item }: { item: CartItem }) {
             className="grid items-center justify-center  gap-4! border-b border-white/8 py-6! grid-cols-[1fr_120px_140px_120px]"
         >
             <div className="flex items-center gap-4!">
-                <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-white/8 bg-white/5">
+                <div className="flex h-24 w-20 shrink-0 items-center justify-center rounded-xl border border-white/8 bg-white/5">
                     <img src={image?.url ?? ""} alt={image?.alt} className="h-full w-full object-contain" />
                 </div>
                 <div className="min-w-0">

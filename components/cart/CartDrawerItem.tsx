@@ -18,7 +18,7 @@ export function CartDrawerItem({ item, itemPrice, itemImage, onRemove, onDecreme
     return (
         <div className="flex gap-3 rounded-2xl bg-transparent! p-3! transition-colors duration-150 hover:bg-text-primary/10!">
             <div className="flex h-full w-20 shrink-0 items-center justify-center rounded-xl border border-black/5 bg-transparent shadow-sm">
-                <img src={itemImage?.url ?? ""} alt={itemImage?.alt} className="w-full object-contain" />
+                <img src={itemImage?.url ?? ""} alt={itemImage?.alt} className="w-[70%] object-contain" />
             </div>
 
             <div className="flex flex-1 min-w-0 flex-col justify-between py-0.5!">

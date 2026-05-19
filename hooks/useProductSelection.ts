@@ -20,7 +20,7 @@ export function useProductSelection(product: IProduct): ProductSelection {
 
     const selectedColor = product.colors[selectedColorIdx];
     const selectedStorage = product.storage[selectedStorageIdx];
-    const variant = findVariant(product.variants, selectedColor.name, selectedStorage);
+    const variant = findVariant(product.category, product.variants, selectedColor.name, selectedStorage);
 
     return {
         selectedColorIdx,

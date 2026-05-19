@@ -1,829 +1,190 @@
 [
     {
-        "id": "ipad-7th-gen",
-        "name": "iPad (Thế hệ thứ 7)",
-        "slug": "ipad-7th-gen",
+        "id": "ipad-gen-10-wifi-blue-64gb",
+        "name": "iPad Gen 10 Wifi 64GB (Màu Xanh)",
+        "slug": "ipad-gen-10-wifi-blue-64gb",
         "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" },
-            { "id": "3", "name": "Vàng", "hex": "#f1d47e" }
+            {
+                "id": "1",
+                "name": "Xanh Dương (Blue)",
+                "hex": "#4f728c"
+            }
         ],
-        "storage": ["32GB", "128GB"],
-        "variants": [
-            { "color": "Xám Không Gian", "storage": "32GB", "price": 3200000, "oldPrice": 8990000, "image": { "id": "1", "url": "/images/ipad-7-space-gray.png", "alt": "iPad Gen 7 Xám 32GB" } },
-            { "color": "Xám Không Gian", "storage": "128GB", "price": 4200000, "oldPrice": 10990000, "image": { "id": "2", "url": "/images/ipad-7-space-gray.png", "alt": "iPad Gen 7 Xám 128GB" } },
-            { "color": "Bạc", "storage": "32GB", "price": 3200000, "oldPrice": 8990000, "image": { "id": "3", "url": "/images/ipad-7-silver.png", "alt": "iPad Gen 7 Bạc 32GB" } },
-            { "color": "Bạc", "storage": "128GB", "price": 4200000, "oldPrice": 10990000, "image": { "id": "4", "url": "/images/ipad-7-silver.png", "alt": "iPad Gen 7 Bạc 128GB" } },
-            { "color": "Vàng", "storage": "32GB", "price": 3300000, "oldPrice": 9190000, "image": { "id": "5", "url": "/images/ipad-7-gold.png", "alt": "iPad Gen 7 Vàng 32GB" } },
-            { "color": "Vàng", "storage": "128GB", "price": 4300000, "oldPrice": 11190000, "image": { "id": "6", "url": "/images/ipad-7-gold.png", "alt": "iPad Gen 7 Vàng 128GB" } }
-        ],
-        "specs": {
-            "chip": "Apple A10 Fusion",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi",
-            "display": "10.2\" Retina · IPS · 2160×1620 · 500 nits",
-            "camera": "Camera sau 8MP · Camera trước 1.2MP FaceTime HD",
-            "ram": "3GB",
-            "weight": "483g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 5 · Bluetooth 4.2 · Lightning · Touch ID nút Home"
-        },
-        "description": "iPad thế hệ thứ 7 đánh dấu sự nâng cấp màn hình từ 9.7 inch lên 10.2 inch, hỗ trợ bàn phím Smart Keyboard phục vụ gõ văn bản cơ bản.",
-        "shortDescription": "Màn hình kích thước 10.2\". Chip A10 Fusion. Hỗ trợ Smart Keyboard.",
-        "rating": 4.3,
-        "reviewCount": 124,
-        "category": "ipad",
-        "series": "iPad Gen",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 64,
-        "badge": "Máy cũ giá rẻ",
-        "releaseYear": 2019
-    },
-    {
-        "id": "ipad-8th-gen",
-        "name": "iPad (Thế hệ thứ 8)",
-        "slug": "ipad-8th-gen",
-        "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" },
-            { "id": "3", "name": "Vàng", "hex": "#f1d47e" }
-        ],
-        "storage": ["32GB", "128GB"],
-        "variants": [
-            { "color": "Xám Không Gian", "storage": "32GB", "price": 4500000, "oldPrice": 9990000, "image": { "id": "1", "url": "/images/ipad-8-space-gray.png", "alt": "iPad Gen 8 Xám 32GB" } },
-            { "color": "Xám Không Gian", "storage": "128GB", "price": 5500000, "oldPrice": 11990000, "image": { "id": "2", "url": "/images/ipad-8-space-gray.png", "alt": "iPad Gen 8 Xám 128GB" } },
-            { "color": "Bạc", "storage": "32GB", "price": 4500000, "oldPrice": 9990000, "image": { "id": "3", "url": "/images/ipad-8-silver.png", "alt": "iPad Gen 8 Bạc 32GB" } },
-            { "color": "Bạc", "storage": "128GB", "price": 5500000, "oldPrice": 11990000, "image": { "id": "4", "url": "/images/ipad-8-silver.png", "alt": "iPad Gen 8 Bạc 128GB" } },
-            { "color": "Vàng", "storage": "32GB", "price": 4600000, "oldPrice": 10190000, "image": { "id": "5", "url": "/images/ipad-8-gold.png", "alt": "iPad Gen 8 Vàng 32GB" } },
-            { "color": "Vàng", "storage": "128GB", "price": 5600000, "oldPrice": 12190000, "image": { "id": "6", "url": "/images/ipad-8-gold.png", "alt": "iPad Gen 8 Vàng 128GB" } }
-        ],
-        "specs": {
-            "chip": "Apple A12 Bionic",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi",
-            "display": "10.2\" Retina · IPS · 2160×1620 · 500 nits",
-            "camera": "Camera sau 8MP · Camera trước 1.2MP FaceTime HD",
-            "ram": "3GB",
-            "weight": "490g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 5 · Bluetooth 4.2 · Lightning · Touch ID nút Home"
-        },
-        "description": "iPad thế hệ thứ 8 giữ nguyên thiết kế cũ nhưng nâng cấp mạnh mẽ về hiệu năng với chip đồ họa chuyên sâu A12 Bionic tích hợp bộ xử lý thông minh Neural Engine.",
-        "shortDescription": "Chip mạnh mẽ A12 Bionic. Màn hình Retina 10.2\". Neural Engine.",
-        "rating": 4.4,
-        "reviewCount": 210,
-        "category": "ipad",
-        "series": "iPad Gen",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 54,
-        "badge": "Giá phổ thông",
-        "releaseYear": 2020
-    },
-    {
-        "id": "ipad-9th-gen",
-        "name": "iPad (Thế hệ thứ 9)",
-        "slug": "ipad-9th-gen",
-        "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" }
-        ],
-        "storage": ["64GB", "256GB"],
+        "storage": ["64GB"],
         "variants": [
             {
-                "color": "Xám Không Gian",
+                "color": "Xanh Dương (Blue)",
                 "storage": "64GB",
-                "price": 6790000,
-                "oldPrice": 9990000,
-                "image": { "id": "1", "url": "/images/ipad-9-space-gray.png", "alt": "iPad Gen 9 Xám Không Gian 64GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 9990000,
-                "oldPrice": 13990000,
-                "image": { "id": "2", "url": "/images/ipad-9-space-gray.png", "alt": "iPad Gen 9 Xám Không Gian 256GB" }
-            },
-            { "color": "Bạc", "storage": "64GB", "price": 6790000, "oldPrice": 9990000, "image": { "id": "3", "url": "/images/ipad-9-silver.png", "alt": "iPad Gen 9 Bạc 64GB" } },
-            { "color": "Bạc", "storage": "256GB", "price": 9990000, "oldPrice": 13990000, "image": { "id": "4", "url": "/images/ipad-9-silver.png", "alt": "iPad Gen 9 Bạc 256GB" } }
+                "price": 7200000,
+                "image": {
+                    "id": "1",
+                    "url": "/ipadG10-xanh-duong.png",
+                    "alt": "iPad Gen 10 64G Wifi Blue"
+                }
+            }
         ],
         "specs": {
-            "chip": "Apple A13 Bionic",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi",
-            "display": "10.2\" Retina · IPS · 2160×1620 · 500 nits · Hỗ trợ sRGB",
-            "camera": "Camera sau 8MP Wide · Camera trước Ultra Wide 12MP Center Stage",
-            "ram": "3GB",
-            "weight": "487g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 5 · Bluetooth 4.2 · Cổng sạc Lightning · Nút Home Touch ID"
-        },
-        "description": "iPad thế hệ thứ 9 giữ lại thiết kế phím Home truyền thống tiện lợi, sở hữu chip xử lý A13 Bionic mạnh mẽ đáp ứng tốt mọi tác vụ học tập trực tuyến và giải trí cơ bản.",
-        "shortDescription": "Thiết kế truyền thống. Chip A13 Bionic. Hỗ trợ Apple Pencil 1.",
-        "rating": 4.7,
-        "reviewCount": 845,
-        "category": "ipad",
-        "series": "iPad Gen",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 32,
-        "badge": "Học tập tốt",
-        "releaseYear": 2021
-    },
-    {
-        "id": "ipad-10th-gen",
-        "name": "iPad (Thế hệ thứ 10)",
-        "slug": "ipad-10th-gen",
-        "colors": [
-            { "id": "1", "name": "Bạc", "hex": "#e3e4e5" },
-            { "id": "2", "name": "Xanh Dương", "hex": "#4f728c" },
-            { "id": "3", "name": "Hồng", "hex": "#e9687e" },
-            { "id": "4", "name": "Vàng", "hex": "#f1d47e" }
-        ],
-        "storage": ["64GB", "256GB"],
-        "variants": [
-            { "color": "Bạc", "storage": "64GB", "price": 8490000, "oldPrice": 11490000, "image": { "id": "1", "url": "/images/ipad-10-silver.png", "alt": "iPad Gen 10 Bạc 64GB" } },
-            { "color": "Bạc", "storage": "256GB", "price": 12490000, "oldPrice": 15490000, "image": { "id": "2", "url": "/images/ipad-10-silver.png", "alt": "iPad Gen 10 Bạc 256GB" } },
-            { "color": "Xanh Dương", "storage": "64GB", "price": 8490000, "oldPrice": 11490000, "image": { "id": "3", "url": "/images/ipad-10-blue.png", "alt": "iPad Gen 10 Xanh Dương 64GB" } },
-            { "color": "Xanh Dương", "storage": "256GB", "price": 12490000, "oldPrice": 15490000, "image": { "id": "4", "url": "/images/ipad-10-blue.png", "alt": "iPad Gen 10 Xanh Dương 256GB" } },
-            { "color": "Hồng", "storage": "64GB", "price": 8490000, "oldPrice": 11490000, "image": { "id": "5", "url": "/images/ipad-10-pink.png", "alt": "iPad Gen 10 Hồng 64GB" } },
-            { "color": "Hồng", "storage": "256GB", "price": 12490000, "oldPrice": 15490000, "image": { "id": "6", "url": "/images/ipad-10-pink.png", "alt": "iPad Gen 10 Hồng 256GB" } },
-            { "color": "Vàng", "storage": "64GB", "price": 8490000, "oldPrice": 11490000, "image": { "id": "7", "url": "/images/ipad-10-yellow.png", "alt": "iPad Gen 10 Vàng 64GB" } },
-            { "color": "Vàng", "storage": "256GB", "price": 12490000, "oldPrice": 15490000, "image": { "id": "8", "url": "/images/ipad-10-yellow.png", "alt": "iPad Gen 10 Vàng 256GB" } }
-        ],
-        "specs": {
-            "chip": "Apple A14 Bionic",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi",
-            "display": "10.9\" Liquid Retina · IPS · 2360×1640 · 500 nits",
-            "camera": "Camera sau 12MP & Camera trước Ultra Wide 12MP đặt ở cạnh ngang",
+            "chip": "Apple A14 Bionic (6 nhân CPU, 4 nhân GPU)",
+            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi hoặc xem video",
+            "display": "10.9\" Liquid Retina · IPS · 2360×1640 · 500 nits · True Tone",
+            "camera": "Camera sau 12MP (ƒ/1.8) · Camera trước 12MP Ultra Wide góc siêu rộng nằm cạnh ngang",
             "ram": "4GB",
             "weight": "477g",
             "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 6 · Bluetooth 5.2 · Cổng sạc USB-C"
+            "connectivity": "Wi-Fi 6 · Bluetooth 5.2 · USB-C · Touch ID tích hợp nút nguồn"
         },
-        "description": "iPad thế hệ thứ 10 mang diện mạo lột xác hoàn toàn với thiết kế tràn viền phẳng vuông vức, nút nguồn tích hợp Touch ID và cổng USB-C tiện lợi cùng nhiều màu sắc rực rỡ.",
-        "shortDescription": "Thiết kế tràn viền phẳng. Chip A14 Bionic. Cổng sạc USB-C.",
+        "description": "iPad thế hệ thứ 10 mang đến cuộc lột xác về thiết kế với màn hình tràn viền không còn nút Home vật lý, chuyển sang cổng sạc USB-C và sở hữu nhiều màu sắc trẻ trung.",
+        "shortDescription": "Màn hình tràn viền 10.9\". Chip A14 Bionic mạnh mẽ. Cổng kết nối USB-C.",
         "rating": 4.6,
-        "reviewCount": 421,
+        "reviewCount": 98,
         "category": "ipad",
         "series": "iPad Gen",
         "isNew": false,
         "isTrending": true,
         "isFeatured": false,
-        "discount": 26,
-        "badge": "Giá tốt nhất",
+        "discount": 0,
+        "badge": "Full zin siêu lướt",
         "releaseYear": 2022
     },
     {
-        "id": "ipad-mini-5",
-        "name": "iPad mini 5",
-        "slug": "ipad-mini-5",
+        "id": "ipad-gen-11-128gb-silver-wifi-zaa",
+        "name": "iPad Gen 11 Wifi 128GB Mã ZA/A (Màu Bạc)",
+        "slug": "ipad-gen-11-128gb-silver-wifi-zaa",
         "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" },
-            { "id": "3", "name": "Vàng", "hex": "#f1d47e" }
+            {
+                "id": "1",
+                "name": "Bạc (Silver)",
+                "hex": "#e3e4e5"
+            }
         ],
-        "storage": ["64GB", "256GB"],
+        "storage": ["128GB"],
         "variants": [
             {
-                "color": "Xám Không Gian",
-                "storage": "64GB",
-                "price": 4900000,
-                "oldPrice": 10990000,
-                "image": { "id": "1", "url": "/images/ipad-mini-5-space-gray.png", "alt": "iPad mini 5 Xám Không Gian 64GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 6400000,
-                "oldPrice": 14990000,
-                "image": { "id": "2", "url": "/images/ipad-mini-5-space-gray.png", "alt": "iPad mini 5 Xám Không Gian 256GB" }
-            },
-            { "color": "Bạc", "storage": "64GB", "price": 4900000, "oldPrice": 10990000, "image": { "id": "3", "url": "/images/ipad-mini-5-silver.png", "alt": "iPad mini 5 Bạc 64GB" } },
-            { "color": "Bạc", "storage": "256GB", "price": 6400000, "oldPrice": 14990000, "image": { "id": "4", "url": "/images/ipad-mini-5-silver.png", "alt": "iPad mini 5 Bạc 256GB" } },
-            { "color": "Vàng", "storage": "64GB", "price": 5000000, "oldPrice": 11190000, "image": { "id": "5", "url": "/images/ipad-mini-5-gold.png", "alt": "iPad mini 5 Vàng 64GB" } },
-            { "color": "Vàng", "storage": "256GB", "price": 6500000, "oldPrice": 15190000, "image": { "id": "6", "url": "/images/ipad-mini-5-gold.png", "alt": "iPad mini 5 Vàng 256GB" } }
+                "color": "Bạc (Silver)",
+                "storage": "128GB",
+                "price": 7900000,
+                "image": {
+                    "id": "1",
+                    "url": "/ipadG11-bac.png",
+                    "alt": "iPad Gen 11 128G Silver Wifi ZA/A"
+                }
+            }
         ],
         "specs": {
-            "chip": "Apple A12 Bionic",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi‑Fi",
-            "display": "7.9\" Retina · IPS · 2048×1536 · 500 nits · True Tone",
-            "camera": "Camera sau 8MP · Camera trước 7MP FaceTime HD",
-            "ram": "3GB",
-            "weight": "300.5g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 5 · Bluetooth 5.0 · Cổng sạc Lightning · Touch ID nút Home"
-        },
-        "description": "iPad mini 5 sở hữu thiết kế nhỏ gọn truyền thống với nút Home tích hợp Touch ID, màn hình Retina sắc nét hỗ trợ True Tone cùng chip A12 Bionic mượt mà cho các tác vụ giải trí.",
-        "shortDescription": "Màn hình Retina 7.9\". Chip A12 Bionic. Hỗ trợ Apple Pencil 1.",
-        "rating": 4.5,
-        "reviewCount": 156,
-        "category": "ipad",
-        "series": "iPad mini",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 55,
-        "badge": "Nhỏ gọn giá rẻ",
-        "releaseYear": 2019
-    },
-    {
-        "id": "ipad-mini-6",
-        "name": "iPad mini 6",
-        "slug": "ipad-mini-6",
-        "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Ánh Sao", "hex": "#faf6ee" },
-            { "id": "3", "name": "Hồng", "hex": "#e9687e" },
-            { "id": "4", "name": "Tím", "hex": "#e1dae6" }
-        ],
-        "storage": ["64GB", "256GB"],
-        "variants": [
-            {
-                "color": "Xám Không Gian",
-                "storage": "64GB",
-                "price": 9200000,
-                "oldPrice": 14990000,
-                "image": { "id": "1", "url": "/images/ipad-mini-6-space-gray.png", "alt": "iPad mini 6 Xám Không Gian 64GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 11900000,
-                "oldPrice": 19990000,
-                "image": { "id": "2", "url": "/images/ipad-mini-6-space-gray.png", "alt": "iPad mini 6 Xám Không Gian 256GB" }
-            },
-            { "color": "Ánh Sao", "storage": "64GB", "price": 9300000, "oldPrice": 15090000, "image": { "id": "3", "url": "/images/ipad-mini-6-starlight.png", "alt": "iPad mini 6 Ánh Sao 64GB" } },
-            { "color": "Ánh Sao", "storage": "256GB", "price": 12000000, "oldPrice": 20090000, "image": { "id": "4", "url": "/images/ipad-mini-6-starlight.png", "alt": "iPad mini 6 Ánh Sao 256GB" } },
-            { "color": "Hồng", "storage": "64GB", "price": 9200000, "oldPrice": 14990000, "image": { "id": "5", "url": "/images/ipad-mini-6-pink.png", "alt": "iPad mini 6 Hồng 64GB" } },
-            { "color": "Hồng", "storage": "256GB", "price": 11900000, "oldPrice": 19990000, "image": { "id": "6", "url": "/images/ipad-mini-6-pink.png", "alt": "iPad mini 6 Hồng 256GB" } },
-            { "color": "Tím", "storage": "64GB", "price": 9350000, "oldPrice": 15140000, "image": { "id": "7", "url": "/images/ipad-mini-6-purple.png", "alt": "iPad mini 6 Tím 64GB" } },
-            { "color": "Tím", "storage": "256GB", "price": 12050000, "oldPrice": 20140000, "image": { "id": "8", "url": "/images/ipad-mini-6-purple.png", "alt": "iPad mini 6 Tím 256GB" } }
-        ],
-        "specs": {
-            "chip": "Apple A15 Bionic",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi‑Fi",
-            "display": "8.3\" Liquid Retina · IPS · 2266×1488 · 500 nits · True Tone",
-            "camera": "Camera sau 12MP Wide · Camera trước Ultra Wide 12MP Center Stage",
+            "chip": "Apple A16 Bionic mạnh mẽ vượt trội",
+            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi hoặc xem video",
+            "display": "11\" Retina IPS LCD · Hình ảnh chân thực · Góc nhìn rộng",
+            "camera": "Camera sau 12MP (ƒ/1.8) · Camera trước 12MP Ultra Wide hỗ trợ Center Stage",
             "ram": "4GB",
-            "weight": "293g",
+            "weight": "480g",
             "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 6 · Bluetooth 5.0 · Cổng sạc USB-C · Touch ID ở nút nguồn"
+            "connectivity": "Wi-Fi 6 · Bluetooth 5.2 · USB-C · Touch ID trên nút nguồn"
         },
-        "description": "iPad mini 6 lột xác hoàn toàn với thiết kế tràn viền phẳng vuông vức cực kỳ hiện đại, cổng sạc USB-C tiện lợi, camera trước góc siêu rộng hỗ trợ tính năng Center Stage và chip xử lý A15 Bionic mạnh mẽ.",
-        "shortDescription": "Thiết kế tràn viền phẳng 8.3\". Chip A15 Bionic. Cổng sạc USB-C.",
+        "description": "iPad thế hệ thứ 11 nâng cấp bộ nhớ tiêu chuẩn lên gấp đôi (128GB) và trang bị chip A16 Bionic đem lại hiệu năng vô cùng mượt mà ổn định lâu dài.",
+        "shortDescription": "Màn hình 11\". Chip A16 Bionic cực mạnh. Bộ nhớ mặc định lớn 128GB.",
         "rating": 4.7,
-        "reviewCount": 342,
+        "reviewCount": 42,
         "category": "ipad",
-        "series": "iPad mini",
-        "isNew": false,
+        "series": "iPad Gen",
+        "isNew": true,
         "isTrending": true,
-        "isFeatured": false,
-        "discount": 38,
-        "badge": "Bán chạy",
-        "releaseYear": 2021
+        "isFeatured": true,
+        "discount": 0,
+        "badge": "Full zin siêu lướt",
+        "releaseYear": 2025
     },
     {
-        "id": "ipad-mini-7",
-        "name": "iPad mini 7 (A17 Pro)",
-        "slug": "ipad-mini-7",
+        "id": "ipad-air-11-inch-2025-m2",
+        "name": "iPad Air 11″ M2 (Model 2024/2025)",
+        "slug": "ipad-air-11-inch-2025-m2",
         "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Xanh Ánh Sao", "hex": "#faf6ee" },
-            { "id": "3", "name": "Tím", "hex": "#e1dae6" },
-            { "id": "4", "name": "Xanh Lục", "hex": "#e2ebd9" }
+            {
+                "id": "1",
+                "name": "Xám Không Gian",
+                "hex": "#3c3d3a"
+            }
         ],
-        "storage": ["128GB", "256GB", "512GB"],
+        "storage": ["128GB"],
         "variants": [
             {
                 "color": "Xám Không Gian",
                 "storage": "128GB",
-                "price": 11790000,
-                "oldPrice": 13990000,
-                "image": { "id": "1", "url": "/images/ipad-mini-7-space-gray.png", "alt": "iPad mini 7 Xám Không Gian 128GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 14490000,
-                "oldPrice": 16990000,
-                "image": { "id": "2", "url": "/images/ipad-mini-7-space-gray.png", "alt": "iPad mini 7 Xám Không Gian 256GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "512GB",
-                "price": 17490000,
-                "oldPrice": 19990000,
-                "image": { "id": "3", "url": "/images/ipad-mini-7-space-gray.png", "alt": "iPad mini 7 Xám Không Gian 512GB" }
-            },
-            {
-                "color": "Xanh Ánh Sao",
-                "storage": "128GB",
-                "price": 11790000,
-                "oldPrice": 13990000,
-                "image": { "id": "4", "url": "/images/ipad-mini-7-starlight.png", "alt": "iPad mini 7 Xanh Ánh Sao 128GB" }
-            },
-            {
-                "color": "Xanh Ánh Sao",
-                "storage": "256GB",
-                "price": 14490000,
-                "oldPrice": 16990000,
-                "image": { "id": "5", "url": "/images/ipad-mini-7-starlight.png", "alt": "iPad mini 7 Xanh Ánh Sao 256GB" }
-            },
-            {
-                "color": "Xanh Ánh Sao",
-                "storage": "512GB",
-                "price": 17490000,
-                "oldPrice": 19990000,
-                "image": { "id": "6", "url": "/images/ipad-mini-7-starlight.png", "alt": "iPad mini 7 Xanh Ánh Sao 512GB" }
-            },
-            { "color": "Tím", "storage": "128GB", "price": 11790000, "oldPrice": 13990000, "image": { "id": "7", "url": "/images/ipad-mini-7-purple.png", "alt": "iPad mini 7 Tím 128GB" } },
-            { "color": "Tím", "storage": "256GB", "price": 14490000, "oldPrice": 16990000, "image": { "id": "8", "url": "/images/ipad-mini-7-purple.png", "alt": "iPad mini 7 Tím 256GB" } },
-            { "color": "Tím", "storage": "512GB", "price": 17490000, "oldPrice": 19990000, "image": { "id": "9", "url": "/images/ipad-mini-7-purple.png", "alt": "iPad mini 7 Tím 512GB" } },
-            { "color": "Xanh Lục", "storage": "128GB", "price": 11790000, "oldPrice": 13990000, "image": { "id": "10", "url": "/images/ipad-mini-7-green.png", "alt": "iPad mini 7 Xanh Lục 128GB" } },
-            { "color": "Xanh Lục", "storage": "256GB", "price": 14490000, "oldPrice": 16990000, "image": { "id": "11", "url": "/images/ipad-mini-7-green.png", "alt": "iPad mini 7 Xanh Lục 256GB" } },
-            { "color": "Xanh Lục", "storage": "512GB", "price": 17490000, "oldPrice": 19990000, "image": { "id": "12", "url": "/images/ipad-mini-7-green.png", "alt": "iPad mini 7 Xanh Lục 512GB" } }
-        ],
-        "specs": {
-            "chip": "Apple A17 Pro (Tối ưu AI)",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi",
-            "display": "8.3\" Liquid Retina · IPS · 2266×1488 · 500 nits",
-            "camera": "Camera sau 12MP Wide · Camera trước Ultra Wide 12MP Center Stage",
-            "ram": "8GB",
-            "weight": "293g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 6E · Bluetooth 5.3 · Tương thích Apple Pencil Pro · USB-C 3"
-        },
-        "description": "iPad mini 7 sở hữu kích thước lý tưởng nhỏ gọn kết hợp sức mạnh phần cứng từ chip A17 Pro cùng dung lượng RAM 8GB hỗ trợ hệ thống trí tuệ nhân tạo thông minh Apple Intelligence.",
-        "shortDescription": "Siêu di động 8.3\". Chip A17 Pro. Hỗ trợ Apple Intelligence.",
-        "rating": 4.8,
-        "reviewCount": 182,
-        "category": "ipad",
-        "series": "iPad mini",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 15,
-        "badge": "Nhỏ gọn mạnh mẽ",
-        "releaseYear": 2024
-    },
-    {
-        "id": "ipad-air-4",
-        "name": "iPad Air 4",
-        "slug": "ipad-air-4",
-        "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" },
-            { "id": "3", "name": "Xanh Hồng", "hex": "#e9baaf" },
-            { "id": "4", "name": "Xanh Lục", "hex": "#b9ccb9" },
-            { "id": "5", "name": "Xanh Dương", "hex": "#afc3cc" }
-        ],
-        "storage": ["64GB", "256GB"],
-        "variants": [
-            {
-                "color": "Xám Không Gian",
-                "storage": "64GB",
-                "price": 8200000,
-                "oldPrice": 14990000,
-                "image": { "id": "1", "url": "/images/ipad-air-4-space-gray.png", "alt": "iPad Air 4 Xám Không Gian 64GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 10500000,
-                "oldPrice": 18990000,
-                "image": { "id": "2", "url": "/images/ipad-air-4-space-gray.png", "alt": "iPad Air 4 Xám Không Gian 256GB" }
-            },
-            { "color": "Bạc", "storage": "64GB", "price": 8200000, "oldPrice": 14990000, "image": { "id": "3", "url": "/images/ipad-air-4-silver.png", "alt": "iPad Air 4 Bạc 64GB" } },
-            { "color": "Bạc", "storage": "256GB", "price": 10500000, "oldPrice": 18990000, "image": { "id": "4", "url": "/images/ipad-air-4-silver.png", "alt": "iPad Air 4 Bạc 256GB" } },
-            { "color": "Xanh Hồng", "storage": "64GB", "price": 8200000, "oldPrice": 14990000, "image": { "id": "5", "url": "/images/ipad-air-4-rose-gold.png", "alt": "iPad Air 4 Xanh Hồng 64GB" } },
-            {
-                "color": "Xanh Hồng",
-                "storage": "256GB",
-                "price": 10500000,
-                "oldPrice": 18990000,
-                "image": { "id": "6", "url": "/images/ipad-air-4-rose-gold.png", "alt": "iPad Air 4 Xanh Hồng 256GB" }
-            },
-            { "color": "Xanh Lục", "storage": "64GB", "price": 8300000, "oldPrice": 15090000, "image": { "id": "7", "url": "/images/ipad-air-4-green.png", "alt": "iPad Air 4 Xanh Lục 64GB" } },
-            { "color": "Xanh Lục", "storage": "256GB", "price": 10600000, "oldPrice": 19090000, "image": { "id": "8", "url": "/images/ipad-air-4-green.png", "alt": "iPad Air 4 Xanh Lục 256GB" } },
-            { "color": "Xanh Dương", "storage": "64GB", "price": 8350000, "oldPrice": 15140000, "image": { "id": "9", "url": "/images/ipad-air-4-sky-blue.png", "alt": "iPad Air 4 Xanh Dương 64GB" } },
-            {
-                "color": "Xanh Dương",
-                "storage": "256GB",
-                "price": 10650000,
-                "oldPrice": 19140000,
-                "image": { "id": "10", "url": "/images/ipad-air-4-sky-blue.png", "alt": "iPad Air 4 Xanh Dương 256GB" }
+                "price": 7200000,
+                "image": {
+                    "id": "1",
+                    "url": "/ipadA11M2-xam-khong-gian.png",
+                    "alt": "iPad A16 (11″) 2025"
+                }
             }
         ],
         "specs": {
-            "chip": "Apple A14 Bionic",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi‑Fi",
-            "display": "10.9\" Liquid Retina · IPS · 2360×1640 · 500 nits · True Tone",
-            "camera": "Camera sau 12MP Wide · Camera trước 7MP FaceTime HD",
-            "ram": "4GB",
-            "weight": "458g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 6 · Bluetooth 5.0 · Cổng sạc USB-C · Touch ID ở nút nguồn"
-        },
-        "description": "iPad Air 4 đánh dấu bước đột phá lớn của dòng Air với thiết kế viền mỏng phẳng vuông vức như dòng Pro, chuyển sang cổng sạc USB-C và tích hợp Touch ID vào phím nguồn.",
-        "shortDescription": "Thiết kế vuông tràn viền. Chip A14 Bionic. Cổng sạc USB-C.",
-        "rating": 4.6,
-        "reviewCount": 245,
-        "category": "ipad",
-        "series": "iPad Air",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 45,
-        "badge": "Thiết kế đẹp giá tốt",
-        "releaseYear": 2020
-    },
-    {
-        "id": "ipad-air-5-m1",
-        "name": "iPad Air 5 M1",
-        "slug": "ipad-air-5-m1",
-        "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Ánh Sao", "hex": "#faf6ee" },
-            { "id": "3", "name": "Hồng", "hex": "#e9687e" },
-            { "id": "4", "name": "Tím", "hex": "#e1dae6" },
-            { "id": "5", "name": "Xanh Dương", "hex": "#2f5c73" }
-        ],
-        "storage": ["64GB", "256GB"],
-        "variants": [
-            {
-                "color": "Xám Không Gian",
-                "storage": "64GB",
-                "price": 11500000,
-                "oldPrice": 16990000,
-                "image": { "id": "1", "url": "/images/ipad-air-5-space-gray.png", "alt": "iPad Air 5 M1 Xám Không Gian 64GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 14500000,
-                "oldPrice": 21990000,
-                "image": { "id": "2", "url": "/images/ipad-air-5-space-gray.png", "alt": "iPad Air 5 M1 Xám Không Gian 256GB" }
-            },
-            { "color": "Ánh Sao", "storage": "64GB", "price": 11500000, "oldPrice": 16990000, "image": { "id": "3", "url": "/images/ipad-air-5-starlight.png", "alt": "iPad Air 5 M1 Ánh Sao 64GB" } },
-            {
-                "color": "Ánh Sao",
-                "storage": "256GB",
-                "price": 14500000,
-                "oldPrice": 21990000,
-                "image": { "id": "4", "url": "/images/ipad-air-5-starlight.png", "alt": "iPad Air 5 M1 Ánh Sao 256GB" }
-            },
-            { "color": "Hồng", "storage": "64GB", "price": 11500000, "oldPrice": 16990000, "image": { "id": "5", "url": "/images/ipad-air-5-pink.png", "alt": "iPad Air 5 M1 Hồng 64GB" } },
-            { "color": "Hồng", "storage": "256GB", "price": 14500000, "oldPrice": 21990000, "image": { "id": "6", "url": "/images/ipad-air-5-pink.png", "alt": "iPad Air 5 M1 Hồng 256GB" } },
-            { "color": "Tím", "storage": "64GB", "price": 11600000, "oldPrice": 17090000, "image": { "id": "7", "url": "/images/ipad-air-5-purple.png", "alt": "iPad Air 5 M1 Tím 64GB" } },
-            { "color": "Tím", "storage": "256GB", "price": 14600000, "oldPrice": 22090000, "image": { "id": "8", "url": "/images/ipad-air-5-purple.png", "alt": "iPad Air 5 M1 Tím 256GB" } },
-            { "color": "Xanh Dương", "storage": "64GB", "price": 11700000, "oldPrice": 17190000, "image": { "id": "9", "url": "/images/ipad-air-5-blue.png", "alt": "iPad Air 5 M1 Xanh Dương 64GB" } },
-            {
-                "color": "Xanh Dương",
-                "storage": "256GB",
-                "price": 14700000,
-                "oldPrice": 22190000,
-                "image": { "id": "10", "url": "/images/ipad-air-5-blue.png", "alt": "iPad Air 5 M1 Xanh Dương 256GB" }
-            }
-        ],
-        "specs": {
-            "chip": "Apple M1 (8 nhân CPU / 8 nhân GPU)",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi‑Fi",
-            "display": "10.9\" Liquid Retina · IPS · 2360×1640 · 500 nits · Màu rộng P3",
-            "camera": "Camera sau 12MP Wide · Camera trước Ultra Wide 12MP Center Stage",
-            "ram": "8GB",
-            "weight": "461g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 6 · Bluetooth 5.0 · Cổng sạc USB-C tốc độ cao · Hỗ trợ bàn phím Magic Keyboard"
-        },
-        "description": "iPad Air 5 nâng cấp nhảy vọt về mặt cấu hình khi mang trong mình bộ vi xử lý Apple M1 của máy tính Mac, tăng dung lượng RAM lên 8GB hỗ trợ tối đa các phần mềm đồ họa chuyên nghiệp và tính năng đa nhiệm Stage Manager.",
-        "shortDescription": "Sức mạnh từ siêu chip Apple M1. RAM 8GB mạnh mẽ. Camera trước Center Stage.",
-        "rating": 4.8,
-        "reviewCount": 512,
-        "category": "ipad",
-        "series": "iPad Air",
-        "isNew": false,
-        "isTrending": true,
-        "isFeatured": false,
-        "discount": 32,
-        "badge": "Cấu hình M1",
-        "releaseYear": 2022
-    },
-    {
-        "id": "ipad-air-6-m2",
-        "name": "iPad Air 6 M2 (11-inch)",
-        "slug": "ipad-air-6-m2-11",
-        "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Xanh Ánh Sao", "hex": "#faf6ee" },
-            { "id": "3", "name": "Xanh Dương", "hex": "#d1dde4" },
-            { "id": "4", "name": "Tím", "hex": "#e1dae6" }
-        ],
-        "storage": ["128GB", "256GB", "512GB", "1TB"],
-        "variants": [
-            {
-                "color": "Xám Không Gian",
-                "storage": "128GB",
-                "price": 14990000,
-                "oldPrice": 16990000,
-                "image": { "id": "1", "url": "/images/ipad-air-6-space-gray.png", "alt": "iPad Air 6 M2 Xám Không Gian 128GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 17490000,
-                "oldPrice": 19490000,
-                "image": { "id": "2", "url": "/images/ipad-air-6-space-gray.png", "alt": "iPad Air 6 M2 Xám Không Gian 256GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "512GB",
-                "price": 22490000,
-                "oldPrice": 24490000,
-                "image": { "id": "3", "url": "/images/ipad-air-6-space-gray.png", "alt": "iPad Air 6 M2 Xám Không Gian 512GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "1TB",
-                "price": 27490000,
-                "oldPrice": 29490000,
-                "image": { "id": "4", "url": "/images/ipad-air-6-space-gray.png", "alt": "iPad Air 6 M2 Xám Không Gian 1TB" }
-            },
-            {
-                "color": "Xanh Ánh Sao",
-                "storage": "128GB",
-                "price": 14990000,
-                "oldPrice": 16990000,
-                "image": { "id": "5", "url": "/images/ipad-air-6-starlight.png", "alt": "iPad Air 6 M2 Xanh Ánh Sao 128GB" }
-            },
-            {
-                "color": "Xanh Ánh Sao",
-                "storage": "256GB",
-                "price": 17490000,
-                "oldPrice": 19490000,
-                "image": { "id": "6", "url": "/images/ipad-air-6-starlight.png", "alt": "iPad Air 6 M2 Xanh Ánh Sao 256GB" }
-            },
-            {
-                "color": "Xanh Ánh Sao",
-                "storage": "512GB",
-                "price": 22490000,
-                "oldPrice": 24490000,
-                "image": { "id": "7", "url": "/images/ipad-air-6-starlight.png", "alt": "iPad Air 6 M2 Xanh Ánh Sao 512GB" }
-            },
-            {
-                "color": "Xanh Ánh Sao",
-                "storage": "1TB",
-                "price": 27490000,
-                "oldPrice": 29490000,
-                "image": { "id": "8", "url": "/images/ipad-air-6-starlight.png", "alt": "iPad Air 6 M2 Xanh Ánh Sao 1TB" }
-            },
-            {
-                "color": "Xanh Dương",
-                "storage": "128GB",
-                "price": 14990000,
-                "oldPrice": 16990000,
-                "image": { "id": "9", "url": "/images/ipad-air-6-blue.png", "alt": "iPad Air 6 M2 Xanh Dương 128GB" }
-            },
-            {
-                "color": "Xanh Dương",
-                "storage": "256GB",
-                "price": 17490000,
-                "oldPrice": 19490000,
-                "image": { "id": "10", "url": "/images/ipad-air-6-blue.png", "alt": "iPad Air 6 M2 Xanh Dương 256GB" }
-            },
-            {
-                "color": "Xanh Dương",
-                "storage": "512GB",
-                "price": 22490000,
-                "oldPrice": 24490000,
-                "image": { "id": "11", "url": "/images/ipad-air-6-blue.png", "alt": "iPad Air 6 M2 Xanh Dương 512GB" }
-            },
-            { "color": "Xanh Dương", "storage": "1TB", "price": 27490000, "oldPrice": 29490000, "image": { "id": "12", "url": "/images/ipad-air-6-blue.png", "alt": "iPad Air 6 M2 Xanh Dương 1TB" } },
-            { "color": "Tím", "storage": "128GB", "price": 15190000, "oldPrice": 17190000, "image": { "id": "13", "url": "/images/ipad-air-6-purple.png", "alt": "iPad Air 6 M2 Tím 128GB" } },
-            { "color": "Tím", "storage": "256GB", "price": 17690000, "oldPrice": 19690000, "image": { "id": "14", "url": "/images/ipad-air-6-purple.png", "alt": "iPad Air 6 M2 Tím 256GB" } },
-            { "color": "Tím", "storage": "512GB", "price": 22690000, "oldPrice": 24690000, "image": { "id": "15", "url": "/images/ipad-air-6-purple.png", "alt": "iPad Air 6 M2 Tím 512GB" } },
-            { "color": "Tím", "storage": "1TB", "price": 27690000, "oldPrice": 29690000, "image": { "id": "16", "url": "/images/ipad-air-6-purple.png", "alt": "iPad Air 6 M2 Tím 1TB" } }
-        ],
-        "specs": {
-            "chip": "Apple M2 (8 nhân CPU / 10 nhân GPU)",
-            "battery": "Lên đến 10 giờ xem video liên tục",
-            "display": "10.86\" Liquid Retina · IPS · 2360×1640 · Dải màu P3",
-            "camera": "Camera sau 12MP Wide · Camera trước Ultra Wide 12MP nằm ngang",
+            "chip": "Apple M2 (8 nhân CPU, 9 nhân/10 nhân GPU, 16 nhân Neural Engine)",
+            "battery": "Lên đến 10 giờ lướt web bằng Wi-Fi hoặc xem video",
+            "display": "11\" Liquid Retina · IPS · Dải màu rộng P3 · 500 nits · Chống phản chiếu",
+            "camera": "Camera sau 12MP (ƒ/1.8) · Camera trước 12MP Ultra Wide đặt ở cạnh ngang",
             "ram": "8GB",
             "weight": "462g",
             "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 6E · Bluetooth 5.3 · Hỗ trợ Apple Pencil Pro & Magic Keyboard"
+            "connectivity": "Wi-Fi 6E · Bluetooth 5.3 · USB-C · Hỗ trợ Apple Pencil Pro & Magic Keyboard"
         },
-        "description": "iPad Air 6 nâng cấp bộ nhớ tiêu chuẩn từ 128GB, được trang bị bộ vi xử lý máy tính Apple M2 cho hiệu năng đồ họa cực đỉnh, đáp ứng hoàn hảo các ứng dụng xử lý dữ liệu và AI.",
-        "shortDescription": "Chip Apple M2 cực mạnh. Bộ nhớ khởi điểm 128GB. Hỗ trợ bút Pencil Pro.",
+        "description": "Dòng iPad Air 11 inch thế hệ mới với sức mạnh từ chip xử lý Apple M2 giúp hoàn thiện mọi tác vụ đồ họa nặng, render 3D nhanh chóng, hỗ trợ tối đa cho học tập và làm việc chuyên nghiệp.",
+        "shortDescription": "Chip Apple M2 cực mạnh. Màn hình 11\" Liquid Retina. Hỗ trợ Apple Pencil Pro.",
         "rating": 4.8,
-        "reviewCount": 354,
+        "reviewCount": 85,
         "category": "ipad",
         "series": "iPad Air",
         "isNew": false,
-        "isTrending": true,
-        "isFeatured": false,
-        "discount": 11,
-        "badge": "Chip M2",
+        "isTrending": false,
+        "isFeatured": true,
+        "discount": 0,
+        "badge": "Full zin siêu lướt",
         "releaseYear": 2024
     },
     {
-        "id": "ipad-pro-m1-11",
-        "name": "iPad Pro M1 (11-inch)",
-        "slug": "ipad-pro-m1-11",
+        "id": "ipad-pro-m4-13-inch-256gb-silver-zaa",
+        "name": "iPad Pro M4 13 inch 256GB Mã ZA/A (Màu Bạc)",
+        "slug": "ipad-pro-m4-13-inch-256gb-silver-zaa",
         "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" }
+            {
+                "id": "1",
+                "name": "Bạc (Silver)",
+                "hex": "#e3e4e5"
+            }
         ],
-        "storage": ["128GB", "256GB", "512GB", "1TB"],
+        "storage": ["256GB"],
         "variants": [
             {
-                "color": "Xám Không Gian",
-                "storage": "128GB",
-                "price": 13900000,
-                "oldPrice": 21990000,
-                "image": { "id": "1", "url": "/images/ipad-pro-m1-space-gray.png", "alt": "iPad Pro M1 Xám Không Gian 128GB" }
-            },
-            {
-                "color": "Xám Không Gian",
+                "color": "Bạc (Silver)",
                 "storage": "256GB",
-                "price": 15400000,
-                "oldPrice": 24490000,
-                "image": { "id": "2", "url": "/images/ipad-pro-m1-space-gray.png", "alt": "iPad Pro M1 Xám Không Gian 256GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "512GB",
-                "price": 17900000,
-                "oldPrice": 29990000,
-                "image": { "id": "3", "url": "/images/ipad-pro-m1-space-gray.png", "alt": "iPad Pro M1 Xám Không Gian 512GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "1TB",
-                "price": 20900000,
-                "oldPrice": 37990000,
-                "image": { "id": "4", "url": "/images/ipad-pro-m1-space-gray.png", "alt": "iPad Pro M1 Xám Không Gian 1TB" }
-            },
-            { "color": "Bạc", "storage": "128GB", "price": 13900000, "oldPrice": 21990000, "image": { "id": "5", "url": "/images/ipad-pro-m1-silver.png", "alt": "iPad Pro M1 Bạc 128GB" } },
-            { "color": "Bạc", "storage": "256GB", "price": 15400000, "oldPrice": 24490000, "image": { "id": "6", "url": "/images/ipad-pro-m1-silver.png", "alt": "iPad Pro M1 Bạc 256GB" } },
-            { "color": "Bạc", "storage": "512GB", "price": 17900000, "oldPrice": 29990000, "image": { "id": "7", "url": "/images/ipad-pro-m1-silver.png", "alt": "iPad Pro M1 Bạc 512GB" } },
-            { "color": "Bạc", "storage": "1TB", "price": 20900000, "oldPrice": 37990000, "image": { "id": "8", "url": "/images/ipad-pro-m1-silver.png", "alt": "iPad Pro M1 Bạc 1TB" } }
-        ],
-        "specs": {
-            "chip": "Apple M1 (8 nhân CPU / 8 nhân GPU)",
-            "battery": "Lên đến 10 giờ lướt web bằng Wi‑Fi",
-            "display": "11\" Liquid Retina · IPS · 2388×1668 · 120Hz ProMotion · 600 nits",
-            "camera": "Camera kép 12MP & 10MP Ultra Wide · Cảm biến LiDAR",
-            "ram": "8GB (Bản 128/256/512GB) hoặc 16GB (Bản 1TB)",
-            "weight": "466g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Thunderbolt / USB 4 · Wi-Fi 6 · Face ID"
-        },
-        "description": "iPad Pro M1 mở ra kỷ nguyên hiệu năng máy tính trên máy tính bảng với vi xử lý Apple M1 mạnh mẽ, màn hình ProMotion 120Hz siêu mượt và cổng kết nối Thunderbolt tốc độ cực cao.",
-        "shortDescription": "Chip Apple M1 đột phá. Màn hình ProMotion 120Hz. Cổng kết nối Thunderbolt.",
-        "rating": 4.7,
-        "reviewCount": 412,
-        "category": "ipad",
-        "series": "iPad Pro",
-        "isNew": false,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 36,
-        "badge": "Cấu hình M1",
-        "releaseYear": 2021
-    },
-    {
-        "id": "ipad-pro-m2-11",
-        "name": "iPad Pro M2 (11-inch)",
-        "slug": "ipad-pro-m2-11",
-        "colors": [
-            { "id": "1", "name": "Xám Không Gian", "hex": "#3c3d3a" },
-            { "id": "2", "name": "Bạc", "hex": "#e3e4e5" }
-        ],
-        "storage": ["128GB", "256GB", "512GB", "1TB"],
-        "variants": [
-            {
-                "color": "Xám Không Gian",
-                "storage": "128GB",
-                "price": 17800000,
-                "oldPrice": 23990000,
-                "image": { "id": "1", "url": "/images/ipad-pro-m2-space-gray.png", "alt": "iPad Pro M2 Xám Không Gian 128GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "256GB",
-                "price": 19500000,
-                "oldPrice": 26990000,
-                "image": { "id": "2", "url": "/images/ipad-pro-m2-space-gray.png", "alt": "iPad Pro M2 Xám Không Gian 256GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "512GB",
-                "price": 23200000,
-                "oldPrice": 32490000,
-                "image": { "id": "3", "url": "/images/ipad-pro-m2-space-gray.png", "alt": "iPad Pro M2 Xám Không Gian 512GB" }
-            },
-            {
-                "color": "Xám Không Gian",
-                "storage": "1TB",
-                "price": 29500000,
-                "oldPrice": 41990000,
-                "image": { "id": "4", "url": "/images/ipad-pro-m2-space-gray.png", "alt": "iPad Pro M2 Xám Không Gian 1TB" }
-            },
-            { "color": "Bạc", "storage": "128GB", "price": 17800000, "oldPrice": 23990000, "image": { "id": "5", "url": "/images/ipad-pro-m2-silver.png", "alt": "iPad Pro M2 Bạc 128GB" } },
-            { "color": "Bạc", "storage": "256GB", "price": 19500000, "oldPrice": 26990000, "image": { "id": "6", "url": "/images/ipad-pro-m2-silver.png", "alt": "iPad Pro M2 Bạc 256GB" } },
-            { "color": "Bạc", "storage": "512GB", "price": 23200000, "oldPrice": 32490000, "image": { "id": "7", "url": "/images/ipad-pro-m2-silver.png", "alt": "iPad Pro M2 Bạc 512GB" } },
-            { "color": "Bạc", "storage": "1TB", "price": 29500000, "oldPrice": 41990000, "image": { "id": "8", "url": "/images/ipad-pro-m2-silver.png", "alt": "iPad Pro M2 Bạc 1TB" } }
-        ],
-        "specs": {
-            "chip": "Apple M2 (8 nhân CPU / 10 nhân GPU)",
-            "battery": "Lên đến 10 giờ xem video liên tục",
-            "display": "11\" Liquid Retina · IPS · 2388×1668 · 120Hz ProMotion · Tính năng lướt Apple Pencil",
-            "camera": "Camera kép 12MP & 10MP · LiDAR · Quay video ProRes",
-            "ram": "8GB (Bản 128/256/512GB) hoặc 16GB (Bản 1TB)",
-            "weight": "466g",
-            "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Wi-Fi 6E · Bluetooth 5.3 · Thunderbolt · Face ID"
-        },
-        "description": "iPad Pro M2 mang đến sức mạnh tối thượng với vi xử lý M2 mạnh mẽ, tính năng lướt Apple Pencil (Hover) độc đáo và khả năng quay video ProRes chuẩn điện ảnh trực tiếp.",
-        "shortDescription": "Chip siêu khủng Apple M2. Tính năng lướt Apple Pencil. Quay video ProRes chuyên nghiệp.",
-        "rating": 4.8,
-        "reviewCount": 314,
-        "category": "ipad",
-        "series": "iPad Pro",
-        "isNew": false,
-        "isTrending": true,
-        "isFeatured": false,
-        "discount": 25,
-        "badge": "Chip M2",
-        "releaseYear": 2022
-    },
-    {
-        "id": "ipad-pro-m4-11",
-        "name": "iPad Pro M4 (11-inch)",
-        "slug": "ipad-pro-m4-11",
-        "colors": [
-            { "id": "1", "name": "Bạc", "hex": "#e3e4e5" },
-            { "id": "2", "name": "Đen Không Gian", "hex": "#2e2f31" }
-        ],
-        "storage": ["256GB", "512GB", "1TB", "2TB"],
-        "variants": [
-            { "color": "Bạc", "storage": "256GB", "price": 24599000, "oldPrice": 28990000, "image": { "id": "1", "url": "/images/ipad-pro-m4-silver.png", "alt": "iPad Pro M4 Bạc 256GB" } },
-            { "color": "Bạc", "storage": "512GB", "price": 29490000, "oldPrice": 33990000, "image": { "id": "2", "url": "/images/ipad-pro-m4-silver.png", "alt": "iPad Pro M4 Bạc 512GB" } },
-            { "color": "Bạc", "storage": "1TB", "price": 39290000, "oldPrice": 43990000, "image": { "id": "3", "url": "/images/ipad-pro-m4-silver.png", "alt": "iPad Pro M4 Bạc 1TB" } },
-            { "color": "Bạc", "storage": "2TB", "price": 49090000, "oldPrice": 53990000, "image": { "id": "4", "url": "/images/ipad-pro-m4-silver.png", "alt": "iPad Pro M4 Bạc 2TB" } },
-            {
-                "color": "Đen Không Gian",
-                "storage": "256GB",
-                "price": 24599000,
-                "oldPrice": 28990000,
-                "image": { "id": "5", "url": "/images/ipad-pro-m4-black.png", "alt": "iPad Pro M4 Đen Không Gian 256GB" }
-            },
-            {
-                "color": "Đen Không Gian",
-                "storage": "512GB",
-                "price": 29490000,
-                "oldPrice": 33990000,
-                "image": { "id": "6", "url": "/images/ipad-pro-m4-black.png", "alt": "iPad Pro M4 Đen Không Gian 512GB" }
-            },
-            {
-                "color": "Đen Không Gian",
-                "storage": "1TB",
-                "price": 39290000,
-                "oldPrice": 43990000,
-                "image": { "id": "7", "url": "/images/ipad-pro-m4-black.png", "alt": "iPad Pro M4 Đen Không Gian 1TB" }
-            },
-            {
-                "color": "Đen Không Gian",
-                "storage": "2TB",
-                "price": 49090000,
-                "oldPrice": 53990000,
-                "image": { "id": "8", "url": "/images/ipad-pro-m4-black.png", "alt": "iPad Pro M4 Đen Không Gian 2TB" }
+                "price": 27000000,
+                "image": {
+                    "id": "1",
+                    "url": "/ipadPRM4-bac.png",
+                    "alt": "iPad Pro M4 13 inch 256G ZA/A Silver"
+                }
             }
         ],
         "specs": {
-            "chip": "Apple M4 (Chip Silicon thế hệ kế tiếp)",
-            "battery": "Viên pin Lithium-Polymer 31.29Wh dung lượng cao",
-            "display": "11\" Ultra Retina XDR · OLED hai lớp (Tandem) · ProMotion 120Hz · 1600 nits",
-            "camera": "Camera sau 12MP & Cảm biến TOF 3D LiDAR · Face ID",
-            "ram": "8GB (Bản 256/512GB) hoặc 16GB (Bản 1TB/2TB)",
-            "weight": "444g",
+            "chip": "Apple M4 thế hệ mới siêu mạnh (9 nhân CPU, 10 nhân GPU)",
+            "battery": "Lên đến 10 giờ sử dụng liên tục",
+            "display": "13\" Ultra Retina XDR · OLED 2 tầng · 120Hz ProMotion · Độ sáng tối đa 1600 nits",
+            "camera": "Camera sau 12MP (ƒ/1.8) hỗ trợ quay ProRes, cảm biến LiDAR · Camera trước 12MP Ultra Wide đặt cạnh ngang",
+            "ram": "8GB",
+            "weight": "579g (Siêu mỏng nhẹ)",
             "waterResistance": "Không hỗ trợ chống nước",
-            "connectivity": "Thunderbolt / USB 4 (Type-C) · Wi-Fi 6E · Face ID"
+            "connectivity": "Wi-Fi 6E · Bluetooth 5.3 · Thunderbolt / USB 4 · Face ID"
         },
-        "description": "Siêu phẩm máy tính bảng mỏng nhất từ trước đến nay của Apple (5.3 mm), sở hữu màn hình OLED hai lớp Ultra Retina XDR siêu sáng cùng chip M4 tối tân vượt bậc.",
-        "shortDescription": "Màn hình Tandem OLED. Chip M4 tối tân. Độ mỏng kỷ lục 5.3mm.",
+        "description": "iPad Pro M4 13 inch là đỉnh cao công nghệ máy tính bảng với màn hình OLED hai tầng Ultra Retina XDR siêu sáng, thiết kế siêu mỏng và hiệu năng hủy diệt từ con chip M4 phục vụ các tác vụ AI và đồ họa nặng nhất.",
+        "shortDescription": "Chip M4 đỉnh cao. Màn hình Ultra Retina XDR OLED 13\". Thiết kế siêu mỏng nhẹ.",
         "rating": 4.9,
-        "reviewCount": 612,
+        "reviewCount": 150,
         "category": "ipad",
         "series": "iPad Pro",
-        "isNew": false,
+        "isNew": true,
         "isTrending": true,
         "isFeatured": true,
-        "discount": 15,
-        "badge": "Mỏng nhẹ đỉnh cao",
+        "discount": 0,
+        "badge": "Full zin siêu lướt",
         "releaseYear": 2024
     }
 ]

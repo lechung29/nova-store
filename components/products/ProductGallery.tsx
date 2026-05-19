@@ -29,7 +29,7 @@ export function ProductGallery({ product, imageKey, currentVariant, onImageKeyCh
                         transition={{ duration: 0.3 }}
                         className="float-anim select-none"
                     >
-                        <img src={currentVariant?.image.url} alt={currentVariant?.image.alt} className="object-contain w-90" />
+                        <img src={currentVariant?.image.url} alt={currentVariant?.image.alt} className="object-contain w-80" />
                     </motion.div>
                 </AnimatePresence>
                 <div className="absolute bottom-4 left-4 flex items-center gap-2 border border-white/10 rounded-full bg-white/50 px-3! py-1.5! backdrop-blur-xl">
@@ -62,7 +62,7 @@ export function ProductGallery({ product, imageKey, currentVariant, onImageKeyCh
                             imageKey === item.key ? "border-text-primary bg-blue-500/10" : "border-white/10 bg-white/4 hover:border-white/20",
                         )}
                     >
-                        <img src={item.value.url} alt={item.value.alt} width="100%" />
+                        <img src={item.value.url} alt={item.value.alt} className="object-contain w-[80%] h-[80%]"/>
                     </motion.button>
                 ))}
             </div>

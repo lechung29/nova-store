@@ -18,7 +18,7 @@ export interface IProductVariant {
     color: string;
     storage: string;
     price: number;
-    oldPrice: number;
+    oldPrice?: number;
     image: IVariantImage;
 }
 
@@ -104,4 +104,14 @@ export interface Ip17FeaturedCard {
     title: string;
     description: string;
     accentColor: string;
+}
+
+export interface IStoreInfo {
+    name: string;
+    address: string;
+    phone: string;
+    city: string;
+    isNew?: boolean;
+    shortAddr: string;
+    mapSrc: string;
 }

@@ -10,6 +10,7 @@ import { useFilterStore } from "@/store/filterStore";
 import Link from "next/link";
 import { all_products } from "@/utils";
 import { sort_map, category_filters } from "@/utils/constants";
+import { BackgroundDecor } from "@/components/policy";
 
 export function ProductsClient() {
     const searchParams = useSearchParams();
@@ -34,6 +35,7 @@ export function ProductsClient() {
 
     return (
         <div className="min-h-screen px-2! sm:px-8!">
+            <BackgroundDecor />
             <div className="relative overflow-hidden py-12! px-4!">
                 <div
                     className="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 h-75 w-150 opacity-15 blur-[100px]"

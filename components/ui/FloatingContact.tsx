@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, Phone, X } from "lucide-react";
 import { FaFacebookF } from "react-icons/fa";
@@ -34,9 +34,23 @@ const contacts = [
 
 export function FloatingContact() {
     const [open, setOpen] = useState(false);
+    const containerRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        if (!open) return;
+
+        const handleClickOutside = (e: MouseEvent) => {
+            if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+                setOpen(false);
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, [open]);
 
     return (
-        <div className="fixed bottom-8 right-6 z-40 flex flex-col items-center gap-3">
+        <div ref={containerRef} className="fixed bottom-8 right-6 z-40 flex flex-col items-center gap-3">
             <AnimatePresence>
                 {open &&
                     contacts.map((c, i) => (
@@ -57,7 +71,7 @@ export function FloatingContact() {
                                 initial={{ opacity: 0, x: 10 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: i * 0.05 + 0.1 }}
-                                className="absolute right-14 bg-text-primary/20 backdrop-blur-xl border border-white/15 text--text-primary text-xs font-medium px-3! py-1.5! rounded-xl whitespace-nowrap"
+                                className="absolute right-14 bg-text-primary/20 backdrop-blur-xl border border-white/15 text-white/90 text-xs font-medium px-3! py-1.5! rounded-xl whitespace-nowrap"
                             >
                                 {c.label}
                             </motion.span>

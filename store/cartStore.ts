@@ -82,6 +82,7 @@ export const useCartStore = create<CartStore>()(
             getTotalPrice: () =>
                 get().items.reduce((sum, item) => {
                     const variant = findVariant(
+                        item.product.category,
                         item.product.variants,
                         item.selectedColor.name,
                         item.selectedStorage,

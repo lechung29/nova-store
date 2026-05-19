@@ -7,8 +7,9 @@ import { notFound } from "next/navigation";
 import { useCartStore } from "@/store/cartStore";
 import { useRecentlyViewedStore } from "@/store";
 import type { IProduct } from "@/types";
-import { all_products, getRelatedProducts } from "@/utils";
+import { all_products, findVariant, getRelatedProducts } from "@/utils";
 import { ProductDescription, ProductGallery, ProductInfo, ProductSpecs, RelatedProducts } from "@/components/products";
+import { BackgroundDecor } from "@/components/policy";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -45,7 +46,7 @@ export default function ProductDetailPage({ params }: PageProps) {
 
     const selectedColor = product.colors[selectedColorIdx];
     const selectedStorage = product.storage[selectedStorageIdx];
-    const currentVariant = product.variants.find((v) => v.color === imageKey && v.storage === selectedStorage);
+    const currentVariant = findVariant(product.category, product.variants, imageKey, selectedStorage);
     const productPrice = currentVariant?.price ?? 0;
     const productOldPrice = currentVariant?.oldPrice;
     const relatedProducts = getRelatedProducts(product);
@@ -58,6 +59,7 @@ export default function ProductDetailPage({ params }: PageProps) {
 
     return (
         <div className="min-h-screen pt-10!">
+            <BackgroundDecor />
             <div className="max-w-7xl mx-auto! px-4! sm:px-16! py-10!">
                 <nav className="flex items-center gap-2 mb-8! text-base text-text-primary">
                     <a href="/" className="transition-colors hover:text-white">

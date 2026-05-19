@@ -1,0 +1,725 @@
+[
+    {
+        "id": "iphone-17-pro-max",
+        "name": "iPhone 17 Pro Max",
+        "slug": "iphone-17-pro-max",
+        "colors": [
+            {
+                "id": "1",
+                "name": "Bạc",
+                "hex": "#f5f5f5"
+            },
+            {
+                "id": "2",
+                "name": "Xanh Đậm",
+                "hex": "#32374a"
+            },
+            {
+                "id": "3",
+                "name": "Cam Vũ Trụ",
+                "hex": "#f77e2d"
+            }
+        ],
+        "storage": ["256GB", "512GB", "1TB"],
+        "variants": [
+            {
+                "color": "Bạc",
+                "storage": "256GB",
+                "price": 33750000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip17PRM-bac.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 256GB"
+                }
+            },
+            {
+                "color": "Bạc",
+                "storage": "512GB",
+                "price": 37750000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip17PRM-bac.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 512GB"
+                }
+            },
+            {
+                "color": "Bạc",
+                "storage": "1TB",
+                "price": 40550000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip17PRM-bac.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 1TB"
+                }
+            },
+            {
+                "color": "Xanh Đậm",
+                "storage": "256GB",
+                "price": 33750000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip17PRM-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 256GB"
+                }
+            },
+            {
+                "color": "Xanh Đậm",
+                "storage": "512GB",
+                "price": 37750000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip17PRM-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 512GB"
+                }
+            },
+            {
+                "color": "Xanh Đậm",
+                "storage": "1TB",
+                "price": 40550000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip17PRM-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 1TB"
+                }
+            },
+            {
+                "color": "Cam Vũ Trụ",
+                "storage": "256GB",
+                "price": 33750000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip17PRM-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 256GB"
+                }
+            },
+            {
+                "color": "Cam Vũ Trụ",
+                "storage": "512GB",
+                "price": 37750000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip17PRM-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 512GB"
+                }
+            },
+            {
+                "color": "Cam Vũ Trụ",
+                "storage": "1TB",
+                "price": 40550000,
+                "image": {
+                    "id": "9",
+                    "url": "/ip17PRM-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 1TB"
+                }
+            }
+        ],
+        "specs": {
+            "chip": "Apple A19 Pro (3nm thế hệ mới)",
+            "battery": "Xem video lên đến 35 giờ",
+            "display": "6.7\" Super Retina XDR · ProMotion 120Hz · Cụm khuyết Dynamic Island thu nhỏ",
+            "camera": "Ba camera sau 48MP hệ Tetraprism hoàn chỉnh · Video Ghi Hình Kép (Trước & Sau)",
+            "ram": "12GB",
+            "weight": "223g",
+            "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
+            "connectivity": "USB-C · 5G · Wi‑Fi 7 · Hệ thống tản nhiệt buồng hơi VC"
+        },
+        "description": "Siêu phẩm tối tân bậc nhất với cụm Dynamic Island được thu hẹp diện tích tối đa, tích hợp tính năng quay video Ghi Hình Kép đồng thời camera trước và sau cùng hệ thống tản nhiệt buồng hơi.",
+        "shortDescription": "Dynamic Island thu nhỏ. Pin kỷ lục 35 giờ. Video Ghi Hình Kép.",
+        "rating": 4.9,
+        "reviewCount": 215,
+        "category": "iphone",
+        "series": "iPhone 17",
+        "isNew": true,
+        "isTrending": true,
+        "isFeatured": true,
+        "discount": 0,
+        "badge": "Bán chạy nhất",
+        "releaseYear": 2025
+    },
+    {
+        "id": "iphone-16-pro-max",
+        "name": "iPhone 16 Pro Max",
+        "slug": "iphone-16-pro-max",
+        "colors": [
+            {
+                "id": "1",
+                "name": "Titan Đen",
+                "hex": "#2a2b2d"
+            },
+            {
+                "id": "2",
+                "name": "Titan Trắng",
+                "hex": "#e3e2de"
+            },
+            {
+                "id": "3",
+                "name": "Titan Tự Nhiên",
+                "hex": "#adaba6"
+            },
+            {
+                "id": "4",
+                "name": "Titan Sa Mạc",
+                "hex": "#bfa48f"
+            }
+        ],
+        "storage": ["256GB", "512GB", "1TB"],
+        "variants": [
+            {
+                "color": "Titan Đen",
+                "storage": "256GB",
+                "price": 24750000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip16PRM-titan-den.png",
+                    "alt": "iPhone 16 Pro Max Titan Đen 256GB"
+                }
+            },
+            {
+                "color": "Titan Đen",
+                "storage": "512GB",
+                "price": 26750000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip16PRM-titan-den.png",
+                    "alt": "iPhone 16 Pro Max Titan Đen 512GB"
+                }
+            },
+            {
+                "color": "Titan Đen",
+                "storage": "1TB",
+                "price": 27750000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip16PRM-titan-den.png",
+                    "alt": "iPhone 16 Pro Max Titan Đen 1TB"
+                }
+            },
+            {
+                "color": "Titan Trắng",
+                "storage": "256GB",
+                "price": 24750000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip16PRM-titan-trang.png",
+                    "alt": "iPhone 16 Pro Max Titan Trắng 256GB"
+                }
+            },
+            {
+                "color": "Titan Trắng",
+                "storage": "512GB",
+                "price": 26750000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip16PRM-titan-trang.png",
+                    "alt": "iPhone 16 Pro Max Titan Trắng 512GB"
+                }
+            },
+            {
+                "color": "Titan Trắng",
+                "storage": "1TB",
+                "price": 27750000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip16PRM-titan-trang.png",
+                    "alt": "iPhone 16 Pro Max Titan Trắng 1TB"
+                }
+            },
+            {
+                "color": "Titan Tự Nhiên",
+                "storage": "256GB",
+                "price": 24750000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip16PRM-titan-tu-nhien.png",
+                    "alt": "iPhone 16 Pro Max Titan Tự Nhiên 256GB"
+                }
+            },
+            {
+                "color": "Titan Tự Nhiên",
+                "storage": "512GB",
+                "price": 26750000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip16PRM-titan-tu-nhien.png",
+                    "alt": "iPhone 16 Pro Max Titan Tự Nhiên 512GB"
+                }
+            },
+            {
+                "color": "Titan Tự Nhiên",
+                "storage": "1TB",
+                "price": 27750000,
+                "image": {
+                    "id": "9",
+                    "url": "/ip16PRM-titan-tu-nhien.png",
+                    "alt": "iPhone 16 Pro Max Titan Tự Nhiên 1TB"
+                }
+            },
+            {
+                "color": "Titan Sa Mạc",
+                "storage": "256GB",
+                "price": 24750000,
+                "image": {
+                    "id": "10",
+                    "url": "/ip16PRM-titan-sa-mac.png",
+                    "alt": "iPhone 16 Pro Max Titan Sa Mạc 256GB"
+                }
+            },
+            {
+                "color": "Titan Sa Mạc",
+                "storage": "512GB",
+                "price": 26750000,
+                "image": {
+                    "id": "11",
+                    "url": "/ip16PRM-titan-sa-mac.png",
+                    "alt": "iPhone 16 Pro Max Titan Sa Mạc 512GB"
+                }
+            },
+            {
+                "color": "Titan Sa Mạc",
+                "storage": "1TB",
+                "price": 27750000,
+                "image": {
+                    "id": "12",
+                    "url": "/ip16PRM-titan-sa-mac.png",
+                    "alt": "iPhone 16 Pro Max Titan Sa Mạc 1TB"
+                }
+            }
+        ],
+        "specs": {
+            "chip": "Apple A18 Pro (3nm · GPU 6 nhân)",
+            "battery": "Xem video lên đến 33 giờ",
+            "display": "6.9\" Super Retina XDR · ProMotion 120Hz · Viền mỏng nhất lịch sử",
+            "camera": "Camera Fusion 48MP, Ultra Wide 48MP & Telephoto 5x · Camera Control",
+            "ram": "8GB",
+            "weight": "227g",
+            "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
+            "connectivity": "USB-C (USB 3.0) · 5G · Wi‑Fi 7 · Microphone chuẩn studio"
+        },
+        "description": "Mẫu iPhone tối tân và có màn hình lớn nhất từ trước đến nay của Apple với kích thước 6.9 inch cùng thời lượng pin xem video liên tục kỷ lục lên đến 33 giờ, tích hợp sâu trí tuệ nhân tạo Apple Intelligence.",
+        "shortDescription": "Màn hình cực đại 6.9\". Pin tối đa 33 giờ. Camera Pro đỉnh cao.",
+        "rating": 4.9,
+        "reviewCount": 1420,
+        "category": "iphone",
+        "series": "iPhone 16",
+        "isNew": false,
+        "isTrending": true,
+        "isFeatured": true,
+        "discount": 29,
+        "badge": "Bán chạy nhất",
+        "releaseYear": 2024
+    },
+    {
+        "id": "iphone-15-pro-max",
+        "name": "iPhone 15 Pro Max",
+        "slug": "iphone-15-pro-max",
+        "colors": [
+            {
+                "id": "1",
+                "name": "Titan Đen",
+                "hex": "#2a2b2d"
+            },
+            {
+                "id": "2",
+                "name": "Titan Trắng",
+                "hex": "#e3e2de"
+            },
+            {
+                "id": "3",
+                "name": "Titan Tự Nhiên",
+                "hex": "#adaba6"
+            },
+            {
+                "id": "4",
+                "name": "Titan Xanh",
+                "hex": "#3d5a6e"
+            }
+        ],
+        "storage": ["256GB", "512GB", "1TB"],
+        "variants": [
+            {
+                "color": "Titan Đen",
+                "storage": "256GB",
+                "price": 19050000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip15PR-titan-den.png",
+                    "alt": "iPhone 15 Pro Max Titan Đen 256GB"
+                }
+            },
+            {
+                "color": "Titan Đen",
+                "storage": "512GB",
+                "price": 20350000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip15PRM-titan-den.png",
+                    "alt": "iPhone 15 Pro Max Titan Đen 512GB"
+                }
+            },
+            {
+                "color": "Titan Đen",
+                "storage": "1TB",
+                "price": 21350000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip15PRM-titan-den.png",
+                    "alt": "iPhone 15 Pro Max Titan Đen 1TB"
+                }
+            },
+            {
+                "color": "Titan Trắng",
+                "storage": "256GB",
+                "price": 19050000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip15PRM-titan-trang.png",
+                    "alt": "iPhone 15 Pro Max Titan Trắng 256GB"
+                }
+            },
+            {
+                "color": "Titan Trắng",
+                "storage": "512GB",
+                "price": 20350000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip15PRM-titan-trang.png",
+                    "alt": "iPhone 15 Pro Max Titan Trắng 512GB"
+                }
+            },
+            {
+                "color": "Titan Trắng",
+                "storage": "1TB",
+                "price": 21350000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip15PRM-titan-trang.png",
+                    "alt": "iPhone 15 Pro Max Titan Trắng 1TB"
+                }
+            },
+            {
+                "color": "Titan Tự Nhiên",
+                "storage": "256GB",
+                "price": 19050000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip15PRM-titan-tu-nhien.png",
+                    "alt": "iPhone 15 Pro Max Titan Tự Nhiên 256GB"
+                }
+            },
+            {
+                "color": "Titan Tự Nhiên",
+                "storage": "512GB",
+                "price": 20350000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip15PRM-titan-tu-nhien.png",
+                    "alt": "iPhone 15 Pro Max Titan Tự Nhiên 512GB"
+                }
+            },
+            {
+                "color": "Titan Tự Nhiên",
+                "storage": "1TB",
+                "price": 21350000,
+                "image": {
+                    "id": "9",
+                    "url": "/ip15PRM-titan-tu-nhien.png",
+                    "alt": "iPhone 15 Pro Max Titan Tự Nhiên 1TB"
+                }
+            },
+            {
+                "color": "Titan Xanh",
+                "storage": "256GB",
+                "price": 19050000,
+                "image": {
+                    "id": "10",
+                    "url": "/ip15PRM-titan-xanh.png",
+                    "alt": "iPhone 15 Pro Max Titan Xanh 256GB"
+                }
+            },
+            {
+                "color": "Titan Xanh",
+                "storage": "512GB",
+                "price": 20350000,
+                "image": {
+                    "id": "11",
+                    "url": "/ip15PRM-titan-xanh.png",
+                    "alt": "iPhone 15 Pro Max Titan Xanh 512GB"
+                }
+            },
+            {
+                "color": "Titan Xanh",
+                "storage": "1TB",
+                "price": 21350000,
+                "image": {
+                    "id": "12",
+                    "url": "/ip15PRM-titan-xanh.png",
+                    "alt": "iPhone 15 Pro Max Titan Xanh 1TB"
+                }
+            }
+        ],
+        "specs": {
+            "chip": "Apple A17 Pro (3nm · 6 lõi GPU)",
+            "battery": "Xem video lên đến 29 giờ",
+            "display": "6.7\" Super Retina XDR · ProMotion 120Hz · Viền siêu mỏng",
+            "camera": "Ba camera Pro 48MP & Camera Tele chụp xa quang học 5x",
+            "ram": "8GB",
+            "weight": "221g",
+            "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
+            "connectivity": "USB-C (USB 3.0 tốc độ cao) · 5G · Wi‑Fi 6E · Nút Tác vụ"
+        },
+        "description": "Đỉnh cao Flagship toàn diện loại bỏ hoàn toàn bộ nhớ 128GB, sở hữu ống kính tiềm vọng ẩn bên trong cho khả năng zoom quang học lên đến 5x cùng viền màn hình mỏng bằng chất liệu Titan chuẩn vũ trụ siêu nhẹ.",
+        "shortDescription": "Zoom quang học 5x. Bộ nhớ từ 256GB. Khung viền Titan.",
+        "rating": 4.9,
+        "reviewCount": 1650,
+        "category": "iphone",
+        "series": "iPhone 15",
+        "isNew": false,
+        "isTrending": true,
+        "isFeatured": true,
+        "discount": 30,
+        "badge": "Bán chạy nhất",
+        "releaseYear": 2023
+    },
+    {
+        "id": "iphone-14-plus",
+        "name": "iPhone 14 Plus",
+        "slug": "iphone-14-plus",
+        "colors": [
+            {
+                "id": "1",
+                "name": "Đêm Xanh Thẳm",
+                "hex": "#222930"
+            },
+            {
+                "id": "2",
+                "name": "Trắng Ánh Sao",
+                "hex": "#faf6f2"
+            },
+            {
+                "id": "3",
+                "name": "Xanh Dương",
+                "hex": "#a0b4c7"
+            },
+            {
+                "id": "4",
+                "name": "Tím",
+                "hex": "#e6đeb"
+            },
+            {
+                "id": "5",
+                "name": "Đỏ",
+                "hex": "#fc0324"
+            },
+            {
+                "id": "6",
+                "name": "Vàng",
+                "hex": "#f9e479"
+            }
+        ],
+        "storage": ["128GB", "256GB", "512GB"],
+        "variants": [
+            {
+                "color": "Đêm Xanh Thẳm",
+                "storage": "128GB",
+                "price": 10750000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip14PL-dem-xanh-tham.png",
+                    "alt": "iPhone 14 Plus Đêm Xanh Thẳm 128GB"
+                }
+            },
+            {
+                "color": "Đêm Xanh Thẳm",
+                "storage": "256GB",
+                "price": 12050000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip14PL-dem-xanh-tham.png",
+                    "alt": "iPhone 14 Plus Đêm Xanh Thẳm 256GB"
+                }
+            },
+            {
+                "color": "Đêm Xanh Thẳm",
+                "storage": "512GB",
+                "price": 14050000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip14PL-dem-xanh-tham.png",
+                    "alt": "iPhone 14 Plus Đêm Xanh Thẳm 512GB"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "128GB",
+                "price": 10750000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip14PL-trang-anh-sao.png",
+                    "alt": "iPhone 14 Plus Trắng Ánh Sao 128GB"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "256GB",
+                "price": 12050000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip14PL-trang-anh-sao.png",
+                    "alt": "iPhone 14 Plus Trắng Ánh Sao 256GB"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "512GB",
+                "price": 14050000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip14PL-trang-anh-sao.png",
+                    "alt": "iPhone 14 Plus Trắng Ánh Sao 512GB"
+                }
+            },
+            {
+                "color": "Xanh Dương",
+                "storage": "128GB",
+                "price": 10750000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip14PL-xanh-duong.png",
+                    "alt": "iPhone 14 Plus Xanh Dương 128GB"
+                }
+            },
+            {
+                "color": "Xanh Dương",
+                "storage": "256GB",
+                "price": 12050000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip14PL-xanh-duong.png",
+                    "alt": "iPhone 14 Plus Xanh Dương 256GB"
+                }
+            },
+            {
+                "color": "Xanh Dương",
+                "storage": "512GB",
+                "price": 14050000,
+                "image": {
+                    "id": "9",
+                    "url": "/ip14PL-xanh-duong.png",
+                    "alt": "iPhone 14 Plus Xanh Dương 512GB"
+                }
+            },
+            {
+                "color": "Tím",
+                "storage": "128GB",
+                "price": 10750000,
+                "image": {
+                    "id": "10",
+                    "url": "/ip14PL-tim.png",
+                    "alt": "iPhone 14 Plus Tím 128GB"
+                }
+            },
+            {
+                "color": "Tím",
+                "storage": "256GB",
+                "price": 12050000,
+                "image": {
+                    "id": "11",
+                    "url": "/ip14PL-xanh-duong.png",
+                    "alt": "iPhone 14 Plus Tím 256GB"
+                }
+            },
+            {
+                "color": "Tím",
+                "storage": "512GB",
+                "price": 14050000,
+                "image": {
+                    "id": "12",
+                    "url": "/ip14PL-xanh-duong.png",
+                    "alt": "iPhone 14 Plus Tím 512GB"
+                }
+            },
+            {
+                "color": "Đỏ",
+                "storage": "128GB",
+                "price": 10750000,
+                "image": {
+                    "id": "13",
+                    "url": "/ip14PL-do.png",
+                    "alt": "iPhone 14 Plus Đỏ 128GB"
+                }
+            },
+            {
+                "color": "Đỏ",
+                "storage": "256GB",
+                "price": 12050000,
+                "image": {
+                    "id": "14",
+                    "url": "/ip14PL-do.png",
+                    "alt": "iPhone 14 Plus Đỏ 256GB"
+                }
+            },
+            {
+                "color": "Đỏ",
+                "storage": "512GB",
+                "price": 14050000,
+                "image": {
+                    "id": "15",
+                    "url": "/ip14PL-do.png",
+                    "alt": "iPhone 14 Plus Đỏ 512GB"
+                }
+            },
+            {
+                "color": "Vàng",
+                "storage": "128GB",
+                "price": 10750000,
+                "image": {
+                    "id": "16",
+                    "url": "/ip14PL-vang.png",
+                    "alt": "iPhone 14 Plus Vàng 128GB"
+                }
+            },
+            {
+                "color": "Vàng",
+                "storage": "256GB",
+                "price": 12050000,
+                "image": {
+                    "id": "17",
+                    "url": "/ip14PL-vang.png",
+                    "alt": "iPhone 14 Plus Vàng 256GB"
+                }
+            },
+            {
+                "color": "Vàng",
+                "storage": "512GB",
+                "price": 14050000,
+                "image": {
+                    "id": "18",
+                    "url": "/ip14PL-vang.png",
+                    "alt": "iPhone 14 Plus Vàng 512GB"
+                }
+            }
+        ],
+        "specs": {
+            "chip": "Apple A15 Bionic (GPU 5 nhân)",
+            "battery": "Xem video lên đến 26 giờ",
+            "display": "6.7\" Super Retina XDR · OLED · 2778×1284 · 60Hz",
+            "camera": "Camera kép 12MP (Photonic Engine & Action Mode)",
+            "ram": "6GB",
+            "weight": "203g",
+            "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
+            "connectivity": "5G · Wi‑Fi 6 · Bluetooth 5.3 · MagSafe"
+        },
+        "description": "Phiên bản màn hình lớn 6.7 inch siêu rộng rãi đi kèm thời lượng pin vô địch trong phân khúc.",
+        "shortDescription": "Màn hình cực đại 6.7\". Pin siêu trâu. Trọng lượng nhẹ.",
+        "rating": 4.7,
+        "reviewCount": 328,
+        "category": "iphone",
+        "series": "iPhone 14",
+        "isNew": false,
+        "isTrending": true,
+        "isFeatured": false,
+        "discount": 38,
+        "badge": "Pin trâu",
+        "releaseYear": 2022
+    }
+]

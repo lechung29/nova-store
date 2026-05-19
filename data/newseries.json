@@ -4,82 +4,133 @@
         "name": "iPhone 17",
         "slug": "iphone-17",
         "colors": [
-            { "id": "1", "name": "Đen", "hex": "#232426" },
-            { "id": "2", "name": "Trắng", "hex": "#ffffff" },
-            { "id": "3", "name": "Xanh Lam Khói", "hex": "#a2b5cd" },
-            { "id": "4", "name": "Xanh Lá Xô Thơm", "hex": "#9ca998" },
-            { "id": "5", "name": "Xanh Lá Vĩnh Cửu", "hex": "#2e473b" }
+            {
+                "id": "1",
+                "name": "Đen",
+                "hex": "#353839"
+            },
+            {
+                "id": "2",
+                "name": "Trắng",
+                "hex": "#f5f5f5"
+            },
+            {
+                "id": "3",
+                "name": "Xanh Lam Khói",
+                "hex": "#96aed1"
+            },
+            {
+                "id": "4",
+                "name": "Xanh Lá Xô Thơm",
+                "hex": "#a9b689"
+            },
+            {
+                "id": "5",
+                "name": "Tím Oải Hương",
+                "hex": "#dfceea"
+            }
         ],
-        "storage": ["128GB", "256GB", "512GB"],
+        "storage": ["256GB", "512GB"],
         "variants": [
-            { "color": "Đen", "storage": "128GB", "price": 22990000, "oldPrice": 22990000, "image": { "id": "1", "url": "/images/iphone-17-black.png", "alt": "iPhone 17 Đen 128GB" } },
-            { "color": "Đen", "storage": "256GB", "price": 25990000, "oldPrice": 25990000, "image": { "id": "2", "url": "/images/iphone-17-black.png", "alt": "iPhone 17 Đen 256GB" } },
-            { "color": "Đen", "storage": "512GB", "price": 31499000, "oldPrice": 31499000, "image": { "id": "3", "url": "/images/iphone-17-black.png", "alt": "iPhone 17 Đen 512GB" } },
-            { "color": "Trắng", "storage": "128GB", "price": 22990000, "oldPrice": 22990000, "image": { "id": "4", "url": "/images/iphone-17-white.png", "alt": "iPhone 17 Trắng 128GB" } },
-            { "color": "Trắng", "storage": "256GB", "price": 25990000, "oldPrice": 25990000, "image": { "id": "5", "url": "/images/iphone-17-white.png", "alt": "iPhone 17 Trắng 256GB" } },
-            { "color": "Trắng", "storage": "512GB", "price": 31499000, "oldPrice": 31499000, "image": { "id": "6", "url": "/images/iphone-17-white.png", "alt": "iPhone 17 Trắng 512GB" } },
             {
-                "color": "Xanh Lam Khói",
-                "storage": "128GB",
-                "price": 22990000,
-                "oldPrice": 22990000,
-                "image": { "id": "7", "url": "/images/iphone-17-mist-blue.png", "alt": "iPhone 17 Xanh Lam Khói 128GB" }
+                "color": "Đen",
+                "storage": "256GB",
+                "price": 22750000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip17-den.png",
+                    "alt": "iPhone 17 Đen 256GB"
+                }
+            },
+            {
+                "color": "Đen",
+                "storage": "512GB",
+                "price": 27550000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip17-den.png",
+                    "alt": "iPhone 17 Đen 512GB"
+                }
+            },
+            {
+                "color": "Trắng",
+                "storage": "256GB",
+                "price": 22750000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip17-trang.png",
+                    "alt": "iPhone 17 Trắng 256GB"
+                }
+            },
+            {
+                "color": "Trắng",
+                "storage": "512GB",
+                "price": 27550000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip17-trang.png",
+                    "alt": "iPhone 17 Trắng 512GB"
+                }
             },
             {
                 "color": "Xanh Lam Khói",
                 "storage": "256GB",
-                "price": 25990000,
-                "oldPrice": 25990000,
-                "image": { "id": "8", "url": "/images/iphone-17-mist-blue.png", "alt": "iPhone 17 Xanh Lam Khói 256GB" }
+                "price": 22750000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip17-xanh-lam-khoi.png",
+                    "alt": "iPhone 17 Xanh Lam Khói 256GB"
+                }
             },
             {
                 "color": "Xanh Lam Khói",
                 "storage": "512GB",
-                "price": 31499000,
-                "oldPrice": 31499000,
-                "image": { "id": "9", "url": "/images/iphone-17-mist-blue.png", "alt": "iPhone 17 Xanh Lam Khói 512GB" }
-            },
-            {
-                "color": "Xanh Lá Xô Thơm",
-                "storage": "128GB",
-                "price": 22990000,
-                "oldPrice": 22990000,
-                "image": { "id": "10", "url": "/images/iphone-17-sage-green.png", "alt": "iPhone 17 Xanh Lá Xô Thơm 128GB" }
+                "price": 27550000,
+                "image": {
+                    "id": "9",
+                    "url": "/ip17-xanh-lam-khoi.png",
+                    "alt": "iPhone 17 Xanh Lam Khói 512GB"
+                }
             },
             {
                 "color": "Xanh Lá Xô Thơm",
                 "storage": "256GB",
-                "price": 25990000,
-                "oldPrice": 25990000,
-                "image": { "id": "11", "url": "/images/iphone-17-sage-green.png", "alt": "iPhone 17 Xanh Lá Xô Thơm 256GB" }
+                "price": 22750000,
+                "image": {
+                    "id": "11",
+                    "url": "/ip17-xanh-la-xo-thom.png",
+                    "alt": "iPhone 17 Xanh Lá Xô Thơm 256GB"
+                }
             },
             {
                 "color": "Xanh Lá Xô Thơm",
                 "storage": "512GB",
-                "price": 31499000,
-                "oldPrice": 31499000,
-                "image": { "id": "12", "url": "/images/iphone-17-sage-green.png", "alt": "iPhone 17 Xanh Lá Xô Thơm 512GB" }
+                "price": 27550000,
+                "image": {
+                    "id": "12",
+                    "url": "/ip17-xanh-la-xo-thom.png",
+                    "alt": "iPhone 17 Xanh Lá Xô Thơm 512GB"
+                }
             },
             {
-                "color": "Xanh Lá Vĩnh Cửu",
-                "storage": "128GB",
-                "price": 22990000,
-                "oldPrice": 22990000,
-                "image": { "id": "13", "url": "/images/iphone-17-emerald.png", "alt": "iPhone 17 Xanh Lá Vĩnh Cửu 128GB" }
-            },
-            {
-                "color": "Xanh Lá Vĩnh Cửu",
+                "color": "Tím Oải Hương",
                 "storage": "256GB",
-                "price": 25990000,
-                "oldPrice": 25990000,
-                "image": { "id": "14", "url": "/images/iphone-17-emerald.png", "alt": "iPhone 17 Xanh Lá Vĩnh Cửu 256GB" }
+                "price": 22750000,
+                "image": {
+                    "id": "14",
+                    "url": "/ip17-tim-oai-huong.png",
+                    "alt": "iPhone 17 Tím Oải Hương 256GB"
+                }
             },
             {
-                "color": "Xanh Lá Vĩnh Cửu",
+                "color": "Tím Oải Hương",
                 "storage": "512GB",
-                "price": 31499000,
-                "oldPrice": 31499000,
-                "image": { "id": "15", "url": "/images/iphone-17-emerald.png", "alt": "iPhone 17 Xanh Lá Vĩnh Cửu 512GB" }
+                "price": 27550000,
+                "image": {
+                    "id": "15",
+                    "url": "/ip17-tim-oai-huong.png",
+                    "alt": "iPhone 17 Tím Oải Hương 512GB"
+                }
             }
         ],
         "specs": {
@@ -110,96 +161,108 @@
         "name": "iPhone 17 Air",
         "slug": "iphone-17-air",
         "colors": [
-            { "id": "1", "name": "Đen Than", "hex": "#1a1a1a" },
-            { "id": "2", "name": "Trắng Bạc", "hex": "#f5f5f7" },
-            { "id": "3", "name": "Vàng Cát", "hex": "#e3d2be" },
-            { "id": "4", "name": "Tím Khói", "hex": "#b0a4b8" }
+            {
+                "id": "1",
+                "name": "Đen Không Gian",
+                "hex": "#000000"
+            },
+            {
+                "id": "2",
+                "name": "Trắng Mây",
+                "hex": "#fcfcfc"
+            },
+            {
+                "id": "3",
+                "name": "Vàng Nhạt",
+                "hex": "#fffcf5"
+            },
+            {
+                "id": "4",
+                "name": "Xanh Da Trời",
+                "hex": "#f0f9ff"
+            }
         ],
-        "storage": ["128GB", "256GB", "512GB"],
+        "storage": ["256GB", "512GB"],
         "variants": [
             {
-                "color": "Đen Than",
-                "storage": "128GB",
-                "price": 26990000,
-                "oldPrice": 26990000,
-                "image": { "id": "1", "url": "/images/iphone-17-air-black.png", "alt": "iPhone 17 Air Đen Than 128GB" }
-            },
-            {
-                "color": "Đen Than",
+                "color": "Đen Không Gian",
                 "storage": "256GB",
-                "price": 29990000,
-                "oldPrice": 29990000,
-                "image": { "id": "2", "url": "/images/iphone-17-air-black.png", "alt": "iPhone 17 Air Đen Than 256GB" }
+                "price": 21750000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip17A-den-khong-gian.png",
+                    "alt": "iPhone 17 Air Đen Không Gian 256GB"
+                }
             },
             {
-                "color": "Đen Than",
+                "color": "Đen Không Gian",
                 "storage": "512GB",
-                "price": 34990000,
-                "oldPrice": 34990000,
-                "image": { "id": "3", "url": "/images/iphone-17-air-black.png", "alt": "iPhone 17 Air Đen Than 512GB" }
+                "price": 23750000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip17A-den-khong-gian.png",
+                    "alt": "iPhone 17 Air Đen Không Gian 512GB"
+                }
             },
             {
-                "color": "Trắng Bạc",
-                "storage": "128GB",
-                "price": 26990000,
-                "oldPrice": 26990000,
-                "image": { "id": "4", "url": "/images/iphone-17-air-silver.png", "alt": "iPhone 17 Air Trắng Bạc 128GB" }
-            },
-            {
-                "color": "Trắng Bạc",
+                "color": "Trắng Mây",
                 "storage": "256GB",
-                "price": 29990000,
-                "oldPrice": 29990000,
-                "image": { "id": "5", "url": "/images/iphone-17-air-silver.png", "alt": "iPhone 17 Air Trắng Bạc 256GB" }
+                "price": 21750000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip17A-trang-may.png",
+                    "alt": "iPhone 17 Air Trắng Mây 256GB"
+                }
             },
             {
-                "color": "Trắng Bạc",
+                "color": "Trắng Mây",
                 "storage": "512GB",
-                "price": 34990000,
-                "oldPrice": 34990000,
-                "image": { "id": "6", "url": "/images/iphone-17-air-silver.png", "alt": "iPhone 17 Air Trắng Bạc 512GB" }
+                "price": 23750000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip17A-trang-may.png",
+                    "alt": "iPhone 17 Air Trắng Mây 512GB"
+                }
             },
             {
-                "color": "Vàng Cát",
-                "storage": "128GB",
-                "price": 26990000,
-                "oldPrice": 26990000,
-                "image": { "id": "7", "url": "/images/iphone-17-air-sand.png", "alt": "iPhone 17 Air Vàng Cát 128GB" }
-            },
-            {
-                "color": "Vàng Cát",
+                "color": "Vàng Nhạt",
                 "storage": "256GB",
-                "price": 29990000,
-                "oldPrice": 29990000,
-                "image": { "id": "8", "url": "/images/iphone-17-air-sand.png", "alt": "iPhone 17 Air Vàng Cát 256GB" }
+                "price": 21750000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip17A-vang-nhat.png",
+                    "alt": "iPhone 17 Air Vàng Nhạt 256GB"
+                }
             },
             {
-                "color": "Vàng Cát",
+                "color": "Vàng Nhạt",
                 "storage": "512GB",
-                "price": 34990000,
-                "oldPrice": 34990000,
-                "image": { "id": "9", "url": "/images/iphone-17-air-sand.png", "alt": "iPhone 17 Air Vàng Cát 512GB" }
+                "price": 23750000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip17A-vang-nhat.png",
+                    "alt": "iPhone 17 Air Vàng Nhạt 512GB"
+                }
             },
             {
-                "color": "Tím Khói",
-                "storage": "128GB",
-                "price": 26990000,
-                "oldPrice": 26990000,
-                "image": { "id": "10", "url": "/images/iphone-17-air-purple.png", "alt": "iPhone 17 Air Tím Khói 128GB" }
-            },
-            {
-                "color": "Tím Khói",
+                "color": "Xanh Da Trời",
                 "storage": "256GB",
-                "price": 29990000,
-                "oldPrice": 29990000,
-                "image": { "id": "11", "url": "/images/iphone-17-air-purple.png", "alt": "iPhone 17 Air Tím Khói 256GB" }
+                "price": 21750000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip17A-xanh-da-troi.png",
+                    "alt": "iPhone 17 Air Xanh Da Trời 256GB"
+                }
             },
             {
-                "color": "Tím Khói",
+                "color": "Xanh Da Trời",
                 "storage": "512GB",
-                "price": 34990000,
-                "oldPrice": 34990000,
-                "image": { "id": "12", "url": "/images/iphone-17-air-purple.png", "alt": "iPhone 17 Air Tím Khói 512GB" }
+                "price": 23750000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip17A-xanh-da-troi.png",
+                    "alt": "iPhone 17 Air Xanh Da Trời 512GB"
+                }
             }
         ],
         "specs": {
@@ -230,90 +293,83 @@
         "name": "iPhone 17 Pro",
         "slug": "iphone-17-pro",
         "colors": [
-            { "id": "1", "name": "Titan Đen", "hex": "#28292b" },
-            { "id": "2", "name": "Titan Trắng", "hex": "#f1f0ec" },
-            { "id": "3", "name": "Titan Tự Nhiên", "hex": "#aaaaa5" },
-            { "id": "4", "name": "Cam Vũ Trụ", "hex": "#b87355" }
+            {
+                "id": "1",
+                "name": "Bạc",
+                "hex": "#f5f5f5"
+            },
+            {
+                "id": "2",
+                "name": "Xanh Đậm",
+                "hex": "#32374a"
+            },
+            {
+                "id": "3",
+                "name": "Cam Vũ Trụ",
+                "hex": "#f77e2d"
+            }
         ],
-        "storage": ["256GB", "512GB", "1TB"],
+        "storage": ["256GB", "512GB"],
         "variants": [
             {
-                "color": "Titan Đen",
+                "color": "Bạc",
                 "storage": "256GB",
-                "price": 33990000,
-                "oldPrice": 33990000,
-                "image": { "id": "1", "url": "/images/iphone-17-pro-black.png", "alt": "iPhone 17 Pro Titan Đen 256GB" }
+                "price": 31200000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip17PR-bac.png",
+                    "alt": "iPhone 17 Pro Bạc 256GB"
+                }
             },
             {
-                "color": "Titan Đen",
+                "color": "Bạc",
                 "storage": "512GB",
-                "price": 39690000,
-                "oldPrice": 39690000,
-                "image": { "id": "2", "url": "/images/iphone-17-pro-black.png", "alt": "iPhone 17 Pro Titan Đen 512GB" }
+                "price": 33550000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip17PR-bac.png",
+                    "alt": "iPhone 17 Pro Bạc 512GB"
+                }
             },
-            { "color": "Titan Đen", "storage": "1TB", "price": 44690000, "oldPrice": 44690000, "image": { "id": "3", "url": "/images/iphone-17-pro-black.png", "alt": "iPhone 17 Pro Titan Đen 1TB" } },
             {
-                "color": "Titan Trắng",
+                "color": "Xanh Đậm",
                 "storage": "256GB",
-                "price": 33990000,
-                "oldPrice": 33990000,
-                "image": { "id": "4", "url": "/images/iphone-17-pro-white.png", "alt": "iPhone 17 Pro Titan Trắng 256GB" }
+                "price": 31200000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip17PR-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Xanh Đậm 256GB"
+                }
             },
             {
-                "color": "Titan Trắng",
+                "color": "Xanh Đậm",
                 "storage": "512GB",
-                "price": 39690000,
-                "oldPrice": 39690000,
-                "image": { "id": "5", "url": "/images/iphone-17-pro-white.png", "alt": "iPhone 17 Pro Titan Trắng 512GB" }
-            },
-            {
-                "color": "Titan Trắng",
-                "storage": "1TB",
-                "price": 44690000,
-                "oldPrice": 44690000,
-                "image": { "id": "6", "url": "/images/iphone-17-pro-white.png", "alt": "iPhone 17 Pro Titan Trắng 1TB" }
-            },
-            {
-                "color": "Titan Tự Nhiên",
-                "storage": "256GB",
-                "price": 33990000,
-                "oldPrice": 33990000,
-                "image": { "id": "7", "url": "/images/iphone-17-pro-natural.png", "alt": "iPhone 17 Pro Titan Tự Nhiên 256GB" }
-            },
-            {
-                "color": "Titan Tự Nhiên",
-                "storage": "512GB",
-                "price": 39690000,
-                "oldPrice": 39690000,
-                "image": { "id": "8", "url": "/images/iphone-17-pro-natural.png", "alt": "iPhone 17 Pro Titan Tự Nhiên 512GB" }
-            },
-            {
-                "color": "Titan Tự Nhiên",
-                "storage": "1TB",
-                "price": 44690000,
-                "oldPrice": 44690000,
-                "image": { "id": "9", "url": "/images/iphone-17-pro-natural.png", "alt": "iPhone 17 Pro Titan Tự Nhiên 1TB" }
+                "price": 33550000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip17PR-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Xanh Đậm 512GB"
+                }
             },
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "256GB",
-                "price": 33990000,
-                "oldPrice": 33990000,
-                "image": { "id": "10", "url": "/images/iphone-17-pro-cosmic-orange.png", "alt": "iPhone 17 Pro Cam Vũ Trụ 256GB" }
+                "price": 31200000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip17PR-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Cam Vũ Trụ 256GB"
+                }
             },
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "512GB",
-                "price": 39690000,
-                "oldPrice": 39690000,
-                "image": { "id": "11", "url": "/images/iphone-17-pro-cosmic-orange.png", "alt": "iPhone 17 Pro Cam Vũ Trụ 512GB" }
-            },
-            {
-                "color": "Cam Vũ Trụ",
-                "storage": "1TB",
-                "price": 44690000,
-                "oldPrice": 44690000,
-                "image": { "id": "12", "url": "/images/iphone-17-pro-cosmic-orange.png", "alt": "iPhone 17 Pro Cam Vũ Trụ 1TB" }
+                "price": 33550000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip17PR-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Cam Vũ Trụ 512GB"
+                }
             }
         ],
         "specs": {
@@ -344,96 +400,113 @@
         "name": "iPhone 17 Pro Max",
         "slug": "iphone-17-pro-max",
         "colors": [
-            { "id": "1", "name": "Titan Đen", "hex": "#28292b" },
-            { "id": "2", "name": "Titan Trắng", "hex": "#f1f0ec" },
-            { "id": "3", "name": "Titan Tự Nhiên", "hex": "#aaaaa5" },
-            { "id": "4", "name": "Cam Vũ Trụ", "hex": "#b87355" }
+            {
+                "id": "1",
+                "name": "Bạc",
+                "hex": "#f5f5f5"
+            },
+            {
+                "id": "2",
+                "name": "Xanh Đậm",
+                "hex": "#32374a"
+            },
+            {
+                "id": "3",
+                "name": "Cam Vũ Trụ",
+                "hex": "#f77e2d"
+            }
         ],
         "storage": ["256GB", "512GB", "1TB"],
         "variants": [
             {
-                "color": "Titan Đen",
+                "color": "Bạc",
                 "storage": "256GB",
-                "price": 36790000,
-                "oldPrice": 36790000,
-                "image": { "id": "1", "url": "/images/iphone-17-pro-max-black.png", "alt": "iPhone 17 Pro Max Titan Đen 256GB" }
+                "price": 33750000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip17PRM-bac.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 256GB"
+                }
             },
             {
-                "color": "Titan Đen",
+                "color": "Bạc",
                 "storage": "512GB",
-                "price": 42790000,
-                "oldPrice": 42790000,
-                "image": { "id": "2", "url": "/images/iphone-17-pro-max-black.png", "alt": "iPhone 17 Pro Max Titan Đen 512GB" }
+                "price": 37750000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip17PRM-bac.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 512GB"
+                }
             },
             {
-                "color": "Titan Đen",
+                "color": "Bạc",
                 "storage": "1TB",
-                "price": 47790000,
-                "oldPrice": 47790000,
-                "image": { "id": "3", "url": "/images/iphone-17-pro-max-black.png", "alt": "iPhone 17 Pro Max Titan Đen 1TB" }
+                "price": 40550000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip17PRM-bac.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 1TB"
+                }
             },
             {
-                "color": "Titan Trắng",
+                "color": "Xanh Đậm",
                 "storage": "256GB",
-                "price": 36790000,
-                "oldPrice": 36790000,
-                "image": { "id": "4", "url": "/images/iphone-17-pro-max-white.png", "alt": "iPhone 17 Pro Max Titan Trắng 256GB" }
+                "price": 33750000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip17PRM-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 256GB"
+                }
             },
             {
-                "color": "Titan Trắng",
+                "color": "Xanh Đậm",
                 "storage": "512GB",
-                "price": 42790000,
-                "oldPrice": 42790000,
-                "image": { "id": "5", "url": "/images/iphone-17-pro-max-white.png", "alt": "iPhone 17 Pro Max Titan Trắng 512GB" }
+                "price": 37750000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip17PRM-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 512GB"
+                }
             },
             {
-                "color": "Titan Trắng",
+                "color": "Xanh Đậm",
                 "storage": "1TB",
-                "price": 47790000,
-                "oldPrice": 47790000,
-                "image": { "id": "6", "url": "/images/iphone-17-pro-max-white.png", "alt": "iPhone 17 Pro Max Titan Trắng 1TB" }
-            },
-            {
-                "color": "Titan Tự Nhiên",
-                "storage": "256GB",
-                "price": 36790000,
-                "oldPrice": 36790000,
-                "image": { "id": "7", "url": "/images/iphone-17-pro-max-natural.png", "alt": "iPhone 17 Pro Max Titan Tự Nhiên 256GB" }
-            },
-            {
-                "color": "Titan Tự Nhiên",
-                "storage": "512GB",
-                "price": 42790000,
-                "oldPrice": 42790000,
-                "image": { "id": "8", "url": "/images/iphone-17-pro-max-natural.png", "alt": "iPhone 17 Pro Max Titan Tự Nhiên 512GB" }
-            },
-            {
-                "color": "Titan Tự Nhiên",
-                "storage": "1TB",
-                "price": 47790000,
-                "oldPrice": 47790000,
-                "image": { "id": "9", "url": "/images/iphone-17-pro-max-natural.png", "alt": "iPhone 17 Pro Max Titan Tự Nhiên 1TB" }
+                "price": 40550000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip17PRM-xanh-dam.png",
+                    "alt": "iPhone 17 Pro Max Xanh Đậm 1TB"
+                }
             },
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "256GB",
-                "price": 36790000,
-                "oldPrice": 36790000,
-                "image": { "id": "10", "url": "/images/iphone-17-pro-max-cosmic-orange.png", "alt": "iPhone 17 Pro Max Cam Vũ Trụ 256GB" }
+                "price": 33750000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip17PRM-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 256GB"
+                }
             },
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "512GB",
-                "price": 42790000,
-                "oldPrice": 42790000,
-                "image": { "id": "11", "url": "/images/iphone-17-pro-max-cosmic-orange.png", "alt": "iPhone 17 Pro Max Cam Vũ Trụ 512GB" }
+                "price": 37750000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip17PRM-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 512GB"
+                }
             },
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "1TB",
-                "price": 47790000,
-                "oldPrice": 47790000,
-                "image": { "id": "12", "url": "/images/iphone-17-pro-max-cosmic-orange.png", "alt": "iPhone 17 Pro Max Cam Vũ Trụ 1TB" }
+                "price": 40550000,
+                "image": {
+                    "id": "9",
+                    "url": "/ip17PRM-cam-vu-tru.png",
+                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 1TB"
+                }
             }
         ],
         "specs": {
