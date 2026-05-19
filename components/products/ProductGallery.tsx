@@ -32,7 +32,7 @@ export function ProductGallery({ product, imageKey, currentVariant, onImageKeyCh
                         <img src={currentVariant?.image.url} alt={currentVariant?.image.alt} className="object-contain w-80" />
                     </motion.div>
                 </AnimatePresence>
-                <div className="absolute bottom-4 left-4 flex items-center gap-2 border border-white/10 rounded-full bg-white/50 px-3! py-1.5! backdrop-blur-xl">
+                <div className="absolute bottom-4 left-4 flex items-center gap-2 border border-white/10 rounded-full bg-white/30 px-3! py-1.5! backdrop-blur-xl">
                     <span className="w-3 h-3 rounded-full" style={{ background: product.colors.find((c) => c.name === imageKey)?.hex }} />
                     <span className="text-xs font-medium text-white">{imageKey}</span>
                 </div>
