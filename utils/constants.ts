@@ -1,7 +1,33 @@
 /** @format */
 
 import { Ip17Feature, Ip17FeaturedCard } from "@/types";
-import { Shield, Truck, RotateCcw, MessageCircle, Clock, Star, Cpu, Camera, Aperture, Battery, Zap, MapPinHouse, Mail, Phone, Calendar, ShoppingBag, Users, Building2, MapPin, FileText, Smartphone, Wrench, RefreshCcw, ShieldCheck, BadgeCheck } from "lucide-react";
+import {
+    Shield,
+    Truck,
+    RotateCcw,
+    MessageCircle,
+    Clock,
+    Star,
+    Cpu,
+    Camera,
+    Aperture,
+    Battery,
+    Zap,
+    MapPinHouse,
+    Mail,
+    Phone,
+    Calendar,
+    ShoppingBag,
+    Users,
+    Building2,
+    MapPin,
+    FileText,
+    Smartphone,
+    Wrench,
+    RefreshCcw,
+    ShieldCheck,
+    BadgeCheck,
+} from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { FaFacebookF, FaFacebookMessenger, FaTiktok } from "react-icons/fa";
 import { SiZalo } from "react-icons/si";
@@ -134,6 +160,9 @@ export const nav_links = [
         href: "/san-pham?loai-san-pham=watch",
         src: "/apple_watch_11_logo.png",
     },
+    { label: "Bảo hành", href: "/chinh-sach?loai-chinh-sach=bao-hanh"},
+    { label: "Vận chuyển", href: "/chinh-sach?loai-chinh-sach=van-chuyen"},
+    { label: "Liên hệ", href: "/chinh-sach?lien-he=true"},
 ] as const;
 
 export const footer_links = {
@@ -261,7 +290,6 @@ export const ip17Features: Ip17Feature[] = [
         description: "MagSafe 30W sạc đầy 0–50% trong 25 phút. Qi2 không dây 15W, không cần tháo ốp.",
     },
 ];
-
 
 export const stores = [
     {
