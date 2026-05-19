@@ -1,7 +1,5 @@
 /** @format */
 
-"use client";
-
 import { motion } from "framer-motion";
 import { Star, ShoppingBag, Check } from "lucide-react";
 import { FaFacebookF } from "react-icons/fa";

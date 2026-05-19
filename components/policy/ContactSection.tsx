@@ -1,5 +1,7 @@
 /** @format */
 
+"use client";
+
 import { contact_buttons } from "@/utils/constants";
 import { motion } from "framer-motion";
 import { Phone, ArrowRight } from "lucide-react";

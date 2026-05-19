@@ -1,4 +1,5 @@
 /** @format */
+"use client";
 
 import { AlertCircle } from "lucide-react";
 import { motion, useInView } from "framer-motion";

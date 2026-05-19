@@ -1,13 +1,6 @@
 /** @format */
 
-import { ShieldCheck, RefreshCcw, Truck, BadgeCheck } from "lucide-react";
-
-const commits = [
-    { icon: RefreshCcw, title: "Đổi trả 7 ngày", desc: "1 đổi 1 trong vòng 7 ngày với lỗi từ nhà sản xuất." },
-    { icon: ShieldCheck, title: "Bảo hành 12 tháng", desc: "Bảo hành chính hãng, hỗ trợ sửa chữa tận nơi." },
-    { icon: Truck, title: "Miễn phí vận chuyển", desc: "Freeship toàn quốc cho đơn hàng từ 5 triệu." },
-    { icon: BadgeCheck, title: "100% chính hãng", desc: "Cam kết sản phẩm chính hãng, có hóa đơn VAT." },
-];
+import { introduce_commits } from "@/utils/constants";
 
 export function CommitSection() {
     return (
@@ -20,7 +13,7 @@ export function CommitSection() {
             </div>
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                {commits.map((c) => {
+                {introduce_commits.map((c) => {
                     const Icon = c.icon;
                     return (
                         <div key={c.title} className="flex flex-col gap-3">

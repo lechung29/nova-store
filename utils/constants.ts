@@ -1,7 +1,7 @@
 /** @format */
 
 import { Ip17Feature, Ip17FeaturedCard } from "@/types";
-import { Shield, Truck, RotateCcw, MessageCircle, Clock, Star, Cpu, Camera, Aperture, Battery, Zap, MapPinHouse, Mail, Phone, Calendar, ShoppingBag, Users, Building2, MapPin, FileText, Smartphone, Wrench } from "lucide-react";
+import { Shield, Truck, RotateCcw, MessageCircle, Clock, Star, Cpu, Camera, Aperture, Battery, Zap, MapPinHouse, Mail, Phone, Calendar, ShoppingBag, Users, Building2, MapPin, FileText, Smartphone, Wrench, RefreshCcw, ShieldCheck, BadgeCheck } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { FaFacebookF, FaFacebookMessenger, FaTiktok } from "react-icons/fa";
 import { SiZalo } from "react-icons/si";
@@ -318,4 +318,11 @@ export const introduce_services = [
         title: "Lợi ích khách hàng",
         desc: "Luôn đi đầu về lợi ích khách hàng — tư vấn tận tâm, hậu mãi chu đáo và chính sách bảo hành minh bạch.",
     },
+];
+
+export const introduce_commits = [
+    { icon: RefreshCcw, title: "Đổi trả 7 ngày", desc: "1 đổi 1 trong vòng 7 ngày với lỗi từ nhà sản xuất." },
+    { icon: ShieldCheck, title: "Bảo hành 12 tháng", desc: "Bảo hành chính hãng, hỗ trợ sửa chữa tận nơi." },
+    { icon: Truck, title: "Miễn phí vận chuyển", desc: "Freeship toàn quốc cho đơn hàng từ 5 triệu." },
+    { icon: BadgeCheck, title: "100% chính hãng", desc: "Cam kết sản phẩm chính hãng, có hóa đơn VAT." },
 ];
