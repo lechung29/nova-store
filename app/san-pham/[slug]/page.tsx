@@ -61,7 +61,7 @@ export default function ProductDetailPage({ params }: PageProps) {
         <div className="min-h-screen pt-10!">
             <BackgroundDecor />
             <div className="max-w-7xl mx-auto! px-4! sm:px-16! py-10!">
-                <nav className="flex items-center gap-2 mb-8! text-base text-text-primary">
+                <nav className="flex items-center gap-2 mb-8! text-sm sm:text-base text-text-primary">
                     <a href="/" className="transition-colors hover:text-white">
                         Trang chủ
                     </a>

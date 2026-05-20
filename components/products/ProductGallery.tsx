@@ -29,7 +29,7 @@ export function ProductGallery({ product, imageKey, currentVariant, onImageKeyCh
                         transition={{ duration: 0.3 }}
                         className="float-anim select-none"
                     >
-                        <img src={currentVariant?.image.url} alt={currentVariant?.image.alt} className="object-contain w-80" />
+                        <img src={currentVariant?.image.url} alt={currentVariant?.image.alt} className="object-contain w-80 max-md:h-80" />
                     </motion.div>
                 </AnimatePresence>
                 <div className="absolute bottom-4 left-4 flex items-center gap-2 border border-white/10 rounded-full bg-white/30 px-3! py-1.5! backdrop-blur-xl">

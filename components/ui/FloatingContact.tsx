@@ -4,9 +4,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageCircle, Phone, X } from "lucide-react";
-import { FaFacebookF } from "react-icons/fa";
-import { SiZalo } from "react-icons/si";
+import { MessageCircle, X } from "lucide-react";
 import { floating_contacts } from "@/utils/constants";
 
 export function FloatingContact() {
