@@ -2258,7 +2258,7 @@
             {
                 "color": "Đen Không Gian",
                 "storage": "128GB",
-                "price": 15050000,
+                "price": 14500000,
                 "image": {
                     "id": "1",
                     "url": "/ip14PRM-den-khong-gian.png",
@@ -2268,7 +2268,7 @@
             {
                 "color": "Đen Không Gian",
                 "storage": "256GB",
-                "price": 16050000,
+                "price": 16500000,
                 "image": {
                     "id": "2",
                     "url": "/ip14PRM-den-khong-gian.png",
@@ -2288,7 +2288,7 @@
             {
                 "color": "Bạc",
                 "storage": "128GB",
-                "price": 15050000,
+                "price": 15500000,
                 "image": {
                     "id": "4",
                     "url": "/ip14PRM-bac.png",
@@ -2298,7 +2298,7 @@
             {
                 "color": "Bạc",
                 "storage": "256GB",
-                "price": 16050000,
+                "price": 16500000,
                 "image": {
                     "id": "5",
                     "url": "/ip14PRM-bac.png",
@@ -2318,7 +2318,7 @@
             {
                 "color": "Gold",
                 "storage": "128GB",
-                "price": 15050000,
+                "price": 15500000,
                 "image": {
                     "id": "7",
                     "url": "/ip14PRM-gold.png",
@@ -2328,7 +2328,7 @@
             {
                 "color": "Gold",
                 "storage": "256GB",
-                "price": 16050000,
+                "price": 16500000,
                 "image": {
                     "id": "8",
                     "url": "/ip14PRM-gold.png",
@@ -2348,7 +2348,7 @@
             {
                 "color": "Tía Đậm",
                 "storage": "128GB",
-                "price": 15050000,
+                "price": 14500000,
                 "image": {
                     "id": "10",
                     "url": "/ip14PRM-tia-dam.png",
@@ -2358,7 +2358,7 @@
             {
                 "color": "Tía Đậm",
                 "storage": "256GB",
-                "price": 16050000,
+                "price": 16500000,
                 "image": {
                     "id": "11",
                     "url": "/ip14PRM-tia-dam.png",
@@ -3015,7 +3015,7 @@
             {
                 "color": "Titan Đen",
                 "storage": "256GB",
-                "price": 19050000,
+                "price": 18500000,
                 "image": {
                     "id": "1",
                     "url": "/ip15PR-titan-den.png",
@@ -3045,7 +3045,7 @@
             {
                 "color": "Titan Trắng",
                 "storage": "256GB",
-                "price": 19050000,
+                "price": 19000000,
                 "image": {
                     "id": "4",
                     "url": "/ip15PRM-titan-trang.png",
@@ -3773,7 +3773,7 @@
             {
                 "color": "Titan Đen",
                 "storage": "256GB",
-                "price": 24750000,
+                "price": 24500000,
                 "image": {
                     "id": "1",
                     "url": "/ip16PRM-titan-den.png",
@@ -3803,7 +3803,7 @@
             {
                 "color": "Titan Trắng",
                 "storage": "256GB",
-                "price": 24750000,
+                "price": 25800000,
                 "image": {
                     "id": "4",
                     "url": "/ip16PRM-titan-trang.png",
@@ -3813,7 +3813,7 @@
             {
                 "color": "Titan Trắng",
                 "storage": "512GB",
-                "price": 26750000,
+                "price": 27200000,
                 "image": {
                     "id": "5",
                     "url": "/ip16PRM-titan-trang.png",
@@ -3833,7 +3833,7 @@
             {
                 "color": "Titan Tự Nhiên",
                 "storage": "256GB",
-                "price": 24750000,
+                "price": 25800000,
                 "image": {
                     "id": "7",
                     "url": "/ip16PRM-titan-tu-nhien.png",
@@ -3843,7 +3843,7 @@
             {
                 "color": "Titan Tự Nhiên",
                 "storage": "512GB",
-                "price": 26750000,
+                "price": 27200000,
                 "image": {
                     "id": "8",
                     "url": "/ip16PRM-titan-tu-nhien.png",
@@ -3863,7 +3863,7 @@
             {
                 "color": "Titan Sa Mạc",
                 "storage": "256GB",
-                "price": 24750000,
+                "price": 25800000,
                 "image": {
                     "id": "10",
                     "url": "/ip16PRM-titan-sa-mac.png",
@@ -3873,7 +3873,7 @@
             {
                 "color": "Titan Sa Mạc",
                 "storage": "512GB",
-                "price": 26750000,
+                "price": 27200000,
                 "image": {
                     "id": "11",
                     "url": "/ip16PRM-titan-sa-mac.png",
@@ -4249,7 +4249,7 @@
             {
                 "color": "Xanh Đậm",
                 "storage": "256GB",
-                "price": 31200000,
+                "price": 30700000,
                 "image": {
                     "id": "3",
                     "url": "/ip17PR-xanh-dam.png",
@@ -4259,7 +4259,7 @@
             {
                 "color": "Xanh Đậm",
                 "storage": "512GB",
-                "price": 33550000,
+                "price": 33050000,
                 "image": {
                     "id": "4",
                     "url": "/ip17PR-xanh-dam.png",
@@ -4269,7 +4269,7 @@
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "256GB",
-                "price": 31200000,
+                "price": 30700000,
                 "image": {
                     "id": "5",
                     "url": "/ip17PR-cam-vu-tru.png",
@@ -4279,7 +4279,7 @@
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "512GB",
-                "price": 33550000,
+                "price": 33050000,
                 "image": {
                     "id": "6",
                     "url": "/ip17PR-cam-vu-tru.png",
@@ -4366,7 +4366,7 @@
             {
                 "color": "Xanh Đậm",
                 "storage": "256GB",
-                "price": 33750000,
+                "price": 33250000,
                 "image": {
                     "id": "4",
                     "url": "/ip17PRM-xanh-dam.png",
@@ -4376,7 +4376,7 @@
             {
                 "color": "Xanh Đậm",
                 "storage": "512GB",
-                "price": 37750000,
+                "price": 37250000,
                 "image": {
                     "id": "5",
                     "url": "/ip17PRM-xanh-dam.png",
@@ -4386,7 +4386,7 @@
             {
                 "color": "Xanh Đậm",
                 "storage": "1TB",
-                "price": 40550000,
+                "price": 40050000,
                 "image": {
                     "id": "6",
                     "url": "/ip17PRM-xanh-dam.png",
@@ -4396,7 +4396,7 @@
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "256GB",
-                "price": 33750000,
+                "price": 33250000,
                 "image": {
                     "id": "7",
                     "url": "/ip17PRM-cam-vu-tru.png",
@@ -4406,7 +4406,7 @@
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "512GB",
-                "price": 37750000,
+                "price": 37250000,
                 "image": {
                     "id": "8",
                     "url": "/ip17PRM-cam-vu-tru.png",
@@ -4416,7 +4416,7 @@
             {
                 "color": "Cam Vũ Trụ",
                 "storage": "1TB",
-                "price": 40550000,
+                "price": 40050000,
                 "image": {
                     "id": "9",
                     "url": "/ip17PRM-cam-vu-tru.png",

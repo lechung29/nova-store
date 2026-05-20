@@ -38,7 +38,7 @@ export function Navbar() {
                 </Link>
                 <NavDesktop navLinks={nav_links} />
                 <div className="flex items-center gap-1">
-                    <Link href="/san-pham" className="hidden md:inline-flex">
+                    <Link href="/san-pham" className="hidden lg:inline-flex">
                         <Button variant="ghost" size="icon" className="text-text-primary hover:bg-transparent! hover:text-white">
                             <Search className="h-5! w-5!" />
                         </Button>
@@ -46,7 +46,7 @@ export function Navbar() {
                     <CartButton totalItems={mounted ? totalItems : 0} onOpenCart={openCart} />
                     <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
                         <SheetTrigger asChild>
-                            <Button variant="ghost" size="icon" className="md:hidden text-text-primary hover:bg-transparent! hover:text-white">
+                            <Button variant="ghost" size="icon" className="lg:hidden text-text-primary hover:bg-transparent! hover:text-white">
                                 <Menu size={20} />
                             </Button>
                         </SheetTrigger>

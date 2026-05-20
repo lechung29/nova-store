@@ -83,11 +83,6 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
                             {product.isNew && (
                                 <span className="bg-[#2997ff]/20 text-[#2997ff] border border-[#2997ff]/30 text-[10px] font-display font-bold tracking-wider px-2! py-0.5! rounded-full">Mới</span>
                             )}
-                            {!!product.discount && (
-                                <span className="bg-red-500/20 text-red-400 border border-red-500/30 text-[10px] font-display font-bold tracking-wider px-2! py-0.5! rounded-full">
-                                    -{product.discount}%
-                                </span>
-                            )}
                         </div>
 
                         <div className="relative aspect-square bg-linear-to-br from-[#1a1a1a] to-[#0d0d0d] flex items-center justify-center overflow-hidden">

@@ -5,7 +5,7 @@ import { Search } from "lucide-react";
 import { SheetContent } from "@/components/ui/sheet";
 
 interface NavMobileProps {
-    navLinks: readonly { label: string; href: string; src?: string }[];
+    navLinks: readonly { label: string; href: string; src?: string; icon?: any }[];
     onClose: () => void;
 }
 
@@ -24,6 +24,7 @@ export function NavMobile({ navLinks, onClose }: NavMobileProps) {
                         className="group flex items-center justify-start rounded-xl px-4! py-3! text-sm font-display font-medium text-text-primary transition-all duration-150 hover:bg-white/6 hover:text-white"
                     >
                         {!!link.src && <img src={link.src} alt={link.label} className="mr-2! inline-block h-4 w-4 object-contain" />}
+                        {!!link.icon && <link.icon className="mr-2! text-text-primary inline-block h-4 w-4" />}
                         {link.label}
                     </Link>
                 ))}

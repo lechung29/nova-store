@@ -7,30 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, Phone, X } from "lucide-react";
 import { FaFacebookF } from "react-icons/fa";
 import { SiZalo } from "react-icons/si";
-
-const contacts = [
-    {
-        label: "Messenger",
-        href: "https://m.me/dinhnhanh140220",
-        icon: <FaFacebookF />,
-        color: "#0084FF",
-        bg: "from-[#0084FF] to-[#0099FF]",
-    },
-    {
-        label: "Zalo",
-        href: "https://zalo.me/0385535606",
-        icon: <SiZalo />,
-        color: "#0068FF",
-        bg: "from-[#0068FF] to-[#0080FF]",
-    },
-    {
-        label: "Gọi ngay",
-        href: "tel:0385535606",
-        icon: <Phone size={16} />,
-        color: "#34C759",
-        bg: "from-[#34C759] to-[#28A745]",
-    },
-];
+import { floating_contacts } from "@/utils/constants";
 
 export function FloatingContact() {
     const [open, setOpen] = useState(false);
@@ -53,7 +30,7 @@ export function FloatingContact() {
         <div ref={containerRef} className="fixed bottom-8 right-6 z-40 flex flex-col items-center gap-3">
             <AnimatePresence>
                 {open &&
-                    contacts.map((c, i) => (
+                    floating_contacts.map((c, i) => (
                         <motion.a
                             key={c.label}
                             href={c.href}
@@ -80,7 +57,7 @@ export function FloatingContact() {
                                 className={`w-12 h-12 rounded-full bg-linear-to-br ${c.bg} flex items-center justify-center text-white font-bold shadow-lg`}
                                 style={{ boxShadow: `0 4px 20px ${c.color}40` }}
                             >
-                                {typeof c.icon === "string" ? <span className="text-lg">{c.icon}</span> : c.icon}
+                                <c.icon size={16}/>
                             </div>
                         </motion.a>
                     ))}

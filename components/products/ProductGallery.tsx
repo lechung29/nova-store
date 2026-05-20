@@ -37,12 +37,6 @@ export function ProductGallery({ product, imageKey, currentVariant, onImageKeyCh
                     <span className="text-xs font-medium text-white">{imageKey}</span>
                 </div>
 
-                {!!product.discount && (
-                    <div className="absolute top-4 left-4">
-                        <span className="px-3! py-1! text-sm font-bold rounded-xl bg-red-500 text-white font-display">-{product.discount}%</span>
-                    </div>
-                )}
-
                 {product.isNew && (
                     <div className="absolute top-4 right-4">
                         <span className="px-3! py-1! text-sm font-bold border rounded-xl font-display bg-blue-500/20 border-blue-500/30 text-blue-400">Mới</span>
