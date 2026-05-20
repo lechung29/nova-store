@@ -29,14 +29,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
                 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
             </head>
-            <body className="bg-black text-white antialiased overflow-hidden">
+            <body className="bg-black text-white antialiased">
                 <Navbar />
-                <div className="overflow-auto h-[calc(100vh-56px)]">
+                <div className="relative overflow-x-hidden overflow-y-auto h-[calc(100vh-56px)]">
                     <main>{children}</main>
                     <Footer />
+                    <CartDrawer />
+                    <FloatingContact />
                 </div>
-                <CartDrawer />
-                <FloatingContact />
             </body>
         </html>
     );

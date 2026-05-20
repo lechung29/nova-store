@@ -65,7 +65,6 @@ body {
     background: var(--bg-primary);
     color: var(--text-primary);
     font-family: "Roboto Condensed", sans-serif;
-    overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     width: 6px;
@@ -123,8 +122,12 @@ body {
 }
 
 @keyframes marquee {
-    from { transform: translateX(0); }
-    to   { transform: translateX(-50%); }
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 @keyframes silver-shine {

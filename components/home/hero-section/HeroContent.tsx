@@ -10,19 +10,19 @@ interface HeroContentProps {
     stats: readonly { value: string; label: string }[];
 }
 
-export function HeroContent({ imageIndex, animationEase, stats }: HeroContentProps) {
+export function HeroContent({ animationEase, stats }: HeroContentProps) {
     return (
         <div className="relative z-20 w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
             <motion.div
                 initial={{ opacity: 0, scale: 0.8, y: 10 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="relative mb-6! inline-flex items-center gap-2 overflow-hidden rounded-full border border-white/10 bg-white/4 px-4! py-2! shadow-[0_8px_32px_rgba(0,0,0,0.35)] backdrop-blur-2xl sm:mb-8! sm:px-5!"
+                className="relative mb-6! flex w-full max-w-full items-center gap-2 overflow-hidden rounded-full border border-white/10 bg-white/4 px-4! py-2! shadow-[0_8px_32px_rgba(0,0,0,0.35)] backdrop-blur-2xl sm:mb-8! sm:inline-flex sm:w-auto sm:px-5!"
             >
                 <div className="absolute inset-0 bg-linear-to-r from-white/8 via-white/2 to-white/6 opacity-80" />
                 <div className="absolute -top-10 left-1/2 h-20 w-40 -translate-x-1/2 rounded-full bg-blue-500/20 blur-3xl" />
                 <Sparkles size={16} className="relative z-10 text-text-primary" />
-                <span className="relative z-10 text-xs font-display font-semibold uppercase tracking-[0.16em] text-text-primary sm:tracking-[0.18em]">
+                <span className="relative z-10 truncate text-xs font-display font-semibold uppercase tracking-[0.16em] text-text-primary sm:tracking-[0.18em]">
                     iPhone 17 Pro Max — Trải nghiệm ngay tại Nova Store
                 </span>
                 <span className="relative z-10 h-1.5 w-1.5 rounded-full bg-blue-500 animate-pulse shadow-[0_0_12px_#2997ff]" />
@@ -74,7 +74,6 @@ export function HeroContent({ imageIndex, animationEase, stats }: HeroContentPro
                 </Link>
             </motion.div>
 
-            {/* Stats */}
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9 }} className="flex w-full justify-center gap-6 pt-8! md:justify-start sm:gap-10">
                 {stats.map(({ value, label }) => (
                     <div key={label} className="text-center md:text-left">

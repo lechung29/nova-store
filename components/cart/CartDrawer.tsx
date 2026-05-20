@@ -36,7 +36,7 @@ export function CartDrawer() {
 
     return (
         <Sheet open={isOpen} onOpenChange={(open) => !open && closeCart()}>
-            <SheetContent showCloseButton={false} side="right" className="flex max-h-screen max-w-md flex-col border-0! bg-black/90 p-0!">
+            <SheetContent showCloseButton={false} side="right" className="flex max-h-screen w-[88%]! max-w-md! flex-col overflow-x-hidden border-0! bg-black/90 p-0!">
                 <CartDrawerHeader totalQty={totalQty} itemsLength={items.length} onClearCart={clearCart} onClose={closeCart} />
                 {items.length === 0 ? (
                     <CartDrawerEmpty onClose={closeCart} />

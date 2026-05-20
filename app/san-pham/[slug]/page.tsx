@@ -61,20 +61,20 @@ export default function ProductDetailPage({ params }: PageProps) {
         <div className="min-h-screen pt-10!">
             <BackgroundDecor />
             <div className="max-w-7xl mx-auto! px-4! sm:px-16! py-10!">
-                <nav className="flex items-center gap-2 mb-8! text-sm sm:text-base text-text-primary">
-                    <a href="/" className="transition-colors hover:text-white">
+                <nav className="flex flex-wrap items-center gap-1.5 mb-8! text-sm text-text-primary overflow-hidden">
+                    <a href="/" className="shrink-0 transition-colors hover:text-white">
                         Trang chủ
                     </a>
-                    <span>/</span>
-                    <a href="/san-pham" className="transition-colors hover:text-white">
+                    <span className="shrink-0">/</span>
+                    <a href="/san-pham" className="shrink-0 transition-colors hover:text-white">
                         Sản phẩm
                     </a>
-                    <span>/</span>
-                    <a href={`/san-pham?loai-san-pham=${product.category}`} className="capitalize transition-colors hover:text-white">
+                    <span className="shrink-0">/</span>
+                    <a href={`/san-pham?loai-san-pham=${product.category}`} className="shrink-0 capitalize transition-colors hover:text-white">
                         {product.category}
                     </a>
-                    <span>/</span>
-                    <span className="text-white">{product.name}</span>
+                    <span className="shrink-0">/</span>
+                    <span className="truncate text-white">{product.name}</span>
                 </nav>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-20 mb-12">
                     <ProductGallery product={product} imageKey={imageKey} onImageKeyChange={setImageKey} currentVariant={currentVariant} />

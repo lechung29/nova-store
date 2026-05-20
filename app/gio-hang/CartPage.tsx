@@ -47,7 +47,7 @@ export default function CartComponent() {
                                     <div className="flex justify-end pt-4!">
                                         <button onClick={clearCart} className="flex cursor-pointer items-center gap-1.5! text-sm text-white/70 transition-colors hover:text-red-400">
                                             <Trash2 size={14} /> Xóa tất cả
-                                        </button>x
+                                        </button>
                                     </div>
                                 </div>
                                 <ScrollBar orientation="horizontal" />

@@ -12,7 +12,7 @@ interface CartDrawerFooterProps {
 
 export function CartDrawerFooter({ total, onClose }: CartDrawerFooterProps) {
     return (
-        <div className="shrink-0 space-y-4! border-t border-text-primary/10 px-5! py-4!">
+        <div className="w-full shrink-0 space-y-4! border-t border-text-primary/10 px-4! py-4!">
             <div className="flex items-center justify-between">
                 <span className="text-base text-text-primary">Tạm tính</span>
                 <span className="text-xl font-display font-bold text-text-primary">{formatVND(total)}</span>
