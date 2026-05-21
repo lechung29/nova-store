@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Info } from "lucide-react";
 import { introduce_shop_info } from "@/utils/constants";
 
+export const NOVA_LOGO = <img src="/logo.jpg" alt="Nova logo" className="w-full object-contain" />;
+
 export function HeroSection() {
     return (
         <section className="mb-12!">
@@ -14,17 +16,11 @@ export function HeroSection() {
             <div className="flex flex-col gap-8 rounded-2xl border border-white/10 bg-[#111827]/80 p-8! backdrop-blur-sm shadow-2xl lg:flex-row lg:items-start lg:gap-12">
                 <div className="flex shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-8! lg:w-64 lg:h-48">
                     <div className="flex flex-col items-center gap-2">
-                        <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-500/20">
-                            <svg viewBox="0 0 24 24" fill="none" className="h-10 w-10 text-blue-400" stroke="currentColor" strokeWidth={1.5}>
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 15.75h3"
-                                />
-                            </svg>
+                        <div className="flex h-20 w-20 items-center justify-center rounded-full overflow-hidden bg-blue-500/20">
+                            {NOVA_LOGO}
                         </div>
-                        <span className="text-xl font-extrabold tracking-tight text-white">
-                            NOVA<span className="text-blue-400">STORE</span>
+                        <span className="silver-text text-xl! font-extrabold! tracking-tight!">
+                            NOVA<span className="text-blue-400"> STORE</span>
                         </span>
                         <span className="text-xs font-medium uppercase tracking-widest text-white/60">Đà Nẵng</span>
                     </div>

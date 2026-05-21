@@ -14,6 +14,8 @@ import { CartButton } from "./CartButton";
 import { NavMobile } from "./NavbarMobile";
 import { Sheet, SheetTrigger } from "@/components/ui/sheet";
 
+export const NOVA_LOGO = <img src="/logo.jpg" alt="Nova logo" className="w-full object-contain" />;
+
 export function Navbar() {
     const { getTotalItems, openCart } = useCartStore();
     const [mounted, setMounted] = useState(false);
@@ -33,8 +35,9 @@ export function Navbar() {
             className="sticky inset-x-0 top-0 z-50 w-full bg-black/10 backdrop-blur-3xl transition-all duration-300"
         >
             <nav className="mx-auto! flex h-14 items-center justify-between gap-4 max-w-7xl px-6! sm:px-12!">
-                <Link href="/" className="shrink-0">
-                    <div className="font-display font-bold tracking-tight text-lg text-text-primary">NOVA STORE</div>
+                <Link href="/" className="shrink-0 flex items-center justify-center gap-2">
+                    <div className="w-10 h-10 rounded-full overflow-hidden">{NOVA_LOGO}</div>
+                    <div className="silver-text font-display! font-bold! tracking-tight! text-lg!">NOVA STORE</div>
                 </Link>
                 <NavDesktop navLinks={nav_links} />
                 <div className="flex items-center gap-1">
