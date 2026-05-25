@@ -23,10 +23,17 @@ export function Navbar() {
     const { getTotalItems, openCart } = useCartStore();
     const [mounted, setMounted] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const { filters, setSearch } = useFilterStore();
+    const { filters, setSearch, resetFilters } = useFilterStore();
     const [navSearch, setNavSearch] = useState(filters.search);
     const router = useRouter();
     const pathname = usePathname();
+
+    useEffect(() => {
+        if (pathname !== "/san-pham") {
+            resetFilters();
+            setNavSearch("");
+        }
+    }, [pathname]);
 
     useEffect(() => {
         setMounted(true);
@@ -51,6 +58,21 @@ export function Navbar() {
                     <div className="silver-text font-display! font-bold! tracking-tight! text-lg!">NOVA STORE</div>
                 </Link>
                 <NavDesktop navLinks={nav_links} />
+                {pathname !== "/san-pham" && (
+                    <div className="lg:hidden md:flex hidden px-6! sm:px-12! flex-1 items-center justify-center">
+                        <NavBarSearch
+                            value={navSearch}
+                            onChange={(value) => {
+                                setNavSearch(value);
+                                if (value === "") setSearch("");
+                            }}
+                            onEnter={() => {
+                                setSearch(navSearch);
+                                router.push("/san-pham");
+                            }}
+                        />
+                    </div>
+                )}
                 <div className="flex items-center gap-1">
                     <Link href="/san-pham" className="hidden lg:inline-flex">
                         <Button variant="ghost" size="icon" className="text-text-primary hover:bg-transparent! hover:text-white">
@@ -69,7 +91,7 @@ export function Navbar() {
                 </div>
             </nav>
             {pathname !== "/san-pham" && (
-                <div className="lg:hidden max-w-7xl w-full mx-auto! px-6! sm:px-12! pb-4! pt-2! flex items-center justify-center">
+                <div className="md:hidden max-w-7xl w-full mx-auto! px-6! sm:px-12! pb-4! pt-2! flex items-center justify-center">
                     <NavBarSearch
                         value={navSearch}
                         onChange={(value) => {

@@ -8,7 +8,7 @@ interface NavDesktopProps {
 
 export function NavDesktop({ navLinks }: NavDesktopProps) {
     return (
-        <div className="hidden flex-1 items-center justify-center gap-8 lg:flex overflow-hidden">
+        <div className="hidden flex-1 items-center justify-center gap-6 min-[1045px]:gap-8 lg:flex overflow-hidden">
             {navLinks.map((link) => (
                 <Link key={link.label} href={link.href} className="group relative flex items-center text-base text-text-primary transition-colors duration-200 hover:text-white">
                     {!!link.src && <img src={link.src} alt={link.label} className="mr-1! inline-block h-4 w-4 object-contain" />}
