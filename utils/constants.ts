@@ -41,8 +41,6 @@ export const STORE_EMAIL = "nhanld140220@gmail.com";
 export const STORE_RATING = "4.9";
 export const STORE_MAP_SRC =
     "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3834.274276078581!2d108.1519996!3d16.0512508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142193761a67ff9%3A0x79c7eb1ed34717b4!2zNDkgxJDDoCBTxqFuLCBIw7JhIEtow6FuaCwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1779182309678!5m2!1svi!2s";
-const STORE_BUSINESS_LICENSE = "Số 32B8019880 do UBND Phường Hòa Khánh cấp ngày 18/06/2026";
-const STORE_BUSINESS_LICENSE_HIGHLIGHT = "32B8019880";
 
 const FB_PAGE_USERNAME = "dinhnhan140220";
 const MESSENGER_USERNAME_ID = "100010434693297";
@@ -349,12 +347,6 @@ export const introduce_shop_info = [
         icon: MapPin,
         label: "Địa chỉ",
         value: STORE_ADDRESS,
-    },
-    {
-        icon: FileText,
-        label: "Giấy CNĐKKD",
-        value: STORE_BUSINESS_LICENSE,
-        highlight: STORE_BUSINESS_LICENSE_HIGHLIGHT,
     },
 ];
 

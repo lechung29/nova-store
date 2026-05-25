@@ -13,6 +13,9 @@ import { NavDesktop } from "./NavbarDesktop";
 import { CartButton } from "./CartButton";
 import { NavMobile } from "./NavbarMobile";
 import { Sheet, SheetTrigger } from "@/components/ui/sheet";
+import { useFilterStore } from "@/store";
+import { NavBarSearch } from "./NavbarSearch";
+import { usePathname, useRouter } from "next/navigation";
 
 export const NOVA_LOGO = <img src="/logo.jpg" alt="Nova logo" className="w-full object-contain" />;
 
@@ -20,10 +23,18 @@ export function Navbar() {
     const { getTotalItems, openCart } = useCartStore();
     const [mounted, setMounted] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const { filters, setSearch } = useFilterStore();
+    const [navSearch, setNavSearch] = useState(filters.search);
+    const router = useRouter();
+    const pathname = usePathname();
 
     useEffect(() => {
         setMounted(true);
     }, []);
+
+    useEffect(() => {
+        setNavSearch(filters.search);
+    }, [filters.search]);
 
     const totalItems = getTotalItems();
 
@@ -57,6 +68,21 @@ export function Navbar() {
                     </Sheet>
                 </div>
             </nav>
+            {pathname !== "/san-pham" && (
+                <div className="lg:hidden max-w-7xl w-full mx-auto! px-6! sm:px-12! pb-4! pt-2! flex items-center justify-center">
+                    <NavBarSearch
+                        value={navSearch}
+                        onChange={(value) => {
+                            setNavSearch(value);
+                            if (value === "") setSearch("");
+                        }}
+                        onEnter={() => {
+                            setSearch(navSearch);
+                            router.push("/san-pham");
+                        }}
+                    />
+                </div>
+            )}
         </motion.header>
     );
 }

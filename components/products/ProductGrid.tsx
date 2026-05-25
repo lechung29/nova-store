@@ -51,7 +51,7 @@ export function ProductGrid({ products, loading }: ProductGridProps) {
     return (
         <div className="flex flex-col gap-6">
             <div ref={contentRef} className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center">
-                <SearchBar value={filters.search} onChange={setSearch} />
+                <SearchBar value={filters.search} onSearch={setSearch} />
 
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="ml-auto! flex items-center gap-2">
                     <SortDropdown value={filters.sortBy} onSort={setSortBy} options={sort_options} />

@@ -33,7 +33,7 @@ export function HeroSection() {
                     </h1>
 
                     <div className="space-y-4!">
-                        {introduce_shop_info.map((row) => {
+                        {introduce_shop_info.map((row: any) => {
                             const Icon = row.icon;
                             return (
                                 <div key={row.label} className="flex items-start gap-3">
@@ -43,12 +43,12 @@ export function HeroSection() {
                                     <div>
                                         <span className="text-sm font-semibold text-white/70">{row.label}: </span>
                                         <span className="text-base leading-relaxed text-white/80">
-                                            {row.highlight
+                                            {row?.highlight
                                                 ? row.value
-                                                      .replace(row.highlight, `@@${row.highlight}@@`)
+                                                      .replace(row?.highlight, `@@${row?.highlight}@@`)
                                                       .split("@@")
-                                                      .map((part, i) =>
-                                                          part === row.highlight ? (
+                                                      .map((part: any, i: number) =>
+                                                          part === row?.highlight ? (
                                                               <strong key={i} className="font-bold text-white">
                                                                   {part}
                                                               </strong>

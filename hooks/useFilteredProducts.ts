@@ -10,12 +10,7 @@ export function useFilteredProducts(products: IProduct[], filters: FilterState):
 
         if (filters.search) {
             const query = filters.search.toLowerCase();
-            result = result.filter(
-                (p) =>
-                    p.name.toLowerCase().includes(query) ||
-                    p.specs.chip.toLowerCase().includes(query) ||
-                    p.series.toLowerCase().includes(query),
-            );
+            result = result.filter((p) => p.name.toLowerCase().includes(query));
         }
 
         if (filters.series.length > 0) {
@@ -33,10 +28,7 @@ export function useFilteredProducts(products: IProduct[], filters: FilterState):
         result = result.filter((p) => {
             const minPrice = getProductMinPrice(p.variants);
             const maxPrice = Math.max(...p.variants.map((v) => v.price));
-            return (
-                (minPrice >= filters.minPrice && minPrice <= filters.maxPrice) ||
-                (maxPrice >= filters.minPrice && maxPrice <= filters.maxPrice)
-            );
+            return (minPrice >= filters.minPrice && minPrice <= filters.maxPrice) || (maxPrice >= filters.minPrice && maxPrice <= filters.maxPrice);
         });
 
         switch (filters.sortBy) {

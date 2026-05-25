@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { ProductGrid } from "@/components/products/ProductGrid";
@@ -16,7 +16,8 @@ export function ProductsClient() {
     const searchParams = useSearchParams();
     const category = searchParams.get("loai-san-pham") || "all";
     const sortParam = searchParams.get("sort");
-    const { setCategory, setSortBy, resetFilters } = useFilterStore();
+    const { filters, setSearch, setCategory, setSortBy, resetFilters } = useFilterStore();
+    const [initialized, setInitialized] = useState(false);
 
     useEffect(() => {
         setCategory(category);
@@ -26,7 +27,16 @@ export function ProductsClient() {
     }, [category, sortParam, setCategory, setSortBy]);
 
     useEffect(() => {
-        resetFilters();
+        if (!initialized) {
+            setInitialized(true);
+            return;
+        } else {
+            resetFilters();
+        }
+
+        // const savedSearch = filters.search;
+        // resetFilters();
+        // if (savedSearch) setSearch(savedSearch);
     }, [category, resetFilters]);
 
     const products = useMemo(() => (category === "all" ? all_products : all_products.filter((p) => p.category === category)), [category]);

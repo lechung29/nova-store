@@ -29,7 +29,7 @@ export function NavMobile({ navLinks, onClose }: NavMobileProps) {
                     </Link>
                 ))}
             </nav>
-            <div className="border-t border-white/8 px-3! py-4! pb-4! pt-4!">
+            {/* <div className="border-t border-white/8 px-3! py-4! pb-4! pt-4!">
                 <Link
                     href="/san-pham"
                     onClick={onClose}
@@ -38,7 +38,7 @@ export function NavMobile({ navLinks, onClose }: NavMobileProps) {
                     <Search size={15} />
                     Tìm kiếm sản phẩm
                 </Link>
-            </div>
+            </div> */}
         </SheetContent>
     );
 }
