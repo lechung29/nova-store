@@ -115,8 +115,8 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
                                                         setSelectedColorIdx(i);
                                                     }}
                                                     className={cn(
-                                                        "w-5 h-5 rounded-full border transition-all duration-200",
-                                                        selectedColorIdx === i ? "border-white scale-125" : "border-white/20 hover:border-white/50 cursor-pointer",
+                                                        "w-6 h-6 rounded-full border transition-all duration-200 cursor-pointer",
+                                                        selectedColorIdx === i ? "ring-1 ring-blue-400 ring-offset-2 ring-offset-black" : "ring-1 ring-white/20 hover:ring-white/40",
                                                     )}
                                                     style={{ background: color.hex }}
                                                 />

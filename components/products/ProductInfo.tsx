@@ -119,13 +119,13 @@ function ColorSelector({ colors, selectedIdx, selectedColor, onSelect }: { color
                         title={color.name}
                         className={cn(
                             "relative w-9 h-9 rounded-full transition-all duration-200 cursor-pointer",
-                            selectedIdx === i ? "ring-2 ring-white ring-offset-2 ring-offset-black" : "ring-1 ring-white/20 hover:ring-white/40",
+                            selectedIdx === i ? "ring-2 ring-blue-400 ring-offset-2 ring-offset-black" : "ring-1 ring-white/20 hover:ring-white/40",
                         )}
                         style={{ background: color.hex }}
                     >
                         {selectedIdx === i && (
                             <motion.div layoutId="colorCheck" className="absolute inset-0 flex items-center justify-center rounded-full">
-                                <Check size={12} className="text-white drop-shadow-md" />
+                                <Check size={12} className="text-blue-400 drop-shadow-md font-bold" />
                             </motion.div>
                         )}
                     </motion.button>

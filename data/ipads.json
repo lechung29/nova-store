@@ -1,25 +1,70 @@
 [
     {
-        "id": "ipad-gen-10-wifi-blue-64gb",
-        "name": "iPad Gen 10 Wifi 64GB (Màu Xanh)",
-        "slug": "ipad-gen-10-wifi-blue-64gb",
+        "id": "ipad-gen-10-wifi-64gb",
+        "name": "iPad Gen 10 Wifi 64GB",
+        "slug": "ipad-gen-10-wifi-64gb",
         "colors": [
             {
                 "id": "1",
-                "name": "Xanh Dương (Blue)",
+                "name": "Xanh Dương",
                 "hex": "#4f728c"
+            },
+            {
+                "id": "2",
+                "name": "Hồng",
+                "hex": "#de6274"
+            },
+            {
+                "id": "3",
+                "name": "Vàng",
+                "hex": "#f0d95b"
+            },
+            {
+                "id": "4",
+                "name": "Bạc",
+                "hex": "#e3e4e5"
             }
         ],
         "storage": ["64GB"],
         "variants": [
             {
-                "color": "Xanh Dương (Blue)",
+                "color": "Xanh Dương",
                 "storage": "64GB",
                 "price": 7200000,
                 "image": {
                     "id": "1",
                     "url": "/ipadG10-xanh-duong.png",
-                    "alt": "iPad Gen 10 64G Wifi Blue"
+                    "alt": "iPad Gen 10 64G Wifi"
+                }
+            },
+            {
+                "color": "Hồng",
+                "storage": "64GB",
+                "price": 7200000,
+                "image": {
+                    "id": "2",
+                    "url": "/ipadG-hong.png",
+                    "alt": "iPad Gen 10 64G Wifi"
+                }
+            },
+            {
+                "color": "Vàng",
+                "storage": "64GB",
+                "price": 7200000,
+                "image": {
+                    "id": "3",
+                    "url": "/ipadG-vang.png",
+                    "alt": "iPad Gen 10 64G Wifi"
+                }
+            },
+            {
+                "color": "Bạc",
+                "storage": "64GB",
+                "price": 7200000,
+                "image": {
+                    "id": "4",
+                    "url": "/ipadG11-bac.png",
+                    "alt": "iPad Gen 10 64G Wifi"
                 }
             }
         ],
@@ -47,26 +92,71 @@
         "releaseYear": 2022
     },
     {
-        "id": "ipad-gen-11-128gb-silver-wifi-zaa",
-        "name": "iPad Gen 11 Wifi 128GB Mã ZA/A (Màu Bạc)",
-        "slug": "ipad-gen-11-128gb-silver-wifi-zaa",
+        "id": "ipad-gen-11-128gb-wifi-zaa",
+        "name": "iPad Gen 11 Wifi 128GB Mã ZA/A",
+        "slug": "ipad-gen-11-128gb-wifi-zaa",
         "colors": [
             {
                 "id": "1",
-                "name": "Bạc (Silver)",
+                "name": "Xanh Dương",
+                "hex": "#4f728c"
+            },
+            {
+                "id": "2",
+                "name": "Hồng",
+                "hex": "#de6274"
+            },
+            {
+                "id": "3",
+                "name": "Vàng",
+                "hex": "#f0d95b"
+            },
+            {
+                "id": "4",
+                "name": "Bạc",
                 "hex": "#e3e4e5"
             }
         ],
         "storage": ["128GB"],
         "variants": [
             {
-                "color": "Bạc (Silver)",
+                "color": "Xanh Dương",
                 "storage": "128GB",
                 "price": 7900000,
                 "image": {
                     "id": "1",
+                    "url": "/ipadG10-xanh-duong.png",
+                    "alt": "iPad Gen 11 128G Wifi ZA/A"
+                }
+            },
+            {
+                "color": "Hồng",
+                "storage": "128GB",
+                "price": 7900000,
+                "image": {
+                    "id": "2",
+                    "url": "/ipadG-hong.png",
+                    "alt": "iPad Gen 11 128G Wifi ZA/A"
+                }
+            },
+            {
+                "color": "Vàng",
+                "storage": "128GB",
+                "price": 7900000,
+                "image": {
+                    "id": "3",
+                    "url": "/ipadG-vang.png",
+                    "alt": "iPad Gen 11 128G Wifi ZA/A"
+                }
+            },
+            {
+                "color": "Bạc",
+                "storage": "128GB",
+                "price": 7900000,
+                "image": {
+                    "id": "4",
                     "url": "/ipadG11-bac.png",
-                    "alt": "iPad Gen 11 128G Silver Wifi ZA/A"
+                    "alt": "iPad Gen 11 128G Wifi ZA/A"
                 }
             }
         ],
@@ -102,6 +192,21 @@
                 "id": "1",
                 "name": "Xám Không Gian",
                 "hex": "#3c3d3a"
+            },
+            {
+                "id": "2",
+                "name": "Xanh Dương",
+                "hex": "#d7e5e6"
+            },
+            {
+                "id": "3",
+                "name": "Tím",
+                "hex": "#e3dee9"
+            },
+            {
+                "id": "4",
+                "name": "Trắng Ánh Sao",
+                "hex": "#e3dcd1"
             }
         ],
         "storage": ["128GB"],
@@ -113,6 +218,36 @@
                 "image": {
                     "id": "1",
                     "url": "/ipadA11M2-xam-khong-gian.png",
+                    "alt": "iPad A16 (11″) 2025"
+                }
+            },
+            {
+                "color": "Xanh Dương",
+                "storage": "128GB",
+                "price": 7200000,
+                "image": {
+                    "id": "2",
+                    "url": "/ipadA11M2-xanh-duong.png",
+                    "alt": "iPad A16 (11″) 2025"
+                }
+            },
+            {
+                "color": "Tím",
+                "storage": "128GB",
+                "price": 7200000,
+                "image": {
+                    "id": "3",
+                    "url": "/ipadA11M2-tim.png",
+                    "alt": "iPad A16 (11″) 2025"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "128GB",
+                "price": 7200000,
+                "image": {
+                    "id": "4",
+                    "url": "/ipadA11M2-trang-anh-sao.png",
                     "alt": "iPad A16 (11″) 2025"
                 }
             }
@@ -141,26 +276,41 @@
         "releaseYear": 2024
     },
     {
-        "id": "ipad-pro-m4-13-inch-256gb-silver-zaa",
-        "name": "iPad Pro M4 13 inch 256GB Mã ZA/A (Màu Bạc)",
-        "slug": "ipad-pro-m4-13-inch-256gb-silver-zaa",
+        "id": "ipad-pro-m4-13-inch-256gb-zaa",
+        "name": "iPad Pro M4 13 inch 256GB Mã ZA/A",
+        "slug": "ipad-pro-m4-13-inch-256gb-zaa",
         "colors": [
             {
                 "id": "1",
-                "name": "Bạc (Silver)",
+                "name": "Bạc",
                 "hex": "#e3e4e5"
+            },
+            {
+                "id": "2",
+                "name": "Đen",
+                "hex": "#2e2c2e"
             }
         ],
         "storage": ["256GB"],
         "variants": [
             {
-                "color": "Bạc (Silver)",
+                "color": "Bạc",
                 "storage": "256GB",
                 "price": 27000000,
                 "image": {
                     "id": "1",
                     "url": "/ipadPRM4-bac.png",
                     "alt": "iPad Pro M4 13 inch 256G ZA/A Silver"
+                }
+            },
+            {
+                "color": "Đen",
+                "storage": "256GB",
+                "price": 27000000,
+                "image": {
+                    "id": "1",
+                    "url": "/ipadPRM4-den.png",
+                    "alt": "iPad Pro M4 13 inch 256G ZA/A Black"
                 }
             }
         ],
