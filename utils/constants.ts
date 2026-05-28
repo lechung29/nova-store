@@ -48,7 +48,7 @@ const MESSENGER_USERNAME_ID = "100010434693297";
 export const MESSENGER_URL = `https://www.facebook.com/messages/t/${MESSENGER_USERNAME_ID}`;
 export const FACEBOOK_PAGE_URL = `https://www.facebook.com/${FB_PAGE_USERNAME}`;
 export const ZALO_URL = `https://zalo.me/${STORE_PHONE_RAW}`;
-export const TIKTOK_URL = "https://www.tiktok.com/@applehousedanang";
+export const TIKTOK_URL = "https://www.tiktok.com/@dinhnhan1402";
 
 export const floating_contacts = [
     {
