@@ -1,0 +1,89 @@
+/** @format */
+
+"use client";
+
+import { useState } from "react";
+import { useCartStore } from "@/store/cartStore";
+import { useRecentlyViewedStore } from "@/store";
+import type { IProduct } from "@/types";
+import { findVariant, getRelatedProducts } from "@/utils";
+import { ProductDescription, ProductGallery, ProductInfo, ProductSpecs, RelatedProducts } from "@/components/products";
+import { BackgroundDecor } from "@/components/policy";
+import { useEffect } from "react";
+
+interface Props {
+    product: IProduct;
+}
+
+export default function ProductDetailClient({ product }: Props) {
+    const [selectedColorIdx, setSelectedColorIdx] = useState(0);
+    const [selectedStorageIdx, setSelectedStorageIdx] = useState(0);
+    const [imageKey, setImageKey] = useState(product.colors[0].name);
+    const [addedToCart, setAddedToCart] = useState(false);
+    const [specOpen, setSpecOpen] = useState(true);
+
+    const { addItem } = useCartStore();
+    const { addItem: addRecentlyViewed } = useRecentlyViewedStore();
+
+    useEffect(() => {
+        addRecentlyViewed(product.slug);
+    }, [product.slug, addRecentlyViewed]);
+
+    const selectedColor = product.colors[selectedColorIdx];
+    const selectedStorage = product.storage[selectedStorageIdx];
+    const currentVariant = findVariant(product.category, product.variants, imageKey, selectedStorage);
+    const productPrice = currentVariant?.price ?? 0;
+    const productOldPrice = currentVariant?.oldPrice;
+    const relatedProducts = getRelatedProducts(product);
+
+    const handleAddToCart = () => {
+        addItem(product, selectedColor, selectedStorage);
+        setAddedToCart(true);
+        setTimeout(() => setAddedToCart(false), 2500);
+    };
+
+    return (
+        <div className="min-h-screen pt-10!">
+            <BackgroundDecor />
+            <div className="max-w-7xl mx-auto! px-4! sm:px-16! py-10!">
+                <nav className="flex flex-wrap items-center gap-1.5 mb-8! text-sm text-text-primary overflow-hidden">
+                    <a href="/" className="shrink-0 transition-colors hover:text-white">
+                        Trang chủ
+                    </a>
+                    <span className="shrink-0">/</span>
+                    <a href="/san-pham" className="shrink-0 transition-colors hover:text-white">
+                        Sản phẩm
+                    </a>
+                    <span className="shrink-0">/</span>
+                    <a href={`/san-pham?loai-san-pham=${product.category}`} className="shrink-0 capitalize transition-colors hover:text-white">
+                        {product.category}
+                    </a>
+                    <span className="shrink-0">/</span>
+                    <span className="truncate text-white">{product.name}</span>
+                </nav>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-20 mb-12">
+                    <ProductGallery product={product} imageKey={imageKey} onImageKeyChange={setImageKey} currentVariant={currentVariant} />
+
+                    <ProductInfo
+                        product={product}
+                        selectedColor={selectedColor}
+                        selectedColorIdx={selectedColorIdx}
+                        selectedStorage={selectedStorage}
+                        selectedStorageIdx={selectedStorageIdx}
+                        productPrice={productPrice}
+                        productOldPrice={productOldPrice}
+                        addedToCart={addedToCart}
+                        onColorChange={setSelectedColorIdx}
+                        onStorageChange={setSelectedStorageIdx}
+                        onImageKeyChange={setImageKey}
+                        onAddToCart={handleAddToCart}
+                    />
+                </div>
+
+                <ProductSpecs product={product} specOpen={specOpen} onSpecOpenChange={setSpecOpen} />
+                <ProductDescription product={product} />
+                {relatedProducts.length > 0 && <RelatedProducts products={relatedProducts} />}
+            </div>
+        </div>
+    );
+}

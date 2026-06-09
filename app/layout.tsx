@@ -9,17 +9,64 @@ import { FloatingContact } from "@/components/ui/FloatingContact";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 
+const BASE_URL = "https://novastore.com.vn";
+
 export const metadata: Metadata = {
+    metadataBase: new URL(BASE_URL),
+
     title: {
-        default: "Mua bán điện thoại, máy tính bảng chính hãng uy tín tại Đà Nẵng",
+        default: "Nova Store — Điện Thoại Apple Chính Hãng Tại Đà Nẵng",
         template: "%s | Nova Store Đà Nẵng",
     },
+
+    description: "Nova Store — Đại lý Apple chính hãng tại Đà Nẵng. Mua iPhone, iPad, Apple Watch, AirPods chính hãng VN/A. Bảo hành 12 tháng, giao hàng toàn quốc.",
+
+    keywords: ["nova store đà nẵng", "mua iphone chính hãng đà nẵng", "đại lý apple đà nẵng", "iphone chính hãng vn/a", "ipad chính hãng", "apple watch chính hãng", "airpods chính hãng"],
+
+    alternates: {
+        canonical: BASE_URL,
+    },
+
+    openGraph: {
+        title: "Nova Store — Điện Thoại Apple Chính Hãng Tại Đà Nẵng",
+        description: "Đại lý Apple chính hãng tại Đà Nẵng. iPhone, iPad, Apple Watch, AirPods chính hãng VN/A. Bảo hành 12 tháng.",
+        url: BASE_URL,
+        siteName: "Nova Store",
+        locale: "vi_VN",
+        type: "website",
+        images: [
+            {
+                url: "/logo.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Nova Store — Điện Thoại Apple Chính Hãng Tại Đà Nẵng",
+            },
+        ],
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "Nova Store — Điện Thoại Apple Chính Hãng Tại Đà Nẵng",
+        description: "Đại lý Apple chính hãng tại Đà Nẵng. iPhone, iPad, Apple Watch, AirPods.",
+        images: ["/logo.jpg"],
+    },
+
     icons: {
         icon: "/icon.png",
         shortcut: "/favicon-16x16.png",
         apple: "/apple-touch-icon.png",
     },
-    description: "Mua iPhone, iPad chính hãng. Giá tốt nhất, giao hàng nhanh.",
+
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
 };
 
 export const viewport: Viewport = {
