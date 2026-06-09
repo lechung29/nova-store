@@ -17,7 +17,7 @@ import { useFilterStore } from "@/store";
 import { NavBarSearch } from "./NavbarSearch";
 import { usePathname, useRouter } from "next/navigation";
 
-export const NOVA_LOGO = <img src="/logo.jpg" alt="Nova logo" className="w-full object-contain" />;
+export const NOVA_LOGO = <img src="/logo.jpg" alt="Nova logo" className="h-full w-auto object-contain" />;
 
 export function Navbar() {
     const { getTotalItems, openCart } = useCartStore();

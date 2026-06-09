@@ -16,7 +16,7 @@ export function HeroSection() {
             <div className="flex flex-col gap-8 rounded-2xl border border-white/10 bg-[#111827]/80 p-8! backdrop-blur-sm shadow-2xl lg:flex-row lg:items-start lg:gap-12">
                 <div className="flex shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-8! lg:w-64 lg:h-48">
                     <div className="flex flex-col items-center gap-2">
-                        <div className="flex h-20 w-20 items-center justify-center rounded-full overflow-hidden bg-blue-500/20">
+                        <div className="flex h-24 w-24 items-center justify-center rounded-full overflow-hidden bg-blue-500/20">
                             {NOVA_LOGO}
                         </div>
                         <span className="silver-text text-xl! font-extrabold! tracking-tight!">
