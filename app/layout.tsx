@@ -14,6 +14,11 @@ export const metadata: Metadata = {
         default: "Mua bán điện thoại, máy tính bảng chính hãng uy tín tại Đà Nẵng",
         template: "%s | Nova Store Đà Nẵng",
     },
+    icons: {
+        icon: "/icon.png",
+        shortcut: "/favicon-16x16.png",
+        apple: "/apple-touch-icon.png",
+    },
     description: "Mua iPhone, iPad chính hãng. Giá tốt nhất, giao hàng nhanh.",
 };
 
