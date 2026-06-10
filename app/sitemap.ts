@@ -18,6 +18,12 @@ const staticPages: MetadataRoute.Sitemap = [
         priority: 1.0,
     },
     {
+        url: `${BASE_URL}/san-pham`,
+        lastModified: new Date(),
+        changeFrequency: "daily",
+        priority: 0.9,
+    },
+    {
         url: `${BASE_URL}/san-pham?loai-san-pham=iphone`,
         lastModified: new Date(),
         changeFrequency: "daily",
@@ -41,6 +47,7 @@ const staticPages: MetadataRoute.Sitemap = [
         changeFrequency: "weekly",
         priority: 0.8,
     },
+    
     {
         url: `${BASE_URL}/gioi-thieu`,
         lastModified: new Date(),
