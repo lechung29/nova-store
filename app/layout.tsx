@@ -83,6 +83,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
                 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "Store",
+                            name: "Nova Store",
+                            alternateName: "Nova Store Đà Nẵng",
+                            description: "Shop iPhone, iPad, AirPods, Apple Watch chính hãng tại Đà Nẵng",
+                            url: "https://www.novastore.com.vn",
+                        }),
+                    }}
+                />
             </head>
             <body className="bg-black text-white antialiased">
                 <Navbar />
