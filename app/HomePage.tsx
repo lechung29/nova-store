@@ -5,7 +5,7 @@ import { CategoryShowcase } from "@/components/home/category-showcase-section/Ca
 import { FeaturedProducts } from "@/components/home/feature-products-section/FeaturedProducts";
 import { FacebookSection } from "@/components/home/facebook-section/FacebookSection";
 import { TestimonialsAndFAQSection } from "@/components/home/testimonials-FAQ-section/TestimonialsAndFAQ";
-import { CustomerPhotosGallery } from "@/components/home/customer-photo-section/CustomerPhotoSection";
+// import { CustomerPhotosGallery } from "@/components/home/customer-photo-section/CustomerPhotoSection";
 import { Ip17ExperienceSection } from "@/components/home/iphone17-feature-section/Ip17ExperienceSection";
 
 export default function HomeComponent() {
@@ -17,7 +17,7 @@ export default function HomeComponent() {
             <FeaturedProducts />
             <FacebookSection />
             <TestimonialsAndFAQSection />
-            <CustomerPhotosGallery />
+            {/* <CustomerPhotosGallery /> */}
         </>
     );
 }
