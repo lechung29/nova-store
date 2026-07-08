@@ -2843,7 +2843,7 @@
             {
                 "color": "Titan Đen",
                 "storage": "128GB",
-                "price": 15500000,
+                "price": 16500000,
                 "image": {
                     "id": "1",
                     "url": "/ip15PR-titan-den.png",
@@ -2853,7 +2853,7 @@
             {
                 "color": "Titan Đen",
                 "storage": "256GB",
-                "price": 16500000,
+                "price": 17700000,
                 "image": {
                     "id": "2",
                     "url": "/ip15PR-titan-den.png",
@@ -2863,7 +2863,7 @@
             {
                 "color": "Titan Đen",
                 "storage": "512GB",
-                "price": 18100000,
+                "price": 18500000,
                 "image": {
                     "id": "3",
                     "url": "/ip15PR-titan-den.png",
@@ -2873,7 +2873,7 @@
             {
                 "color": "Titan Trắng",
                 "storage": "128GB",
-                "price": 15500000,
+                "price": 16500000,
                 "image": {
                     "id": "4",
                     "url": "/ip15PR-titan-trang.png",
@@ -2883,7 +2883,7 @@
             {
                 "color": "Titan Trắng",
                 "storage": "256GB",
-                "price": 16500000,
+                "price": 17700000,
                 "image": {
                     "id": "5",
                     "url": "/ip15PR-titan-trang.png",
@@ -2893,7 +2893,7 @@
             {
                 "color": "Titan Trắng",
                 "storage": "512GB",
-                "price": 18100000,
+                "price": 18500000,
                 "image": {
                     "id": "6",
                     "url": "/ip15PR-titan-trang.png",
@@ -2903,7 +2903,7 @@
             {
                 "color": "Titan Tự Nhiên",
                 "storage": "128GB",
-                "price": 15500000,
+                "price": 16500000,
                 "image": {
                     "id": "7",
                     "url": "/ip15PR-titan-tu-nhien.png",
@@ -2913,7 +2913,7 @@
             {
                 "color": "Titan Tự Nhiên",
                 "storage": "256GB",
-                "price": 16500000,
+                "price": 17700000,
                 "image": {
                     "id": "8",
                     "url": "/ip15PR-titan-tu-nhien.png",
@@ -2923,7 +2923,7 @@
             {
                 "color": "Titan Tự Nhiên",
                 "storage": "512GB",
-                "price": 18100000,
+                "price": 18500000,
                 "image": {
                     "id": "9",
                     "url": "/ip15PR-titan-tu-nhien.png",
@@ -2933,7 +2933,7 @@
             {
                 "color": "Titan Xanh",
                 "storage": "128GB",
-                "price": 15500000,
+                "price": 16500000,
                 "image": {
                     "id": "10",
                     "url": "/ip15PR-titan-xanh.png",
@@ -2943,7 +2943,7 @@
             {
                 "color": "Titan Xanh",
                 "storage": "256GB",
-                "price": 16500000,
+                "price": 17700000,
                 "image": {
                     "id": "11",
                     "url": "/ip15PR-titan-xanh.png",
@@ -2953,7 +2953,7 @@
             {
                 "color": "Titan Xanh",
                 "storage": "512GB",
-                "price": 18100000,
+                "price": 18500000,
                 "image": {
                     "id": "12",
                     "url": "/ip15PR-titan-xanh.png",
