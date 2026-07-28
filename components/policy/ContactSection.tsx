@@ -2,11 +2,12 @@
 
 "use client";
 
-import { contact_buttons, STORE_PHONE, STORE_PHONE_RAW } from "@/utils/constants";
+import { contact_buttons, STORE_PHONE_1, STORE_PHONE_2, STORE_PHONE_RAW_1, STORE_PHONE_RAW_2 } from "@/utils/constants";
 import { motion } from "framer-motion";
 import { Phone, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useRef } from "react";
+import { PhoneChoicePopover } from "@/components/ui/PhoneChoicePopover";
 
 function SectionReveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
     const ref = useRef(null);
@@ -28,26 +29,50 @@ export function ContactSection() {
                 <p className="mx-auto! mb-8! max-w-lg text-base leading-relaxed text-text-primary">
                     Cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ tại Nova Store. Nếu có bất kỳ thắc mắc nào, vui lòng liên hệ:
                 </p>
-                <a
-                    href={`tel:${STORE_PHONE_RAW}`}
-                    className="mb-8! inline-flex items-center gap-3! rounded-2xl border border-blue-500/35 bg-blue-500/12 px-7! py-4! text-2xl font-display font-extrabold text-white shadow-[0_0_32px_rgba(41,151,255,0.15)] transition-all duration-200 hover:scale-105 active:scale-95"
-                >
-                    <Phone size={22} className="text-blue-500" /> {STORE_PHONE}
-                </a>
+                <div className="flex justify-center flex-wrap gap-4 mb-8!">
+                    <a
+                        href={`tel:${STORE_PHONE_RAW_1}`}
+                        className=" inline-flex items-center gap-3! rounded-2xl border border-blue-500/35 bg-blue-500/12 px-7! py-4! text-2xl font-display font-extrabold text-white shadow-[0_0_32px_rgba(41,151,255,0.15)] transition-all duration-200 hover:scale-105 active:scale-95"
+                    >
+                        <Phone size={22} className="text-blue-500" /> {STORE_PHONE_1}
+                    </a>
+                    <a
+                        href={`tel:${STORE_PHONE_RAW_2}`}
+                        className="inline-flex items-center gap-3! rounded-2xl border border-blue-500/35 bg-blue-500/12 px-7! py-4! text-2xl font-display font-extrabold text-white shadow-[0_0_32px_rgba(41,151,255,0.15)] transition-all duration-200 hover:scale-105 active:scale-95"
+                    >
+                        <Phone size={22} className="text-blue-500" /> {STORE_PHONE_2}
+                    </a>
+                </div>
                 <div className="flex flex-wrap justify-center gap-3!">
-                    {contact_buttons.map(({ href, icon: Icon, label, iconSize, className, external }) => (
-                        <motion.a
-                            key={href}
-                            href={href}
-                            {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                            whileHover={{ scale: 1.04 }}
-                            whileTap={{ scale: 0.96 }}
-                            className={`flex items-center gap-2.5! rounded-xl px-5! py-3! text-sm font-display font-semibold text-white transition-colors ${className}`}
-                        >
-                            <Icon size={iconSize} />
-                            {label}
-                        </motion.a>
-                    ))}
+                    {contact_buttons.map((btn) => {
+                        const { icon: Icon, label, iconSize, className } = btn;
+                        const buttonClass = `flex items-center gap-2.5! rounded-xl px-5! py-3! text-sm font-display font-semibold text-white transition-colors cursor-pointer ${className}`;
+
+                        if ("actionType" in btn) {
+                            return (
+                                <PhoneChoicePopover key={label} actionType={btn.actionType}>
+                                    <motion.button whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.96 }} className={buttonClass}>
+                                        <Icon size={iconSize} />
+                                        {label}
+                                    </motion.button>
+                                </PhoneChoicePopover>
+                            );
+                        }
+
+                        return (
+                            <motion.a
+                                key={label}
+                                href={btn.href}
+                                {...(btn.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                                whileHover={{ scale: 1.04 }}
+                                whileTap={{ scale: 0.96 }}
+                                className={buttonClass}
+                            >
+                                <Icon size={iconSize} />
+                                {label}
+                            </motion.a>
+                        );
+                    })}
                 </div>
                 <div className="mt-10!">
                     <Link href="/san-pham" className="inline-flex items-center gap-2! text-base text-text-primary transition-colors hover:text-blue-400">

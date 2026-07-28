@@ -109,7 +109,7 @@ export interface Ip17FeaturedCard {
 export interface IStoreInfo {
     name: string;
     address: string;
-    phone: string;
+    phones: readonly { label: string; raw: string }[];
     city: string;
     isNew?: boolean;
     shortAddr: string;

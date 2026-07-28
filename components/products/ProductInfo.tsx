@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { formatVND } from "@/utils";
 import type { IProduct, IProductColor } from "@/types";
 import { social_links } from "@/utils/constants";
+import { PhoneChoicePopover } from "@/components/ui/PhoneChoicePopover";
 import { ProductPolicies } from "./ProductPolicies";
 
 interface ProductInfoProps {
@@ -186,16 +187,15 @@ function ActionButtons({ addedToCart, onAddToCart }: { addedToCart: boolean; onA
             </motion.button>
 
             <div className="flex gap-2.5">
-                <motion.a
-                    href={social_links.zalo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="flex items-center justify-center flex-1 gap-2 py-3.5! text-base font-bold rounded-2xl text-white transition-colors font-display cursor-pointer bg-blue-500 hover:bg-blue-400"
-                >
-                    <SiZalo size={18} /> Mua qua Zalo
-                </motion.a>
+                <PhoneChoicePopover actionType="zalo">
+                    <motion.button
+                        whileHover={{ scale: 1.02 }}
+                        whileTap={{ scale: 0.98 }}
+                        className="flex items-center justify-center flex-1 gap-2 py-3.5! text-base font-bold rounded-2xl text-white transition-colors font-display cursor-pointer bg-blue-500 hover:bg-blue-400"
+                    >
+                        <SiZalo size={18} /> Mua qua Zalo
+                    </motion.button>
+                </PhoneChoicePopover>
                 <motion.a
                     href={social_links.facebook}
                     target="_blank"

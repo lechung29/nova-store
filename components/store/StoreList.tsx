@@ -62,11 +62,16 @@ export function StoreList({ stores, filtered, activeIdx, query, onQuery, onSelec
                                 <span className="text-sm leading-relaxed text-white/80">{store.address}</span>
                             </div>
 
-                            <div className="flex items-center gap-1.5">
+                            <div className="flex flex-wrap items-center gap-1.5">
                                 <Phone size={12} className="shrink-0 text-white/70" />
-                                <a href={`tel:${store.phone.replace(/\s/g, "")}`} onClick={(e) => e.stopPropagation()} className="text-sm text-blue-400 hover:underline">
-                                    {store.phone}
-                                </a>
+                                {store.phones.map((phone, idx) => (
+                                    <span key={phone.raw} className="flex items-center gap-1.5">
+                                        <a href={`tel:${phone.raw}`} onClick={(e) => e.stopPropagation()} className="text-sm text-blue-400 hover:underline">
+                                            {phone.label}
+                                        </a>
+                                        {idx < store.phones.length - 1 && <span className="text-sm text-white/30">|</span>}
+                                    </span>
+                                ))}
                             </div>
                         </div>
                     );

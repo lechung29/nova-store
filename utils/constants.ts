@@ -35,20 +35,42 @@ import { SiZalo } from "react-icons/si";
 export const STORE_NAME = "Nova Store";
 export const STORE_ADDRESS = "49/1 Đường Đà Sơn, Phường Hòa Khánh, TP Đà Nẵng";
 export const STORE_ADDRESS_SHORT = "Đà Sơn, Hòa Khánh, TP Đà Nẵng";
-export const STORE_PHONE = "0385 535 606";
-export const STORE_PHONE_RAW = "0385535606";
+export const STORE_PHONE_1 = "0385 535 606";
+export const STORE_PHONE_2 = "0359 249 348";
+export const STORE_PHONE_RAW_1 = "0385535606";
+export const STORE_PHONE_RAW_2 = "0359249348";
 export const STORE_EMAIL = "nhanld140220@gmail.com";
 export const STORE_RATING = "4.9";
 export const STORE_MAP_SRC =
     "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3834.274276078581!2d108.1519996!3d16.0512508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142193761a67ff9%3A0x79c7eb1ed34717b4!2zNDkgxJDDoCBTxqFuLCBIw7JhIEtow6FuaCwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1779182309678!5m2!1svi!2s";
 
-const FB_PAGE_USERNAME = "dinhnhan140220";
-const MESSENGER_USERNAME_ID = "100010434693297";
+const FB_PAGE_USERNAME = "people/Nova-Store/61577158362447/";
+// const MESSENGER_USERNAME_ID = "100010434693297";
+const MESSENGER_USERNAME_ID = "61577158362447";
+
 
 export const MESSENGER_URL = `https://www.facebook.com/messages/t/${MESSENGER_USERNAME_ID}`;
 export const FACEBOOK_PAGE_URL = `https://www.facebook.com/${FB_PAGE_USERNAME}`;
-export const ZALO_URL = `https://zalo.me/${STORE_PHONE_RAW}`;
+export const ZALO_URL = `https://zalo.me/${STORE_PHONE_RAW_1}`;
 export const TIKTOK_URL = "https://www.tiktok.com/@dinhnhan1402";
+
+export const STORE_PHONES = [
+    { label: STORE_PHONE_1, raw: STORE_PHONE_RAW_1 },
+    { label: STORE_PHONE_2, raw: STORE_PHONE_RAW_2 },
+] as const;
+
+export type PhoneActionType = "zalo" | "sms" | "tel";
+
+export function getPhoneActionHref(actionType: PhoneActionType, raw: string) {
+    switch (actionType) {
+        case "zalo":
+            return `https://zalo.me/${raw}`;
+        case "sms":
+            return `sms:${raw}`;
+        case "tel":
+            return `tel:${raw}`;
+    }
+}
 
 export const floating_contacts = [
     {
@@ -60,14 +82,14 @@ export const floating_contacts = [
     },
     {
         label: "Zalo",
-        href: ZALO_URL,
+        actionType: "zalo" as PhoneActionType,
         icon: SiZalo,
         color: "#0068FF",
         bg: "from-[#0068FF] to-[#0080FF]",
     },
     {
         label: "Gọi ngay",
-        href: `tel:${STORE_PHONE_RAW}`,
+        actionType: "tel" as PhoneActionType,
         icon: Phone,
         color: "#34C759",
         bg: "from-[#34C759] to-[#28A745]",
@@ -117,18 +139,17 @@ export const sort_map: Record<string, "price-asc" | "popular"> = {
 };
 
 export const checkout_channels = [
-    { href: ZALO_URL, icon: SiZalo, label: "Mua qua Zalo", iconSize: 18 },
+    { actionType: "zalo" as PhoneActionType, icon: SiZalo, label: "Mua qua Zalo", iconSize: 18 },
     { href: MESSENGER_URL, icon: FaFacebookF, label: "Nhắn qua Facebook", iconSize: 18 },
 ] as const;
 
 export const contact_buttons = [
     {
-        href: ZALO_URL,
+        actionType: "zalo" as PhoneActionType,
         icon: SiZalo,
         label: "Chat Zalo",
         iconSize: 18,
         className: "border border-blue-600/40 bg-blue-600",
-        external: true,
     },
     {
         href: MESSENGER_URL,
@@ -139,12 +160,11 @@ export const contact_buttons = [
         external: true,
     },
     {
-        href: `sms:${STORE_PHONE_RAW}`,
+        actionType: "sms" as PhoneActionType,
         icon: MessageCircle,
         label: "Nhắn tin SMS",
         iconSize: 16,
         className: "border border-white/10 bg-white/6 text-white/75",
-        external: false,
     },
 ] as const;
 
@@ -219,7 +239,7 @@ export const marquee_items = ["iPhone 16 Pro Max", "iPad Pro M4", "Apple Intelli
 export const contact_info = [
     { icon: MapPinHouse, label: STORE_ADDRESS },
     { icon: Mail, label: STORE_EMAIL },
-    { icon: Phone, label: STORE_PHONE },
+    { icon: Phone, label: `${STORE_PHONE_1} - ${STORE_PHONE_2}` },
 ];
 
 export const social_media = [
@@ -321,7 +341,7 @@ export const stores = [
     {
         name: STORE_NAME + " Đà Nẵng",
         address: STORE_ADDRESS,
-        phone: STORE_PHONE,
+        phones: STORE_PHONES,
         city: "Đà Nẵng",
         isNew: false,
         shortAddr: STORE_ADDRESS_SHORT,

@@ -7,7 +7,7 @@ export function PhoneMockup() {
             <div className="relative rounded-[44px] border-[7px] border-text-primary/50 bg-text-primary/50 shadow-2xl shadow-black/60">
                 <div className="absolute left-1/2 top-0 z-10 h-6 w-24 -translate-x-1/2 rounded-b-2xl bg-text-primary" />
                 <div className="overflow-hidden h-145 rounded-[38px] bg-white">
-                    <img src="/fanpage_bg.jpg" alt="fan page Nova" />
+                    <img src="/fanpage_bg.png" alt="fan page Nova" className="w-full"/>
                 </div>
             </div>
             <div className="absolute right-0 top-24 h-10 w-1.25 translate-x-2.75 rounded-r-md bg-text-primary/50" />

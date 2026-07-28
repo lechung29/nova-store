@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "../ui/dialog";
 import { Button } from "../ui/button";
 import { checkout_channels } from "@/utils/constants";
+import { PhoneChoicePopover } from "../ui/PhoneChoicePopover";
 
 export function CheckoutDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (v: boolean) => void }) {
     return (
@@ -26,20 +27,36 @@ export function CheckoutDialog({ open, onOpenChange }: { open: boolean; onOpenCh
                 </DialogHeader>
 
                 <div className="flex gap-2.5!">
-                    {checkout_channels.map(({ href, icon: Icon, label, iconSize }) => (
-                        <motion.a
-                            key={href}
-                            href={href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            whileHover={{ scale: 1.02 }}
-                            whileTap={{ scale: 0.98 }}
-                            className="flex flex-1 cursor-pointer items-center justify-center gap-2! rounded-2xl bg-blue-500 py-3! text-xs font-display font-bold text-white transition-colors hover:bg-blue-400"
-                        >
-                            <Icon size={iconSize} />
-                            {label}
-                        </motion.a>
-                    ))}
+                    {checkout_channels.map((channel) => {
+                        const { icon: Icon, label, iconSize } = channel;
+                        const btnClass = "flex flex-1 cursor-pointer items-center justify-center gap-2! rounded-2xl bg-blue-500 py-3! text-xs font-display font-bold text-white transition-colors hover:bg-blue-400";
+
+                        if ("actionType" in channel) {
+                            return (
+                                <PhoneChoicePopover key={label} actionType={channel.actionType}>
+                                    <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} className={btnClass}>
+                                        <Icon size={iconSize} />
+                                        {label}
+                                    </motion.button>
+                                </PhoneChoicePopover>
+                            );
+                        }
+
+                        return (
+                            <motion.a
+                                key={label}
+                                href={channel.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                whileHover={{ scale: 1.02 }}
+                                whileTap={{ scale: 0.98 }}
+                                className={btnClass}
+                            >
+                                <Icon size={iconSize} />
+                                {label}
+                            </motion.a>
+                        );
+                    })}
                 </div>
             </DialogContent>
         </Dialog>
