@@ -10,6 +10,7 @@ export function useFilteredProducts(products: IProduct[], filters: FilterState):
 
         if (filters.search) {
             const query = filters.search.toLowerCase();
+
             result = result.filter((p) => p.name.toLowerCase().includes(query));
         }
 
@@ -25,22 +26,21 @@ export function useFilteredProducts(products: IProduct[], filters: FilterState):
             result = result.filter((p) => p.colors.some((c) => filters.colors.includes(c.name)));
         }
 
-        result = result.filter((p) => {
-            const minPrice = getProductMinPrice(p.variants);
-            const maxPrice = Math.max(...p.variants.map((v) => v.price));
-            return (minPrice >= filters.minPrice && minPrice <= filters.maxPrice) || (maxPrice >= filters.minPrice && maxPrice <= filters.maxPrice);
-        });
+        result = result.filter((p) => p.variants.some((v) => v.price >= filters.minPrice && v.price <= filters.maxPrice));
 
         switch (filters.sortBy) {
             case "newest":
                 result.sort((a, b) => b.releaseYear - a.releaseYear);
                 break;
+
             case "price-asc":
                 result.sort((a, b) => getProductMinPrice(a.variants) - getProductMinPrice(b.variants));
                 break;
+
             case "price-desc":
                 result.sort((a, b) => getProductMinPrice(b.variants) - getProductMinPrice(a.variants));
                 break;
+
             case "popular":
                 result.sort((a, b) => b.reviewCount - a.reviewCount);
                 break;

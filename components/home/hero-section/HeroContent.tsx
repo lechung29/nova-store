@@ -23,7 +23,7 @@ export function HeroContent({ animationEase, stats }: HeroContentProps) {
                 <div className="absolute -top-10 left-1/2 h-20 w-40 -translate-x-1/2 rounded-full bg-blue-500/20 blur-3xl" />
                 <Sparkles size={16} className="relative z-10 text-text-primary" />
                 <span className="relative z-10 truncate text-xs font-display font-semibold uppercase tracking-[0.16em] text-text-primary sm:tracking-[0.18em]">
-                    iPhone 17 Pro Max — Trải nghiệm ngay tại Nova Store
+                    IPhone Duo — Trải nghiệm ngay tại Nova Store
                 </span>
                 <span className="relative z-10 h-1.5 w-1.5 rounded-full bg-blue-500 animate-pulse shadow-[0_0_12px_#2997ff]" />
             </motion.div>

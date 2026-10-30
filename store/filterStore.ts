@@ -19,7 +19,7 @@ interface FilterStore {
 const DEFAULT_FILTERS: FilterState = {
     series: [],
     minPrice: 0,
-    maxPrice: 50000000,
+    maxPrice: 150000000,
     storage: [],
     colors: [],
     sortBy: "newest",

@@ -91,7 +91,7 @@ export interface FAQItem {
     answer: string;
 }
 
-export interface Ip17Feature {
+export interface IpNewFeature {
     id: string;
     icon: LucideIcon;
     title: string;
@@ -99,7 +99,7 @@ export interface Ip17Feature {
     badge?: string;
 }
 
-export interface Ip17FeaturedCard {
+export interface IpNewFeaturedCard {
     icon: LucideIcon;
     title: string;
     description: string;

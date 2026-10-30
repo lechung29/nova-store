@@ -27,7 +27,7 @@ interface ProductFiltersProps {
 export function ProductFilters({ allSeries, allStorage, allColors, onClose, className, onFocusWhenFilterChange }: ProductFiltersProps) {
     const { filters, toggleSeries, toggleStorage, toggleColor, setMinPrice, setMaxPrice, resetFilters } = useFilterStore();
 
-    const hasActiveFilters = filters.series.length > 0 || filters.storage.length > 0 || filters.colors.length > 0 || filters.minPrice > 0 || filters.maxPrice < 50000000;
+    const hasActiveFilters = filters.series.length > 0 || filters.storage.length > 0 || filters.colors.length > 0 || filters.minPrice > 0 || filters.maxPrice < 150000000;
 
     const handleToggleSeries = (series: string) => {
         toggleSeries(series);

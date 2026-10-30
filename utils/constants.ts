@@ -1,6 +1,6 @@
 /** @format */
 
-import { Ip17Feature, Ip17FeaturedCard } from "@/types";
+import { IpNewFeature, IpNewFeaturedCard } from "@/types";
 import {
     Shield,
     Truck,
@@ -47,7 +47,6 @@ export const STORE_MAP_SRC =
 const FB_PAGE_USERNAME = "people/Nova-Store/61577158362447/";
 // const MESSENGER_USERNAME_ID = "100010434693297";
 const MESSENGER_USERNAME_ID = "61577158362447";
-
 
 export const MESSENGER_URL = `https://www.facebook.com/messages/t/${MESSENGER_USERNAME_ID}`;
 export const FACEBOOK_PAGE_URL = `https://www.facebook.com/${FB_PAGE_USERNAME}`;
@@ -176,6 +175,8 @@ export const policies_hero_stats = [
 ] as const;
 
 export const hero_section_images = [
+    { src: "/ip18DUO-troi-dem.png", label: "iPhone 18 Duo" },
+    { src: "/ip18PRM-do-burgundy.png", label: "iPhone 18 Pro Max" },
     { src: "/ip17_orange_logo.png", label: "iPhone 17 Pro Max" },
     { src: "/ipad_pro_2018_logo.png", label: "iPad Pro 2018" },
     { src: "/airpod_logo.png", label: "AirPods" },
@@ -204,7 +205,7 @@ export const testimonials_stats = [
 ] as const;
 
 export const nav_links = [
-    { label: "iPhone", href: "/san-pham?loai-san-pham=iphone", src: "/ip17_orange_logo.png" },
+    { label: "iPhone", href: "/san-pham?loai-san-pham=iphone", src: "/ip18PRM-bang-thanh.png" },
     { label: "iPad", href: "/san-pham?loai-san-pham=ipad", src: "/ipad_pro_2018_logo.png" },
     { label: "AirPods", href: "/san-pham?loai-san-pham=airpods", src: "/airpod_logo.png" },
     { label: "Apple Watch", href: "/san-pham?loai-san-pham=watch", src: "/apple_watch_11_logo.png" },
@@ -296,44 +297,45 @@ export const gallery_config = {
     },
 } as const;
 
-export const ip17FeaturedCard: Ip17FeaturedCard = {
+export const ip18FeaturedCard: IpNewFeaturedCard = {
     icon: Cpu,
-    title: "Sức Mạnh Vượt Trội Từ Chip A19 Pro",
-    description: "Trang bị chip A19 Pro — thế hệ tiên tiến nhất của Apple. Hiệu năng GPU tăng 40%, xử lý các tác vụ AI tại chỗ như chỉnh ảnh, dịch thuật, tóm tắt văn bản mà không cần kết nối mạng.",
+    title: "Sức Mạnh Vượt Trội Từ Chip A20 Pro",
+    description:
+        "Trang bị chip A20 Pro — chip iPhone mạnh mẽ và tiết kiệm điện nhất từ trước đến nay. Kết hợp buồng hơi thế hệ mới, Neural Accelerators và Bộ Đôi Neural Engine 16 lõi, mang đến hiệu năng duy trì tốt hơn tới 40% và xử lý các tác vụ AI ngay trên thiết bị nhanh hơn.",
     accentColor: "#3B82F6",
 };
 
-export const ip17Features: Ip17Feature[] = [
+export const ip18Features: IpNewFeature[] = [
     {
         id: "camera",
         icon: Camera,
-        title: "Camera 200MP ProVision",
-        description: 'Cảm biến 1/1.14" với khẩu độ f/1.6, chụp ảnh đêm sắc nét không tưởng và quay 8K ProRes trực tiếp.',
+        title: "Camera 48MP Pro Fusion",
+        description: "Hệ thống 3 camera 48MP với Fusion Main khẩu độ thay đổi ƒ/1.48–ƒ/4.0, Telephoto 4x và 8x chất lượng quang học, chụp đêm tốt hơn và kiểm soát độ sâu trường ảnh chuyên nghiệp.",
         badge: "Mới",
     },
     {
         id: "display",
         icon: Aperture,
         title: "Màn Hình ProMotion 120Hz",
-        description: 'Super Retina XDR 6.9", tần số quét thích ứng 1–120Hz, đạt 2000 nits khi xem ngoài trời.',
+        description: 'Super Retina XDR OLED 6,9", ProMotion thích ứng lên đến 120Hz, hỗ trợ Always-On, HDR và độ sáng ngoài trời lên đến 3000 nit.',
+    },
+    {
+        id: "performance",
+        icon: Cpu,
+        title: "Chip A20 Pro & Buồng Hơi",
+        description: "Chip A20 Pro với CPU 6 lõi, GPU 7 lõi tích hợp Neural Accelerators cùng buồng hơi thế hệ mới, mang lại hiệu năng mạnh mẽ và khả năng tản nhiệt tốt hơn.",
     },
     {
         id: "battery",
         icon: Battery,
-        title: "Pin Siêu Bền Cả Ngày",
-        description: "Pin 4685mAh cùng với hỗ trợ sạc MagSafe 30W, đủ dùng 33 giờ phát video liên tục.",
-    },
-    {
-        id: "titanium",
-        icon: Shield,
-        title: "Khung Titan Cấp 5",
-        description: "Titan Grade 5 cứng hơn 50% thép không gỉ, nhẹ hơn mà vẫn chịu va đập vượt chuẩn MIL-SPEC.",
+        title: "Thời Lượng Pin Vượt Trội",
+        description: "Thời gian xem video lên đến 43 giờ, mang đến thời lượng pin dài nhất từng có trên dòng iPhone Pro.",
     },
     {
         id: "charging",
         icon: Zap,
-        title: "Sạc Nhanh & Sạc Không Dây",
-        description: "MagSafe 30W sạc đầy 0–50% trong 25 phút. Qi2 không dây 15W, không cần tháo ốp.",
+        title: "Sạc Nhanh Thế Hệ Mới",
+        description: "Sạc lên đến 50% trong khoảng 15 phút với bộ tiếp hợp 60W trở lên qua USB-C. Hỗ trợ MagSafe và Qi2 với công suất lên đến 25W.",
     },
 ];
 

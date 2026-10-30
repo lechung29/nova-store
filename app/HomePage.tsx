@@ -6,14 +6,14 @@ import { FeaturedProducts } from "@/components/home/feature-products-section/Fea
 import { FacebookSection } from "@/components/home/facebook-section/FacebookSection";
 import { TestimonialsAndFAQSection } from "@/components/home/testimonials-FAQ-section/TestimonialsAndFAQ";
 // import { CustomerPhotosGallery } from "@/components/home/customer-photo-section/CustomerPhotoSection";
-import { Ip17ExperienceSection } from "@/components/home/iphone17-feature-section/Ip17ExperienceSection";
+import { IpNewExperienceSection } from "@/components/home/iphone-new-feature-section/IpNewExperienceSection";
 
 export default function HomeComponent() {
     return (
         <>
             <HeroSection />
             <CategoryShowcase />
-            <Ip17ExperienceSection />
+            <IpNewExperienceSection />
             <FeaturedProducts />
             <FacebookSection />
             <TestimonialsAndFAQSection />

@@ -19,7 +19,7 @@ export function FeaturedProducts() {
     return (
         <section className="px-8! py-20! sm:px-16!">
             <div className="mx-auto! pb-30! max-w-7xl space-y-10!">
-                <SectionHeader title="Series sản phẩm iPhone 17" viewAllHref="/san-pham?loai-san-pham=iphone" />
+                <SectionHeader title="Series sản phẩm iPhone 18" viewAllHref="/san-pham?loai-san-pham=iphone" />
                 <ProductGrid products={featured} />
             </div>
             <div className="mx-auto! max-w-7xl space-y-10!">

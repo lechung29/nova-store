@@ -3,12 +3,12 @@
         "id": "iphone",
         "name": "iPhone",
         "description": "Từ dòng standard đến Pro Max. Tìm iPhone hoàn hảo cho bạn.",
-        "src": "/ip17_orange_logo.png",
+        "src": "/ip18PRM-bang-thanh.png",
         "href": "/san-pham?loai-san-pham=iphone",
         "count": "14 models",
         "gradient": "from-[#0d1a2d] to-[#050d1a]",
         "accentColor": "#2997ff",
-        "features": ["Hiệu năng A18 Pro", "Camera điều khiển thông minh", "AI Apple Intelligence"]
+        "features": ["Hiệu năng A20 Pro", "Camera điều khiển thông minh", "AI Apple Intelligence"]
     },
     {
         "id": "ipad",

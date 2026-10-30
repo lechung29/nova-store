@@ -1,535 +1,548 @@
 [
     {
-        "id": "iphone-17",
-        "name": "iPhone 17",
-        "slug": "iphone-17",
+        "id": "iphone-18-pro",
+        "name": "iPhone 18 Pro",
+        "slug": "iphone-18-pro",
         "colors": [
             {
                 "id": "1",
                 "name": "Đen",
-                "hex": "#353839"
+                "hex": "#1C1C1E"
             },
             {
                 "id": "2",
-                "name": "Trắng",
-                "hex": "#f5f5f5"
+                "name": "Bạc",
+                "hex": "#F2F2F2"
             },
             {
                 "id": "3",
-                "name": "Xanh Lam Khói",
-                "hex": "#96aed1"
+                "name": "Băng Thanh",
+                "hex": "#CFE4EA"
             },
             {
                 "id": "4",
-                "name": "Xanh Lá Xô Thơm",
-                "hex": "#a9b689"
-            },
-            {
-                "id": "5",
-                "name": "Tím Oải Hương",
-                "hex": "#dfceea"
+                "name": "Đỏ Burgundy",
+                "hex": "#6B2438"
             }
         ],
-        "storage": ["256GB", "512GB"],
+        "storage": ["256GB", "512GB", "1TB", "2TB"],
         "variants": [
             {
                 "color": "Đen",
                 "storage": "256GB",
-                "price": 22750000,
+                "price": 38999000,
                 "image": {
                     "id": "1",
-                    "url": "/ip17-den.png",
-                    "alt": "iPhone 17 Đen 256GB"
+                    "url": "/ip18PR-den.png",
+                    "alt": "iPhone 18 Pro Đen 256GB"
                 }
             },
             {
                 "color": "Đen",
                 "storage": "512GB",
-                "price": 27550000,
+                "price": 45499000,
                 "image": {
                     "id": "2",
-                    "url": "/ip17-den.png",
-                    "alt": "iPhone 17 Đen 512GB"
+                    "url": "/ip18PR-den.png",
+                    "alt": "iPhone 18 Pro Đen 512GB"
                 }
             },
             {
-                "color": "Trắng",
-                "storage": "256GB",
-                "price": 22750000,
+                "color": "Đen",
+                "storage": "1TB",
+                "price": 58499000,
                 "image": {
                     "id": "3",
-                    "url": "/ip17-trang.png",
-                    "alt": "iPhone 17 Trắng 256GB"
+                    "url": "/ip18PR-den.png",
+                    "alt": "iPhone 18 Pro Đen 1TB"
                 }
             },
             {
-                "color": "Trắng",
-                "storage": "512GB",
-                "price": 27550000,
+                "color": "Đen",
+                "storage": "2TB",
+                "price": 77999000,
                 "image": {
                     "id": "4",
-                    "url": "/ip17-trang.png",
-                    "alt": "iPhone 17 Trắng 512GB"
+                    "url": "/ip18PR-den.png",
+                    "alt": "iPhone 18 Pro Đen 2TB"
                 }
             },
             {
-                "color": "Xanh Lam Khói",
+                "color": "Bạc",
                 "storage": "256GB",
-                "price": 22750000,
+                "price": 38999000,
                 "image": {
                     "id": "5",
-                    "url": "/ip17-xanh-lam-khoi.png",
-                    "alt": "iPhone 17 Xanh Lam Khói 256GB"
+                    "url": "/ip18PR-bac.png",
+                    "alt": "iPhone 18 Pro Bạc 256GB"
                 }
             },
             {
-                "color": "Xanh Lam Khói",
+                "color": "Bạc",
                 "storage": "512GB",
-                "price": 27550000,
+                "price": 45499000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip18PR-bac.png",
+                    "alt": "iPhone 18 Pro Bạc 512GB"
+                }
+            },
+            {
+                "color": "Bạc",
+                "storage": "1TB",
+                "price": 58499000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip18PR-bac.png",
+                    "alt": "iPhone 18 Pro Bạc 1TB"
+                }
+            },
+            {
+                "color": "Bạc",
+                "storage": "2TB",
+                "price": 77999000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip18PR-bac.png",
+                    "alt": "iPhone 18 Pro Bạc 2TB"
+                }
+            },
+            {
+                "color": "Băng Thanh",
+                "storage": "256GB",
+                "price": 38999000,
                 "image": {
                     "id": "9",
-                    "url": "/ip17-xanh-lam-khoi.png",
-                    "alt": "iPhone 17 Xanh Lam Khói 512GB"
+                    "url": "/ip18PR-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Băng Thanh 256GB"
                 }
             },
             {
-                "color": "Xanh Lá Xô Thơm",
-                "storage": "256GB",
-                "price": 22750000,
+                "color": "Băng Thanh",
+                "storage": "512GB",
+                "price": 45499000,
+                "image": {
+                    "id": "10",
+                    "url": "/ip18PR-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Băng Thanh 512GB"
+                }
+            },
+            {
+                "color": "Băng Thanh",
+                "storage": "1TB",
+                "price": 58499000,
                 "image": {
                     "id": "11",
-                    "url": "/ip17-xanh-la-xo-thom.png",
-                    "alt": "iPhone 17 Xanh Lá Xô Thơm 256GB"
+                    "url": "/ip18PR-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Băng Thanh 1TB"
                 }
             },
             {
-                "color": "Xanh Lá Xô Thơm",
-                "storage": "512GB",
-                "price": 27550000,
+                "color": "Băng Thanh",
+                "storage": "2TB",
+                "price": 77999000,
                 "image": {
                     "id": "12",
-                    "url": "/ip17-xanh-la-xo-thom.png",
-                    "alt": "iPhone 17 Xanh Lá Xô Thơm 512GB"
+                    "url": "/ip18PR-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Băng Thanh 2TB"
                 }
             },
             {
-                "color": "Tím Oải Hương",
+                "color": "Đỏ Burgundy",
                 "storage": "256GB",
-                "price": 22750000,
+                "price": 38999000,
+                "image": {
+                    "id": "13",
+                    "url": "/ip18PR-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Đỏ Burgundy 256GB"
+                }
+            },
+            {
+                "color": "Đỏ Burgundy",
+                "storage": "512GB",
+                "price": 45499000,
                 "image": {
                     "id": "14",
-                    "url": "/ip17-tim-oai-huong.png",
-                    "alt": "iPhone 17 Tím Oải Hương 256GB"
+                    "url": "/ip18PR-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Đỏ Burgundy 512GB"
                 }
             },
             {
-                "color": "Tím Oải Hương",
-                "storage": "512GB",
-                "price": 27550000,
+                "color": "Đỏ Burgundy",
+                "storage": "1TB",
+                "price": 58499000,
                 "image": {
                     "id": "15",
-                    "url": "/ip17-tim-oai-huong.png",
-                    "alt": "iPhone 17 Tím Oải Hương 512GB"
+                    "url": "/ip18PR-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Đỏ Burgundy 1TB"
+                }
+            },
+            {
+                "color": "Đỏ Burgundy",
+                "storage": "2TB",
+                "price": 77999000,
+                "image": {
+                    "id": "16",
+                    "url": "/ip18PR-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Đỏ Burgundy 2TB"
                 }
             }
         ],
         "specs": {
-            "chip": "Apple A19 (3nm)",
-            "battery": "Xem video lên đến 24 giờ",
-            "display": "6.3\" Super Retina XDR · OLED · ProMotion 120Hz · Ceramic Shield 2",
-            "camera": "Camera Fusion 48MP & Telephoto 48MP · Camera trước 24MP Center Stage",
-            "ram": "8GB",
-            "weight": "173g",
+            "chip": "Apple A20 Pro",
+            "battery": "Xem video lên đến 34 giờ",
+            "display": "6.3\" Super Retina XDR · OLED · ProMotion 120Hz · Dynamic Island · Ceramic Shield 2",
+            "camera": "Ba camera 48MP Pro Fusion · Main khẩu độ thay đổi · Telephoto 4x & 8x · Camera trước 18MP Center Stage",
+            "ram": "12GB",
+            "weight": "211g",
             "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
-            "connectivity": "USB-C · 5G · Wi‑Fi 7 · Bluetooth 6.0"
+            "connectivity": "USB-C (USB 3 lên đến 10Gb/s) · 5G · Wi-Fi 7 · Bluetooth 6 · Apple C2"
         },
-        "description": "iPhone 17 tiêu chuẩn đột phá với màn hình ProMotion 120Hz mượt mà, kính Ceramic Shield 2 chống xước gấp 3 lần và camera selfie nâng cấp mạnh mẽ lên 24MP.",
-        "shortDescription": "Màn hình ProMotion 120Hz. Camera trước 24MP. Chip A19.",
-        "rating": 4.7,
-        "reviewCount": 105,
+        "description": "iPhone 18 Pro định nghĩa lại trải nghiệm Pro với chip A20 Pro, hệ thống camera 48MP Pro Fusion khẩu độ thay đổi, khả năng quay video chuyên nghiệp và thiết kế nhôm nguyên khối cao cấp.",
+        "shortDescription": "A20 Pro. Camera 48MP Pro Fusion. Khẩu độ thay đổi. 120Hz ProMotion.",
+        "rating": 4.9,
+        "reviewCount": 168,
         "category": "iphone",
-        "series": "iPhone 17",
+        "series": "iPhone 18",
         "isNew": true,
         "isTrending": true,
         "isFeatured": false,
         "discount": 0,
         "badge": "Mới ra mắt",
-        "releaseYear": 2025
+        "releaseYear": 2026
     },
     {
-        "id": "iphone-17-air",
-        "name": "iPhone 17 Air",
-        "slug": "iphone-17-air",
+        "id": "iphone-18-pro-max",
+        "name": "iPhone 18 Pro Max",
+        "slug": "iphone-18-pro-max",
         "colors": [
             {
                 "id": "1",
-                "name": "Đen Không Gian",
-                "hex": "#000000"
+                "name": "Đen",
+                "hex": "#1C1C1E"
             },
             {
                 "id": "2",
-                "name": "Trắng Mây",
-                "hex": "#fcfcfc"
+                "name": "Bạc",
+                "hex": "#F2F2F2"
             },
             {
                 "id": "3",
-                "name": "Vàng Nhạt",
-                "hex": "#fffcf5"
+                "name": "Băng Thanh",
+                "hex": "#CFE4EA"
             },
             {
                 "id": "4",
-                "name": "Xanh Da Trời",
-                "hex": "#f0f9ff"
+                "name": "Đỏ Burgundy",
+                "hex": "#6B2438"
             }
         ],
-        "storage": ["256GB", "512GB"],
+        "storage": ["256GB", "512GB", "1TB", "2TB"],
         "variants": [
             {
-                "color": "Đen Không Gian",
+                "color": "Đen",
                 "storage": "256GB",
-                "price": 21750000,
+                "price": 41999000,
                 "image": {
                     "id": "1",
-                    "url": "/ip17A-den-khong-gian.png",
-                    "alt": "iPhone 17 Air Đen Không Gian 256GB"
+                    "url": "/ip18PRM-den.png",
+                    "alt": "iPhone 18 Pro Max Đen 256GB"
                 }
             },
             {
-                "color": "Đen Không Gian",
+                "color": "Đen",
                 "storage": "512GB",
-                "price": 23750000,
+                "price": 48499000,
                 "image": {
                     "id": "2",
-                    "url": "/ip17A-den-khong-gian.png",
-                    "alt": "iPhone 17 Air Đen Không Gian 512GB"
+                    "url": "/ip18PRM-den.png",
+                    "alt": "iPhone 18 Pro Max Đen 512GB"
                 }
             },
             {
-                "color": "Trắng Mây",
-                "storage": "256GB",
-                "price": 21750000,
+                "color": "Đen",
+                "storage": "1TB",
+                "price": 61499000,
                 "image": {
                     "id": "3",
-                    "url": "/ip17A-trang-may.png",
-                    "alt": "iPhone 17 Air Trắng Mây 256GB"
+                    "url": "/ip18PRM-den.png",
+                    "alt": "iPhone 18 Pro Max Đen 1TB"
                 }
             },
             {
-                "color": "Trắng Mây",
-                "storage": "512GB",
-                "price": 23750000,
+                "color": "Đen",
+                "storage": "2TB",
+                "price": 80999000,
                 "image": {
                     "id": "4",
-                    "url": "/ip17A-trang-may.png",
-                    "alt": "iPhone 17 Air Trắng Mây 512GB"
+                    "url": "/ip18PRM-den.png",
+                    "alt": "iPhone 18 Pro Max Đen 2TB"
                 }
             },
             {
-                "color": "Vàng Nhạt",
+                "color": "Bạc",
                 "storage": "256GB",
-                "price": 21750000,
+                "price": 41999000,
                 "image": {
                     "id": "5",
-                    "url": "/ip17A-vang-nhat.png",
-                    "alt": "iPhone 17 Air Vàng Nhạt 256GB"
+                    "url": "/ip18PRM-bac.png",
+                    "alt": "iPhone 18 Pro Max Bạc 256GB"
                 }
             },
             {
-                "color": "Vàng Nhạt",
+                "color": "Bạc",
                 "storage": "512GB",
-                "price": 23750000,
+                "price": 48499000,
                 "image": {
                     "id": "6",
-                    "url": "/ip17A-vang-nhat.png",
-                    "alt": "iPhone 17 Air Vàng Nhạt 512GB"
+                    "url": "/ip18PRM-bac.png",
+                    "alt": "iPhone 18 Pro Max Bạc 512GB"
                 }
             },
             {
-                "color": "Xanh Da Trời",
-                "storage": "256GB",
-                "price": 21750000,
+                "color": "Bạc",
+                "storage": "1TB",
+                "price": 61499000,
                 "image": {
                     "id": "7",
-                    "url": "/ip17A-xanh-da-troi.png",
-                    "alt": "iPhone 17 Air Xanh Da Trời 256GB"
+                    "url": "/ip18PRM-bac.png",
+                    "alt": "iPhone 18 Pro Max Bạc 1TB"
                 }
             },
             {
-                "color": "Xanh Da Trời",
-                "storage": "512GB",
-                "price": 23750000,
+                "color": "Bạc",
+                "storage": "2TB",
+                "price": 80999000,
                 "image": {
                     "id": "8",
-                    "url": "/ip17A-xanh-da-troi.png",
-                    "alt": "iPhone 17 Air Xanh Da Trời 512GB"
+                    "url": "/ip18PRM-bac.png",
+                    "alt": "iPhone 18 Pro Max Bạc 2TB"
                 }
-            }
-        ],
-        "specs": {
-            "chip": "Apple A19 (Bản tối ưu nhiệt độ)",
-            "battery": "Xem video lên đến 21 giờ",
-            "display": "6.6\" Super Retina XDR · Slim OLED · ProMotion 120Hz",
-            "camera": "Camera Fusion đơn 48MP thiết kế ẩn · Camera trước 24MP",
-            "ram": "8GB",
-            "weight": "152g",
-            "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
-            "connectivity": "USB-C · 5G · Wi‑Fi 7 · Độ mỏng kỷ lục dưới 6mm"
-        },
-        "description": "Tuyệt tác công nghệ siêu mỏng nhẹ thay thế dòng Plus với độ dày ấn tượng dưới 6mm, bộ khung nhôm rèn nguyên khối siêu bền và màn hình lớn 6.6 inch thời thượng.",
-        "shortDescription": "Thiết kế siêu mỏng dưới 6mm. Màn hình 6.6\". Khung nhôm rèn.",
-        "rating": 4.6,
-        "reviewCount": 94,
-        "category": "iphone",
-        "series": "iPhone 17",
-        "isNew": true,
-        "isTrending": true,
-        "isFeatured": true,
-        "discount": 0,
-        "badge": "Siêu mỏng",
-        "releaseYear": 2025
-    },
-    {
-        "id": "iphone-17-pro",
-        "name": "iPhone 17 Pro",
-        "slug": "iphone-17-pro",
-        "colors": [
-            {
-                "id": "1",
-                "name": "Bạc",
-                "hex": "#f5f5f5"
             },
             {
-                "id": "2",
-                "name": "Xanh Đậm",
-                "hex": "#32374a"
-            },
-            {
-                "id": "3",
-                "name": "Cam Vũ Trụ",
-                "hex": "#f77e2d"
-            }
-        ],
-        "storage": ["256GB", "512GB"],
-        "variants": [
-            {
-                "color": "Bạc",
+                "color": "Băng Thanh",
                 "storage": "256GB",
-                "price": 31200000,
-                "image": {
-                    "id": "1",
-                    "url": "/ip17PR-bac.png",
-                    "alt": "iPhone 17 Pro Bạc 256GB"
-                }
-            },
-            {
-                "color": "Bạc",
-                "storage": "512GB",
-                "price": 33550000,
-                "image": {
-                    "id": "2",
-                    "url": "/ip17PR-bac.png",
-                    "alt": "iPhone 17 Pro Bạc 512GB"
-                }
-            },
-            {
-                "color": "Xanh Đậm",
-                "storage": "256GB",
-                "price": 31200000,
-                "image": {
-                    "id": "3",
-                    "url": "/ip17PR-xanh-dam.png",
-                    "alt": "iPhone 17 Pro Xanh Đậm 256GB"
-                }
-            },
-            {
-                "color": "Xanh Đậm",
-                "storage": "512GB",
-                "price": 33550000,
-                "image": {
-                    "id": "4",
-                    "url": "/ip17PR-xanh-dam.png",
-                    "alt": "iPhone 17 Pro Xanh Đậm 512GB"
-                }
-            },
-            {
-                "color": "Cam Vũ Trụ",
-                "storage": "256GB",
-                "price": 31200000,
-                "image": {
-                    "id": "5",
-                    "url": "/ip17PR-cam-vu-tru.png",
-                    "alt": "iPhone 17 Pro Cam Vũ Trụ 256GB"
-                }
-            },
-            {
-                "color": "Cam Vũ Trụ",
-                "storage": "512GB",
-                "price": 33550000,
-                "image": {
-                    "id": "6",
-                    "url": "/ip17PR-cam-vu-tru.png",
-                    "alt": "iPhone 17 Pro Cam Vũ Trụ 512GB"
-                }
-            }
-        ],
-        "specs": {
-            "chip": "Apple A19 Pro (3nm thế hệ mới)",
-            "battery": "Xem video lên đến 29 giờ",
-            "display": "6.3\" Super Retina XDR · ProMotion 120Hz · Mặt trước Ceramic Shield 2",
-            "camera": "Ba camera sau (48MP Fusion + 48MP Ultra Wide + 48MP Telephoto) · Zoom quang học 8x",
-            "ram": "12GB",
-            "weight": "197g",
-            "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
-            "connectivity": "USB-C (USB 3.0) · 5G · Wi‑Fi 7 · Bluetooth 6.0"
-        },
-        "description": "Đột phá cấu hình chuyên nghiệp với dung lượng RAM khủng 12GB tối ưu tuyệt đối cho Apple Intelligence, hệ thống 3 ống kính sau đều đạt độ phân giải 48MP.",
-        "shortDescription": "RAM 12GB cực khủng. Hệ thống 3 camera 48MP. Zoom quang học 8x.",
-        "rating": 4.9,
-        "reviewCount": 142,
-        "category": "iphone",
-        "series": "iPhone 17",
-        "isNew": true,
-        "isTrending": false,
-        "isFeatured": false,
-        "discount": 0,
-        "badge": "RAM 12GB",
-        "releaseYear": 2025
-    },
-    {
-        "id": "iphone-17-pro-max",
-        "name": "iPhone 17 Pro Max",
-        "slug": "iphone-17-pro-max",
-        "colors": [
-            {
-                "id": "1",
-                "name": "Bạc",
-                "hex": "#f5f5f5"
-            },
-            {
-                "id": "2",
-                "name": "Xanh Đậm",
-                "hex": "#32374a"
-            },
-            {
-                "id": "3",
-                "name": "Cam Vũ Trụ",
-                "hex": "#f77e2d"
-            }
-        ],
-        "storage": ["256GB", "512GB", "1TB"],
-        "variants": [
-            {
-                "color": "Bạc",
-                "storage": "256GB",
-                "price": 33750000,
-                "image": {
-                    "id": "1",
-                    "url": "/ip17PRM-bac.png",
-                    "alt": "iPhone 17 Pro Max Xanh Đậm 256GB"
-                }
-            },
-            {
-                "color": "Bạc",
-                "storage": "512GB",
-                "price": 37750000,
-                "image": {
-                    "id": "2",
-                    "url": "/ip17PRM-bac.png",
-                    "alt": "iPhone 17 Pro Max Xanh Đậm 512GB"
-                }
-            },
-            {
-                "color": "Bạc",
-                "storage": "1TB",
-                "price": 40550000,
-                "image": {
-                    "id": "3",
-                    "url": "/ip17PRM-bac.png",
-                    "alt": "iPhone 17 Pro Max Xanh Đậm 1TB"
-                }
-            },
-            {
-                "color": "Xanh Đậm",
-                "storage": "256GB",
-                "price": 33750000,
-                "image": {
-                    "id": "4",
-                    "url": "/ip17PRM-xanh-dam.png",
-                    "alt": "iPhone 17 Pro Max Xanh Đậm 256GB"
-                }
-            },
-            {
-                "color": "Xanh Đậm",
-                "storage": "512GB",
-                "price": 37750000,
-                "image": {
-                    "id": "5",
-                    "url": "/ip17PRM-xanh-dam.png",
-                    "alt": "iPhone 17 Pro Max Xanh Đậm 512GB"
-                }
-            },
-            {
-                "color": "Xanh Đậm",
-                "storage": "1TB",
-                "price": 40550000,
-                "image": {
-                    "id": "6",
-                    "url": "/ip17PRM-xanh-dam.png",
-                    "alt": "iPhone 17 Pro Max Xanh Đậm 1TB"
-                }
-            },
-            {
-                "color": "Cam Vũ Trụ",
-                "storage": "256GB",
-                "price": 33750000,
-                "image": {
-                    "id": "7",
-                    "url": "/ip17PRM-cam-vu-tru.png",
-                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 256GB"
-                }
-            },
-            {
-                "color": "Cam Vũ Trụ",
-                "storage": "512GB",
-                "price": 37750000,
-                "image": {
-                    "id": "8",
-                    "url": "/ip17PRM-cam-vu-tru.png",
-                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 512GB"
-                }
-            },
-            {
-                "color": "Cam Vũ Trụ",
-                "storage": "1TB",
-                "price": 40550000,
+                "price": 41999000,
                 "image": {
                     "id": "9",
-                    "url": "/ip17PRM-cam-vu-tru.png",
-                    "alt": "iPhone 17 Pro Max Cam Vũ Trụ 1TB"
+                    "url": "/ip18PRM-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Max Băng Thanh 256GB"
+                }
+            },
+            {
+                "color": "Băng Thanh",
+                "storage": "512GB",
+                "price": 48499000,
+                "image": {
+                    "id": "10",
+                    "url": "/ip18PRM-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Max Băng Thanh 512GB"
+                }
+            },
+            {
+                "color": "Băng Thanh",
+                "storage": "1TB",
+                "price": 61499000,
+                "image": {
+                    "id": "11",
+                    "url": "/ip18PRM-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Max Băng Thanh 1TB"
+                }
+            },
+            {
+                "color": "Băng Thanh",
+                "storage": "2TB",
+                "price": 80999000,
+                "image": {
+                    "id": "12",
+                    "url": "/ip18PRM-bang-thanh.png",
+                    "alt": "iPhone 18 Pro Max Băng Thanh 2TB"
+                }
+            },
+            {
+                "color": "Đỏ Burgundy",
+                "storage": "256GB",
+                "price": 41999000,
+                "image": {
+                    "id": "13",
+                    "url": "/ip18PRM-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Max Đỏ Burgundy 256GB"
+                }
+            },
+            {
+                "color": "Đỏ Burgundy",
+                "storage": "512GB",
+                "price": 48499000,
+                "image": {
+                    "id": "14",
+                    "url": "/ip18PRM-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Max Đỏ Burgundy 512GB"
+                }
+            },
+            {
+                "color": "Đỏ Burgundy",
+                "storage": "1TB",
+                "price": 61499000,
+                "image": {
+                    "id": "15",
+                    "url": "/ip18PRM-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Max Đỏ Burgundy 1TB"
+                }
+            },
+            {
+                "color": "Đỏ Burgundy",
+                "storage": "2TB",
+                "price": 80999000,
+                "image": {
+                    "id": "16",
+                    "url": "/ip18PRM-do-burgundy.png",
+                    "alt": "iPhone 18 Pro Max Đỏ Burgundy 2TB"
                 }
             }
         ],
         "specs": {
-            "chip": "Apple A19 Pro (3nm thế hệ mới)",
-            "battery": "Xem video lên đến 35 giờ",
-            "display": "6.7\" Super Retina XDR · ProMotion 120Hz · Cụm khuyết Dynamic Island thu nhỏ",
-            "camera": "Ba camera sau 48MP hệ Tetraprism hoàn chỉnh · Video Ghi Hình Kép (Trước & Sau)",
+            "chip": "Apple A20 Pro",
+            "battery": "Xem video lên đến 43 giờ",
+            "display": "6.9\" Super Retina XDR · OLED · ProMotion 120Hz · Dynamic Island · Ceramic Shield 2",
+            "camera": "Ba camera 48MP Pro Fusion · Main khẩu độ thay đổi · Telephoto 4x & 8x · Camera trước 18MP Center Stage",
             "ram": "12GB",
-            "weight": "223g",
+            "weight": "249g",
             "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
-            "connectivity": "USB-C · 5G · Wi‑Fi 7 · Hệ thống tản nhiệt buồng hơi VC"
+            "connectivity": "USB-C (USB 3 lên đến 10Gb/s) · 5G · Wi-Fi 7 · Bluetooth 6 · Apple C2"
         },
-        "description": "Siêu phẩm tối tân bậc nhất với cụm Dynamic Island được thu hẹp diện tích tối đa, tích hợp tính năng quay video Ghi Hình Kép đồng thời camera trước và sau cùng hệ thống tản nhiệt buồng hơi.",
-        "shortDescription": "Dynamic Island thu nhỏ. Pin kỷ lục 35 giờ. Video Ghi Hình Kép.",
+        "description": "iPhone 18 Pro Max là đỉnh cao của dòng iPhone Pro với màn hình 6.9 inch, thời lượng pin lên đến 43 giờ, chip A20 Pro và hệ thống camera 48MP Pro Fusion dành cho những trải nghiệm chuyên nghiệp nhất.",
+        "shortDescription": "A20 Pro. Màn hình 6.9\". Pin 43 giờ. Camera 48MP Pro Fusion.",
         "rating": 4.9,
-        "reviewCount": 215,
+        "reviewCount": 236,
         "category": "iphone",
-        "series": "iPhone 17",
+        "series": "iPhone 18",
         "isNew": true,
         "isTrending": true,
         "isFeatured": true,
         "discount": 0,
-        "badge": "Bán chạy nhất",
-        "releaseYear": 2025
+        "badge": "Đỉnh cao Pro",
+        "releaseYear": 2026
+    },
+    {
+        "id": "iphone-18-duo",
+        "name": "iPhone 18 Duo",
+        "slug": "iphone-18-duo",
+        "colors": [
+            {
+                "id": "1",
+                "name": "Trời Đêm",
+                "hex": "#1C2533"
+            },
+            {
+                "id": "2",
+                "name": "Trắng Ánh Sao",
+                "hex": "#F5F5F2"
+            }
+        ],
+        "storage": ["256GB", "512GB", "1TB", "2TB"],
+        "variants": [
+            {
+                "color": "Trời Đêm",
+                "storage": "256GB",
+                "price": 64999000,
+                "image": {
+                    "id": "1",
+                    "url": "/ip18DUO-troi-dem.png",
+                    "alt": "iPhone Duo Trời Đêm 256GB"
+                }
+            },
+            {
+                "color": "Trời Đêm",
+                "storage": "512GB",
+                "price": 71499000,
+                "image": {
+                    "id": "2",
+                    "url": "/ip18DUO-troi-dem.png",
+                    "alt": "iPhone Duo Trời Đêm 512GB"
+                }
+            },
+            {
+                "color": "Trời Đêm",
+                "storage": "1TB",
+                "price": 84499000,
+                "image": {
+                    "id": "3",
+                    "url": "/ip18DUO-troi-dem.png",
+                    "alt": "iPhone Duo Trời Đêm 1TB"
+                }
+            },
+            {
+                "color": "Trời Đêm",
+                "storage": "2TB",
+                "price": 103999000,
+                "image": {
+                    "id": "4",
+                    "url": "/ip18DUO-troi-dem.png",
+                    "alt": "iPhone Duo Trời Đêm 2TB"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "256GB",
+                "price": 64999000,
+                "image": {
+                    "id": "5",
+                    "url": "/ip18DUO-trang-anh-sao.png",
+                    "alt": "iPhone Duo Trắng Ánh Sao 256GB"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "512GB",
+                "price": 71499000,
+                "image": {
+                    "id": "6",
+                    "url": "/ip18DUO-trang-anh-sao.png",
+                    "alt": "iPhone Duo Trắng Ánh Sao 512GB"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "1TB",
+                "price": 84499000,
+                "image": {
+                    "id": "7",
+                    "url": "/ip18DUO-trang-anh-sao.png",
+                    "alt": "iPhone Duo Trắng Ánh Sao 1TB"
+                }
+            },
+            {
+                "color": "Trắng Ánh Sao",
+                "storage": "2TB",
+                "price": 103999000,
+                "image": {
+                    "id": "8",
+                    "url": "/ip18DUO-trang-anh-sao.png",
+                    "alt": "iPhone Duo Trắng Ánh Sao 2TB"
+                }
+            }
+        ],
+        "specs": {
+            "chip": "Apple A20 Pro",
+            "battery": "Xem video lên đến 44 giờ với màn hình ngoài · 31 giờ với màn hình trong",
+            "display": "Màn hình trong 7.6\" OLED gập toàn phần · Nano-texture · 120Hz ProMotion | Màn hình ngoài 5.4\" OLED · 120Hz ProMotion",
+            "camera": "Hệ thống 48MP Dual Fusion · Fusion Main 48MP + Fusion Ultra Wide 48MP · Camera trước 12MP Center Stage · Camera FaceTime dưới màn hình",
+            "ram": "Chưa được Apple công bố",
+            "weight": "254g",
+            "waterResistance": "IP68 · Chống nước đến 6m trong 30 phút",
+            "connectivity": "USB-C (USB 3 lên đến 10Gb/s) · 5G · Wi-Fi 7 · Bluetooth 6 · Apple C2 · eSIM"
+        },
+        "description": "iPhone Duo là chiếc iPhone gập đầu tiên của Apple, kết hợp màn hình trong 7.6 inch lớn nhất từng có trên iPhone với màn hình ngoài 5.4 inch, chip A20 Pro và thiết kế titan cao cấp.",
+        "shortDescription": "iPhone gập đầu tiên. Màn hình 7.6\". A20 Pro. Hai màn hình ProMotion 120Hz.",
+        "rating": 4.9,
+        "reviewCount": 128,
+        "category": "iphone",
+        "series": "iPhone 18",
+        "isNew": true,
+        "isTrending": true,
+        "isFeatured": true,
+        "discount": 0,
+        "badge": "Mới ra mắt",
+        "releaseYear": 2026
     }
 ]
